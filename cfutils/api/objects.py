@@ -45,22 +45,46 @@ class User(CFObject):
 
 @dataclass
 class BlogEntry(CFObject):
-    """TODO entries"""
+    id: int
+    originalLocale: str
+    creationTimeSeconds: int
+    authorHandle: str
+    title: str
+    locale: str
+    allowViewHistory: bool
+    tags: list[str]
+    rating: int
+    content: Optional[str] = None
+    modificationTimeSeconds: Optional[int] = None
 
 
 @dataclass
 class Comment(CFObject):
-    """TODO entries"""
+    id: int
+    creationTimeSeconds: int
+    commentatorHandle: str
+    locale: str
+    text: str
+    rating: int
+    parentCommentId: Optional[int] = None
 
 
 @dataclass
 class RecentAction(CFObject):
-    """TODO entries"""
+    timeSeconds: int
+    blogEntry: Optional[BlogEntry] = None
+    comment: Optional[Comment] = None
 
 
 @dataclass
 class RatingChange(CFObject):
-    """TODO entries"""
+    contestId: int
+    contestName: str
+    handle: str
+    rank: int
+    ratingUpdateTimeSeconds: int
+    oldRating: int
+    newRating: int
 
 
 class ContestType(StrEnum):
@@ -143,7 +167,9 @@ class Problem(CFObject):
 
 @dataclass
 class ProblemStatistics(CFObject):
-    """TODO entries"""
+    index: str
+    solvedCount: int
+    contestId: Optional[int] = None
 
 
 class Verdict(StrEnum):
@@ -200,9 +226,34 @@ class Submission(CFObject):
     points: Optional[float] = None
 
 
+class HackVerdict(StrEnum):
+    HACK_SUCCESSFUL = "HACK_SUCCESSFUL"
+    HACK_UNSUCCESSFUL = "HACK_UNSUCCESSFUL"
+    INVALID_INPUT = "INVALID_INPUT"
+    GENERATOR_INCOMPILABLE = "GENERATOR_INCOMPILABLE"
+    GENERATOR_CRASHED = "GENERATOR_CRASHED"
+    IGNORED = "IGNORED"
+    TESTING = "TESTING"
+    OTHER = "OTHER"
+
+
+@dataclass
+class JudgeProtocol:
+    manual: bool
+    protocol: str
+    verdict: str
+
+
 @dataclass
 class Hack(CFObject):
-    """TODO entries"""
+    id: int
+    creationTimeSeconds: int
+    hacker: Party
+    defender: Party
+    problem: Problem
+    verdict: Optional[HackVerdict] = None
+    test: Optional[str] = None
+    judgeProtocol: Optional[JudgeProtocol] = None
 
 
 class ProblemResultType(StrEnum):
@@ -255,4 +306,6 @@ __all__ = [
     "ProblemResultType",
     "Testset",
     "Verdict",
+    "JudgeProtocol",
+    "HackVerdict",
 ]

@@ -85,6 +85,8 @@ class APIMethod(ABC):
 
         if typing.get_origin(resultType) == list:
             baseType = typing.get_args(resultType)[0]
+            if baseType == str or baseType == int:
+                return data
             return [baseType.from_dict(elem) for elem in data]
 
         if issubclass(resultType, JSONWizard):
@@ -94,7 +96,7 @@ class APIMethod(ABC):
 
     def __get_opts(self) -> dict[str, Any]:
         assert is_dataclass(self) and not isinstance(self, type)
-        return asdict(self)  # TODO is a copy needed?
+        return asdict(self)
 
     def buildAPICallURL(self, *, auth: bool = False):
         """Build the URL to call the CF API
@@ -201,7 +203,9 @@ class APIMethod(ABC):
 
 @dataclass
 class BlogEntry_Comments(APIMethod):
-    """TODO implement"""
+    """Returns a list of comments to the specified blog entry."""
+
+    blogEntryId: int
 
     @staticmethod
     def name() -> str:
@@ -214,7 +218,9 @@ class BlogEntry_Comments(APIMethod):
 
 @dataclass
 class BlogEntry_View(APIMethod):
-    """TODO implement"""
+    """Returns blog entry."""
+
+    blogEntryId: int
 
     @staticmethod
     def name() -> str:
@@ -227,7 +233,14 @@ class BlogEntry_View(APIMethod):
 
 @dataclass
 class Contest_Hacks(APIMethod):
-    """TODO implement"""
+    """
+    Returns list of hacks in the specified contests.
+    Full information about hacks is available only after some time after the contest end.
+    During the contest user can see only own hacks.
+    """
+
+    contestId: int
+    asManager: bool = False
 
     @staticmethod
     def name() -> str:
@@ -237,10 +250,17 @@ class Contest_Hacks(APIMethod):
     def resultType() -> type:
         return list[Hack]
 
+    def auth_required(self) -> bool:
+        return self.asManager
+
 
 @dataclass
 class Contest_List(APIMethod):
-    """TODO implement"""
+    """Returns information about all available contests.
+    If this method is called not anonymously, then all available contests for a calling user will be returned too, including mashups and private gyms.
+    """
+
+    gym: bool = False
 
     @staticmethod
     def name() -> str:
@@ -253,7 +273,9 @@ class Contest_List(APIMethod):
 
 @dataclass
 class Contest_RatingChanges(APIMethod):
-    """TODO implement"""
+    """Returns rating changes after the contest."""
+
+    contestId: int
 
     @staticmethod
     def name() -> str:
@@ -266,10 +288,11 @@ class Contest_RatingChanges(APIMethod):
 
 @dataclass
 class Contest_Standings(APIMethod):
+    """Returns the description of the contest and the requested part of the standings."""
+
     contestId: int
     From: int
     count: int
-    # handles: list[str]  # TODO check
     asManager: bool = False
     showUnofficial: bool = False
     room: Optional[int] = None
@@ -291,9 +314,15 @@ class Contest_Standings(APIMethod):
 
 @dataclass
 class Contest_Status(APIMethod):
+    """Returns submissions for specified contest.
+    Optionally can return submissions of specified user.
+    """
+
     contestId: int
     From: int
     count: int
+    asManager: bool = False
+    handle: Optional[str] = None
 
     @staticmethod
     def name() -> str:
@@ -303,10 +332,18 @@ class Contest_Status(APIMethod):
     def resultType() -> type:
         return list[Submission]
 
+    def auth_required(self) -> bool:
+        return self.asManager
+
 
 @dataclass
 class Problemset_Problems(APIMethod):
-    """TODO implement"""
+    """Returns all problems from problemset.
+    Problems can be filtered by tags.
+    """
+
+    tags: list[str]
+    problemsetName: Optional[str] = None
 
     @dataclass
     class Result(JSONWizard):
@@ -324,7 +361,8 @@ class Problemset_Problems(APIMethod):
 
 @dataclass
 class Problemset_RecentStatus(APIMethod):
-    """TODO implement"""
+    count: int
+    problemsetName: Optional[str] = None
 
     @staticmethod
     def name() -> str:
@@ -337,7 +375,8 @@ class Problemset_RecentStatus(APIMethod):
 
 @dataclass
 class RecentActions(APIMethod):
-    """TODO implement"""
+    maxCount: int
+    """can be up to 100"""
 
     @staticmethod
     def name() -> str:
@@ -350,7 +389,7 @@ class RecentActions(APIMethod):
 
 @dataclass
 class User_BlogEntries(APIMethod):
-    """TODO implement"""
+    handle: str
 
     @staticmethod
     def name() -> str:
@@ -363,7 +402,7 @@ class User_BlogEntries(APIMethod):
 
 @dataclass
 class User_Friends(APIMethod):
-    """TODO implement"""
+    onlyOnline: bool = False
 
     @staticmethod
     def name() -> str:
@@ -392,7 +431,8 @@ class User_Info(APIMethod):
 
 @dataclass
 class User_RatedList(APIMethod):
-    """TODO implement"""
+    activeOnly: bool = True
+    includeRetired: bool = False
 
     @staticmethod
     def name() -> str:
@@ -405,7 +445,9 @@ class User_RatedList(APIMethod):
 
 @dataclass
 class User_Rating(APIMethod):
-    """TODO implement"""
+    """Rating history of the specified user."""
+
+    handle: str
 
     @staticmethod
     def name() -> str:
@@ -418,7 +460,11 @@ class User_Rating(APIMethod):
 
 @dataclass
 class User_Status(APIMethod):
-    """TODO implement"""
+    """Submissions of specified user."""
+
+    handle: str
+    From: int
+    count: int
 
     @staticmethod
     def name() -> str:

@@ -4,7 +4,6 @@ import time
 import sh  # type: ignore
 import click
 
-from cfutils.api.methods import APIMethod
 from cfutils.api.methods_test import methodExamples
 
 
@@ -16,10 +15,9 @@ def download(outdir):
     OUTDIR: output directory
     """
     for example in methodExamples.values():
-        assert issubclass(example.methodClass, APIMethod)
-        method = example.methodClass.name()
+        name = example.method.name()
 
-        json_file = f"{outdir}/{method}.json"
+        json_file = f"{outdir}/{name}.json"
         if not os.path.exists(json_file):
             with open(json_file, "w") as f:
                 sh.curl(example.url, _out=f)  # type: ignore

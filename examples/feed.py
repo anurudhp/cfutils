@@ -1,5 +1,6 @@
 import logging
 import click
+from dotenv import load_dotenv
 
 import cfutils.api as cf
 from cfutils.icpctools.FeedGenerator import CFContestConfig, EventFeedFromCFContest
@@ -35,6 +36,9 @@ def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, ve
     )
 
     # get contest data from codeforces
+    if auth:
+        load_dotenv("../.env")
+
     submissions: list[cf.Submission] = cf.Contest_Status(
         contestId=contest_id, From=1, count=25000
     ).get(auth=auth, output_file=status_file, load_from_file=status_file)
