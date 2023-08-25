@@ -165,7 +165,8 @@ cython_debug/
 *.bak
 *.csv
 logs/
-data/
+/data/*
+!/data/examples
 
 # Sphinx
 /docs/*
