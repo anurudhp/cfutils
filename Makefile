@@ -5,6 +5,8 @@ ci:
 	mypy --check-untyped-defs .
 
 eventfeedpy:
+	git submodule init
+	git submodule update
 	datamodel-codegen \
 	    --input "ccs-specs/json-schema/event-feed-array.json" \
 	    --input-file-type jsonschema \

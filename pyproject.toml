@@ -27,7 +27,7 @@ dynamic = ["version"]
 dev = [
     "black",
     "pytest~=7.4",
-    "mypy~=1.2",
+    "mypy~=1.5",
     "ruff~=0.0",
     "datamodel-code-generator~=0.21"
 ]

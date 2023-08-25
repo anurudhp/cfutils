@@ -41,12 +41,12 @@ Install the project in development mode:
 pip install -e .[dev]
 ```
 
-Code is formatted with [Black](https://black.readthedocs.io/en/stable/), linted with [Ruff](https://beta.ruff.rs/docs/) and tested with [Pytest](https://docs.pytest.org/en/7.4.x/)
-```
-black .
-ruff .
-pytest
-```
+- Formatter: [Black](https://black.readthedocs.io/en/stable/)
+- Linter: [Ruff](https://beta.ruff.rs/docs/)
+- Type-checking: [mypy](https://mypy.readthedocs.io/en/stable/)
+- Testing: [Pytest](https://docs.pytest.org/en/7.4.x/)
+
+The CI checks can be run with `make ci`.
 
 ### ICPC EventFeed dataclass
 
