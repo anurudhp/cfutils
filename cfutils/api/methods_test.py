@@ -105,5 +105,5 @@ def test_method(example: MethodExample):
         assert isinstance(obj, list)
         assert all([isinstance(elem, baseType) for elem in obj])
     else:
-        assert resultType.Meta.raise_on_unknown_json_key
+        assert resultType.Meta.raise_on_unknown_json_key  # type: ignore
         assert isinstance(obj, resultType)

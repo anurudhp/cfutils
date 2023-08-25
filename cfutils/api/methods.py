@@ -67,13 +67,13 @@ class APIMethod(ABC):
         """
         return False
 
-    def __serialize(self, value) -> str:
+    def __serialize(self, value: str | int | list[str | int]) -> str:
         if isinstance(value, str):
             return value
         if isinstance(value, int):
             return str(value)
         if isinstance(value, list):
-            return ";".join(map(self.__serialize, value))
+            return ";".join(map(str, value))
 
         raise AssertionError(
             f"type {type(value)} not allowed as a API parameter, cannot serialize."
@@ -87,7 +87,7 @@ class APIMethod(ABC):
             return [baseType.from_dict(elem) for elem in data]
 
         if issubclass(resultType, JSONWizard):
-            return resultType.from_dict(data)
+            return resultType.from_dict(data)  # type: ignore
 
         assert f"invalid resultType {resultType}"
 

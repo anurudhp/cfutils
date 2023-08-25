@@ -8,7 +8,7 @@ from cfutils.api.methods import APIMethod
 from cfutils.api.methods_test import methodExamples
 
 
-@click.command()
+@click.command()  # type: ignore
 @click.argument("outdir", type=click.Path(exists=True, dir_okay=True, file_okay=False))
 def download(outdir):
     """Download API results for the examples used in the unit tests.
@@ -28,4 +28,4 @@ def download(outdir):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    download()
+    download()  # type: ignore

@@ -5,7 +5,7 @@ import cfutils.api as cf
 from cfutils.icpctools.FeedGenerator import CFContestConfig, EventFeedFromCFContest
 
 
-@click.command()
+@click.command()  # type: ignore
 @click.argument("contest_id", type=int)
 @click.argument("status_file", type=click.Path(dir_okay=False))
 @click.argument("standings_file", type=click.Path(dir_okay=False))
@@ -64,4 +64,4 @@ def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, ve
 
 
 if __name__ == "__main__":
-    cli()
+    cli()  # type: ignore
