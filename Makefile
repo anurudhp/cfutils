@@ -2,7 +2,7 @@ ci:
 	black --quiet --check .
 	ruff .
 	pytest --doctest-modules --quiet
-	mypy --check-untyped-defs .
+	mypy --check-untyped-defs cfutils examples
 	cd docs && make clean && make html # sphinx
 
 eventfeedpy:

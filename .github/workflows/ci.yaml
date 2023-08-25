@@ -43,7 +43,7 @@ jobs:
           pip install .[dev]
 
       - name: Run mypy
-        run: mypy --check-untyped-defs .
+        run: mypy --check-untyped-defs cfutils examples
 
   pytest:
     runs-on: ubuntu-latest
