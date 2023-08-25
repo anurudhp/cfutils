@@ -50,7 +50,10 @@ def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, ve
         )
     )
     feed = feedGen.generate(
-        contest=standings.contest, problems=standings.problems, submissions=submissions
+        contest=standings.contest,
+        problems=standings.problems,
+        ranklist=standings.rows,
+        submissions=submissions,
     )
 
     with open(feed_file, "w") as outf:

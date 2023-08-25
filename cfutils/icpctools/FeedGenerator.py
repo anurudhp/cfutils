@@ -15,13 +15,22 @@ class EventFeedError(Exception):
 
 
 @dataclass
+class ContestTeam:
+    Id: str
+    name: str
+    fullName: str
+    """Example format: `TeamName (Member1Name, Member2Name, Member3Name)`"""
+    members: list[str]
+
+
+@dataclass
 class CFContestConfig:
     freezeDurationSeconds: int
     regions: list[str]
     include_virtual: bool = False
     include_out_of_comp: bool = False
 
-    def getRegion(self, teamId, teamName, members) -> str:
+    def getRegion(self, team: ContestTeam) -> str:
         return self.regions[0]
 
     # TODO use this to generate awards
@@ -33,9 +42,15 @@ class EventFeedFromCFContest:
     config: CFContestConfig
     __contest_events: list[Event]
 
+    __ghost_teams: dict[str, int]
+    __individual_teams: dict[str, int]
+
     def __init__(self, *, config: CFContestConfig):
         self.config = config
         self.__contest_events = []
+
+        self.__ghost_teams = {}
+        self.__individual_teams = {}
 
     @staticmethod
     def __epochToISO(s: int) -> str:
@@ -45,49 +60,98 @@ class EventFeedFromCFContest:
         )
 
     @staticmethod
-    def __secondsToHHMMSS(s) -> str:
-        res = str(datetime.timedelta(seconds=int(s))) + ".000"
+    def __secondsToHHMMSS(s: int) -> str:
+        res = str(datetime.timedelta(seconds=s)) + ".000"
         if res[1] == ":":
             res = "0" + res
         return res
 
-    def __extract_team_list(self, submissions: list[cf.Submission]) -> list[cf.Party]:
-        """Run through all the submissions to get list of participating teams.
-        For individual accounts, treat them as a team with one member.
+    def __populate_teams(self, ranklist: list[cf.RanklistRow]):
+        for row in ranklist:
+            party = row.party
+
+            if party.teamId is not None:
+                continue
+
+            if party.ghost:
+                assert party.teamName is not None, "ghosts must have a teamName"
+                ix = len(self.__ghost_teams)
+                self.__ghost_teams[party.teamName] = ix
+                continue
+
+            if len(party.members) == 1:
+                user = party.members[0].handle
+                ix = len(self.__individual_teams)
+                self.__individual_teams[user] = ix
+                continue
+
+            raise EventFeedError(
+                f"Invalid participant in ranklist (not a CF team, ghost, or individual): {party}"
+            )
+
+    def __get_team_info(self, team: cf.Party) -> ContestTeam:
+        """Extract team info from a Party.
+        For ghosts and individuals, use the generated IDs.
+
+        Ids:
+            - cf teams: `team_<id>`
+            - ghosts: `ghost_<id>`
+            - individual: `user_<id>`
         """
-        teams: dict[int, cf.Party] = {}
 
-        individuals: dict[str, int] = {}
-        ghosts: dict[str, int] = {}
+        ## codeforces team
+        if team.teamId is not None:
+            assert team.teamName is not None, "CF teams must have a team name"
 
-        for sub in submissions:
-            author = sub.author
+            members = [u.handle for u in team.members]
+            fullName = (
+                team.teamName + (" (" + ", ".join(members) + ")") if members else ""
+            )
+            return ContestTeam(
+                Id=f"team_{team.teamId}",
+                name=team.teamName,
+                fullName=fullName,
+                members=members,
+            )
 
-            if author.teamId is None:
-                # not a CF team, must be either a single user or a ghost
-                user: str
-                if author.ghost:
-                    if author.teamName is not None:
-                        # TODO
-                        pass
-                    else:
-                        # TODO
-                        pass
-                else:
-                    assert len(author.members) == 1
-                    user = author.members[0].handle
-                    if user not in individuals:
-                        ix = len(individuals)
-                        individuals[user] = ix
+        ## ghost
+        if team.ghost:
+            name = team.teamName
 
-                    ix = individuals[user]
-                    author.teamId = 10**6 + ix  # TODO is this index safe?
-                    author.teamName = user
+            assert name is not None, "ghosts must have a team name"
+            assert team.members == []  # TODO fix
 
-            assert author.teamId is not None
-            teams[author.teamId] = author
+            if name not in self.__ghost_teams:
+                raise EventFeedError(
+                    f"Invalid submission, ghost `{name}` not found in the ranklist!"
+                )
 
-        return list(teams.values())
+            return ContestTeam(
+                Id=f"ghost_{self.__ghost_teams[name]}",
+                name=name,
+                fullName=name,
+                members=[],
+            )
+
+        ## individual
+        if len(team.members) == 1:
+            name = team.members[0].handle
+
+            if name not in self.__individual_teams:
+                raise EventFeedError(
+                    f"Invalid submission, user `{name}` not found in the ranklist!"
+                )
+
+            return ContestTeam(
+                Id=f"user_{self.__individual_teams[name]}",
+                name=name,
+                fullName=name,
+                members=[name],
+            )
+
+        raise EventFeedError(
+            "Unable to process participant: not a CF team, ghost, or individual!"
+        )
 
     def __add_event_at(self, ix: str, eventData: EventData):
         """Create/update a sub-object at index `ix`"""
@@ -114,7 +178,7 @@ class EventFeedFromCFContest:
     def __show_contest_state(self, *, contest: cf.Contest, ended=False, done=False):
         """Event displayed at the start and end, and optionally at standings freeze"""
         tstart = contest.startTimeSeconds
-        assert tstart is not None
+        assert tstart is not None, "unreachable"
 
         tfin = tstart + contest.durationSeconds
         tfrozen = tfin - self.config.freezeDurationSeconds
@@ -150,18 +214,27 @@ class EventFeedFromCFContest:
         *,
         contest: cf.Contest,
         problems: list[cf.Problem],
+        ranklist: list[cf.RanklistRow],
         submissions: list[cf.Submission],
     ) -> list[str]:
         """Generate event feed JSON for the ICPC resolver tool.
         TODO docstring
         """
 
-        ## ignore invalid submissions
+        ## ignore invalid submissions and participants
         submissions = [
             sub
             for sub in submissions
             if self.__participantAllowed(sub.author.participantType)
         ]
+        ranklist = [
+            row
+            for row in ranklist
+            if self.__participantAllowed(row.party.participantType)
+        ]
+
+        # generates unique teamIds for ghosts and individuals.
+        self.__populate_teams(ranklist)
 
         ## contest info
         if contest.startTimeSeconds is None:
@@ -233,28 +306,21 @@ class EventFeedFromCFContest:
         # TODO: add support for multiple orgs
         self.__add_events([Feed.Organization(id="org_default", name="DefaultOrg")])
 
-        # teams
-        teams = self.__extract_team_list(submissions)
+        for row in ranklist:
+            team = self.__get_team_info(row.party)
 
-        for team in teams:
-            assert team.teamId is not None
-            assert team.teamName is not None
-
-            memberHandles = [user.handle for user in team.members]
-            fullTeamName = f"{team.teamName} ({', '.join(memberHandles)})"
-
-            region = self.config.getRegion(team.teamId, team.teamName, memberHandles)
+            region = self.config.getRegion(team)
             region = str(self.config.regions.index(region))
 
             self.__add_event(
                 Feed.Team(
-                    id=str(team.teamId),
-                    name=fullTeamName,
+                    id=team.Id,
+                    name=team.fullName,
                     group_ids=[region],
                     organization_id="org_default",
                 )
             )
-        logging.info("#teams: %d", len(teams))
+        logging.info("#teams: %d", len(ranklist))
 
         ## start the contest
         self.__show_contest_state(contest=contest)
@@ -262,7 +328,10 @@ class EventFeedFromCFContest:
         ## submission data
         ignored_submissions_count = 0
         for sub in submissions:
-            if sub.verdict is None:
+            if sub.verdict is None or sub.verdict in [
+                cf.Verdict.TESTING,
+                cf.Verdict.SECURITY_VIOLATED,
+            ]:
                 ignored_submissions_count += 1
                 continue
 
@@ -275,7 +344,7 @@ class EventFeedFromCFContest:
                     id=sub_id,
                     language_id="0",
                     problem_id=sub.problem.index,
-                    team_id=str(sub.author.teamId),
+                    team_id=self.__get_team_info(sub.author).Id,
                     time=timestamp,
                     contest_time=reltime,
                     files=[],
@@ -292,6 +361,11 @@ class EventFeedFromCFContest:
                 cf.Verdict.WRONG_ANSWER,
                 cf.Verdict.RUNTIME_ERROR,
                 cf.Verdict.CHALLENGED,
+                cf.Verdict.IDLENESS_LIMIT_EXCEEDED,
+                cf.Verdict.REJECTED,
+                cf.Verdict.CRASHED,
+                cf.Verdict.PRESENTATION_ERROR,
+                cf.Verdict.PARTIAL,
             ]:
                 verdict = Feed.JudgementTypeId.WA
             elif sub.verdict in [
