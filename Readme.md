@@ -60,7 +60,7 @@ git submodule update
 Now run `datamodel-codegen` to generate dataclasses from the JSONSchema:
 ```sh
 datamodel-codegen \
-    --input "/pathto/ccs-specs/json-schema/event-feed-array.json" \
+    --input "ccs-specs/json-schema/event-feed-array.json" \
     --input-file-type jsonschema \
     --output cfutils/icpctools/EventFeed.py \
     --output-model-type dataclasses.dataclass \
