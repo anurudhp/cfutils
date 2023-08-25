@@ -26,7 +26,9 @@ class ContestTeam:
 @dataclass
 class CFContestConfig:
     freezeDurationSeconds: int
+
     regions: list[str]
+
     include_virtual: bool = False
     include_out_of_comp: bool = False
 
@@ -175,25 +177,24 @@ class EventFeedFromCFContest:
         # event = Event(type=eventsData[0].eventType(), id=None, data=eventsData)
         # self.contest_events.append(event)
 
-    def __show_contest_state(self, *, contest: cf.Contest, ended=False, done=False):
+    def __show_contest_state(self, *, contest: cf.Contest, done=False):
         """Event displayed at the start and end, and optionally at standings freeze"""
-        tstart = contest.startTimeSeconds
-        assert tstart is not None, "unreachable"
 
-        tfin = tstart + contest.durationSeconds
+        tstart = 0
+        tfin = contest.durationSeconds
         tfrozen = tfin - self.config.freezeDurationSeconds
         tthaw = tfin + 300  # TODO(magic) why 300?
-        tdone = int(time.time())
+        tdone = tthaw + 300  # TODO(magic) why 300?
 
         self.__add_event(
             Feed.State(
                 started=self.__epochToISO(tstart),
-                ended=self.__epochToISO(tfin) if ended or done else None,
-                finalized=self.__epochToISO(tdone) if done else None,
-                # TODO(magic) why 60?
-                end_of_updates=self.__epochToISO(tdone + 60) if done else None,
                 frozen=self.__epochToISO(tfrozen),
+                ended=self.__epochToISO(tfin) if done else None,
                 thawed=self.__epochToISO(tthaw),
+                finalized=self.__epochToISO(tdone) if done else None,
+                # TODO(magic) why 300?
+                end_of_updates=self.__epochToISO(tdone + 300) if done else None,
             )
         )
 
@@ -218,7 +219,22 @@ class EventFeedFromCFContest:
         submissions: list[cf.Submission],
     ) -> list[str]:
         """Generate event feed JSON for the ICPC resolver tool.
-        TODO docstring
+
+        Caveats:
+            This ignores the true submission times, and instead assumes a start time of 0 (epoch). So the generated feed may not work for tools other than the resolver.
+
+        Args:
+            contest: CF Contest object. Usually obtained using `contest.standings`.
+            problems: CF Problem list. Usually obtained using `contest.standings`.
+            ranklist: CF ranklist row list. Usually obtained using `contest.standings`.
+            submissions: CF submission list. Usually obtained using `contest.status`.
+
+        Returns:
+            A list of stringified JSON events.
+
+        Raises:
+            EventFeedError: submission by a team not in the ranklist
+            EventFeedError: team is neither a CF team, nor a ghost, nor a CF user.
         """
 
         ## ignore invalid submissions and participants
@@ -233,12 +249,10 @@ class EventFeedFromCFContest:
             if self.__participantAllowed(row.party.participantType)
         ]
 
-        # generates unique teamIds for ghosts and individuals.
+        ## generates unique teamIds for ghosts and individuals.
         self.__populate_teams(ranklist)
 
         ## contest info
-        if contest.startTimeSeconds is None:
-            raise EventFeedError("Contest: start time not provided")
         self.__add_event(
             Feed.Contest(
                 id=f"cf_contest_{contest.id}",
@@ -249,7 +263,7 @@ class EventFeedFromCFContest:
                 scoreboard_freeze_duration=self.__secondsToHHMMSS(
                     self.config.freezeDurationSeconds
                 ),
-                start_time=self.__epochToISO(contest.startTimeSeconds),
+                start_time=self.__epochToISO(0),
                 penalty_time=20,
             )
         )
@@ -263,7 +277,7 @@ class EventFeedFromCFContest:
             ]
         )
 
-        ## Contest regions - use it to form different contestant prize groups.
+        ## Contest regions
         self.__add_events(
             [
                 Feed.Group(id=str(ix), name=name, icpc_id=str(ix))
@@ -336,7 +350,7 @@ class EventFeedFromCFContest:
                 continue
 
             sub_id = str(sub.id)
-            timestamp = self.__epochToISO(sub.creationTimeSeconds)
+            timestamp = self.__epochToISO(sub.relativeTimeSeconds)
             reltime = self.__secondsToHHMMSS(sub.relativeTimeSeconds)
 
             self.__add_event(
