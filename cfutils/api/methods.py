@@ -1,14 +1,13 @@
 import secrets
-import copy
 import time
 import hashlib
 import os
 import logging
 import json
 import typing
-from typing import Optional
+from typing import Optional, Any
 from abc import abstractmethod, ABC
-from dataclasses import dataclass, is_dataclass
+from dataclasses import dataclass, is_dataclass, asdict
 import sh  # type: ignore
 from io import StringIO
 from dataclass_wizard import JSONWizard  # type: ignore
@@ -40,6 +39,7 @@ class APIMethod(ABC):
     Each class that inherits from this must also be marked as a `dataclass`.
     Use the dataclass parameters to define the API arguments.
     Allowed argument types:
+
         T ::= int | str | bool | list[T] | Optional[T]
 
     Caveats:
@@ -55,6 +55,7 @@ class APIMethod(ABC):
     @abstractmethod
     def resultType() -> type:
         """Type of the result.
+
         Must be a one of:
             - dataclass
             - list of dataclass.
@@ -91,6 +92,10 @@ class APIMethod(ABC):
 
         assert f"invalid resultType {resultType}"
 
+    def __get_opts(self) -> dict[str, Any]:
+        assert is_dataclass(self) and not isinstance(self, type)
+        return asdict(self)  # TODO is a copy needed?
+
     def buildAPICallURL(self, *, auth: bool = False):
         """Build the URL to call the CF API
 
@@ -100,15 +105,12 @@ class APIMethod(ABC):
         Returns:
             URL string
         """
-        assert is_dataclass(self)
-        opts = copy.deepcopy(self.__dict__)  # TODO is a copy needed?
+        opts = self.__get_opts()
 
         # Hack to correctly serialize parameter `from`, which is a keyword in python.
         if "From" in opts:
             opts["from"] = opts["From"]
             del opts["From"]
-
-        assert isinstance(self, APIMethod)
 
         if auth:
             # add key and time

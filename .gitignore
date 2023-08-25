@@ -166,3 +166,12 @@ cython_debug/
 *.csv
 logs/
 data/
+
+# Sphinx
+/docs/*
+# but don't exclude manually configured sources
+!/docs/Makefile
+!/docs/conf.py
+!/docs/index.md
+!/docs/_static
+

@@ -25,11 +25,14 @@ dynamic = ["version"]
 
 [project.optional-dependencies]
 dev = [
-    "black",
     "pytest~=7.4",
     "mypy~=1.5",
     "ruff~=0.0",
-    "datamodel-code-generator~=0.21"
+    "sphinx~=7.2",
+    "sphinxcontrib-napoleon~=0.7",
+    "myst-parser~=2.0",
+    "datamodel-code-generator~=0.21",
+    "black"
 ]
 
 [tool.setuptools.dynamic]

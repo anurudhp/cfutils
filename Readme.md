@@ -16,8 +16,7 @@ Optional: If you wish to run authorized API calls, copy `example.env` to `.env` 
 [Check CF API docs to see how to generate an API key](https://codeforces.com/apiHelp).
 
 
-Tool: ICPC Standings Resolver
------------------------------
+### Tool: ICPC Standings Resolver
 
 Go to [tools.icpc.global](https://tools.icpc.global/) and download "Resolver".
 Optionally you can download "Contest Utilities" to validate the generated files.
@@ -25,11 +24,11 @@ Optionally you can download "Contest Utilities" to validate the generated files.
 In Resolver, you should have the executables `resolver.sh` and `awards.sh`
 In Contest Utilites, you should have the executable `eventFeed.sh` (others are not needed).
 
-A basic CLI tool is provided: [examples/resolverFeed.py](examples/resolverFeed.py).
+A basic CLI tool is provided: [examples/feed.py](https://github.com/anurudhp/cfutils/blob/main/examples/feed.py).
 This tool can be used to generate a JSON event feed for the ICPC resolver tool.
 
 1. Run `python examples/feed.py <status_output_file.json> <standings_output_file.json> <feed.json>`.
-1. `cd` to the resolver tool, and run `./resolver.sh feed.json`
+1. `cd` to the resolver tool, and run `./resolver.sh /path/to/feed.json`
 1. (optional) To validate, run `/path/to/eventFeed.sh --validate feed.json`.
 1. (optional) To edit the awards manually, run `/path/to/awards.sh`. Select "Disk" and load the generated `feed.json` file.
 

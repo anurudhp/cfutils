@@ -3,6 +3,7 @@ ci:
 	ruff .
 	pytest --doctest-modules --quiet
 	mypy --check-untyped-defs .
+	cd docs && make clean && make html # sphinx
 
 eventfeedpy:
 	git submodule init
