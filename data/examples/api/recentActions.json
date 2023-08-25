@@ -1,0 +1,2433 @@
+{
+  "status": "OK",
+  "result": [
+    {
+      "timeSeconds": 1692768099,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061367,
+        "creationTimeSeconds": 1692768099,
+        "commentatorHandle": "vgtcross",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Did you even read the announcement?</p><p><strong>If your rating is less than 1600, then the round will be rated for you.</strong></p></div>",
+        "parentCommentId": 1061347,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692766779,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692674149,
+        "rating": -19,
+        "authorHandle": "yuanruiqi",
+        "modificationTimeSeconds": 1692766779,
+        "id": 119631,
+        "title": "<p>Happy Chinese Valentine's Day</p>",
+        "locale": "en",
+        "tags": []
+      }
+    },
+    {
+      "timeSeconds": 1692764232,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061365,
+        "creationTimeSeconds": 1692764232,
+        "commentatorHandle": "Shanmukh-_-estrella",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I am happy that it will be around 8 :05 PM in India :)</p></div>",
+        "rating": 8
+      }
+    },
+    {
+      "timeSeconds": 1692762416,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061364,
+        "creationTimeSeconds": 1692762416,
+        "commentatorHandle": "goextreme",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>19:35 in Uzbekistan </p></div>",
+        "rating": -6
+      }
+    },
+    {
+      "timeSeconds": 1692758916,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061362,
+        "creationTimeSeconds": 1692758916,
+        "commentatorHandle": "salyg1n",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Ok I see now. But why we don't have different start times? For example 2 or 3 with equal intervals</p></div>",
+        "parentCommentId": 1061328,
+        "rating": 4
+      }
+    },
+    {
+      "timeSeconds": 1692757361,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061361,
+        "creationTimeSeconds": 1692757361,
+        "commentatorHandle": "daCodda",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>RIP Hawaii</p></div>",
+        "parentCommentId": 1061321,
+        "rating": 4
+      }
+    },
+    {
+      "timeSeconds": 1692757257,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1684592237,
+        "rating": 64,
+        "authorHandle": "Vladosiya",
+        "modificationTimeSeconds": 1684592237,
+        "id": 116636,
+        "title": "<p>Codeforces Round #874 (Div. 3) Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061360,
+        "creationTimeSeconds": 1692757257,
+        "commentatorHandle": "TxRahul",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>can be solved using segment tree as well</p></div>",
+        "parentCommentId": 1031010,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692755699,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1659889241,
+        "rating": 0,
+        "authorHandle": "perfectionist7",
+        "modificationTimeSeconds": 1659889827,
+        "id": 105745,
+        "title": "<p>Problem in 469A — I wanna be the guy</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061359,
+        "creationTimeSeconds": 1692755699,
+        "commentatorHandle": "joyfullife",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>So, the mistakes in this code is about indices. Your code is giving an out of bound error. </p><p>1) In line 19, when you do arr3[i]=arr[i], you know that arr only have length a, so it cannot have index till a+b.</p><p>2) In line 25, except of doing i&lt;=a+b, do i&lt;a+b.</p><p>Please make a habit to take care of the indices of the arrays when writing a code.</p></div>",
+        "rating": 1
+      }
+    },
+    {
+      "timeSeconds": 1692752812,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061357,
+        "creationTimeSeconds": 1692752812,
+        "commentatorHandle": "tangjiaqi2024",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Fuck Mike!</p></div>",
+        "parentCommentId": 1061348,
+        "rating": -5
+      }
+    },
+    {
+      "timeSeconds": 1692752712,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1690762685,
+        "rating": 206,
+        "authorHandle": "Geothermal",
+        "modificationTimeSeconds": 1692313579,
+        "id": 118845,
+        "title": "<p>I'm Geothermal. AMA!</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061356,
+        "creationTimeSeconds": 1692752712,
+        "commentatorHandle": "Geothermal",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Many.</p></div>",
+        "parentCommentId": 1061166,
+        "rating": 1
+      }
+    },
+    {
+      "timeSeconds": 1692752699,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1690762685,
+        "rating": 206,
+        "authorHandle": "Geothermal",
+        "modificationTimeSeconds": 1692313579,
+        "id": 118845,
+        "title": "<p>I'm Geothermal. AMA!</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061355,
+        "creationTimeSeconds": 1692752699,
+        "commentatorHandle": "Geothermal",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>This is clearly your second account; note that using multiple accounts is against Codeforces' rules.</p><p>To answer your question, each time you participate in a contest you should almost always try to solve or understand the solution to at least one problem you weren't able to figure out in-contest. Not upsolving substantially reduces the benefits of participating in contests.</p></div>",
+        "parentCommentId": 1061153,
+        "rating": 1
+      }
+    },
+    {
+      "timeSeconds": 1692752573,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1690762685,
+        "rating": 206,
+        "authorHandle": "Geothermal",
+        "modificationTimeSeconds": 1692313579,
+        "id": 118845,
+        "title": "<p>I'm Geothermal. AMA!</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061353,
+        "creationTimeSeconds": 1692752573,
+        "commentatorHandle": "Geothermal",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Not if I need to focus.</p></div>",
+        "parentCommentId": 1061131,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692752347,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692379317,
+        "rating": 80,
+        "authorHandle": "atcoder_official",
+        "modificationTimeSeconds": 1692379317,
+        "id": 119507,
+        "title": "<p>KEYENCE Programming Contest 2023 Summer（AtCoder Beginner Contest 315） Announcement</p>",
+        "locale": "en",
+        "tags": [
+          "atcoder"
+        ]
+      },
+      "comment": {
+        "id": 1061352,
+        "creationTimeSeconds": 1692752347,
+        "commentatorHandle": "THA",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>is G solvable with dp, i think it's quite similar to this problem <a href=\"https://cses.fi/problemset/task/1159\">https://cses.fi/problemset/task/1159</a></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692752018,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061351,
+        "creationTimeSeconds": 1692752018,
+        "commentatorHandle": "Aphrim",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>In my opinion, they should have 3 multiple times which should be rotated for contests, each 8 hours apart from each other. So: 6:35 UTC rounds, 14:35 UTC rounds, and 22:35 UTC rounds.</p></div>",
+        "rating": 28
+      }
+    },
+    {
+      "timeSeconds": 1692750938,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061350,
+        "creationTimeSeconds": 1692750938,
+        "commentatorHandle": "thanhdno",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>9:35 in vietnam</p></div>",
+        "rating": -12
+      }
+    },
+    {
+      "timeSeconds": 1692750832,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061349,
+        "creationTimeSeconds": 1692750832,
+        "commentatorHandle": "calebmartim",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>The post must've been edited for some reason, I'm also pretty sure that at first it said there was going to be an interactive problem. </p></div>",
+        "parentCommentId": 1061318,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692749795,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061348,
+        "creationTimeSeconds": 1692749795,
+        "commentatorHandle": "tangjiaqi2024",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>FUck Mike !!!</p></div>",
+        "rating": -14
+      }
+    },
+    {
+      "timeSeconds": 1692749366,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061347,
+        "creationTimeSeconds": 1692749366,
+        "commentatorHandle": "dickland",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Is it rated?</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692747702,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1659889241,
+        "rating": 0,
+        "authorHandle": "perfectionist7",
+        "modificationTimeSeconds": 1659889827,
+        "id": 105745,
+        "title": "<p>Problem in 469A — I wanna be the guy</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061346,
+        "creationTimeSeconds": 1692747702,
+        "commentatorHandle": "rowanxgamal",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Me too!</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692744479,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061344,
+        "creationTimeSeconds": 1692744479,
+        "commentatorHandle": "SecondThread",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Yes, it's there. If you put night in the Pacific, then contests are late in China, and early for the West Coast of the US.</p></div>",
+        "parentCommentId": 1061323,
+        "rating": 14
+      }
+    },
+    {
+      "timeSeconds": 1692742880,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692669262,
+        "rating": -10,
+        "authorHandle": "N7itches",
+        "modificationTimeSeconds": 1692669262,
+        "id": 119626,
+        "title": "<p>How to practice ?</p>",
+        "locale": "en",
+        "tags": [
+          "practice",
+          "how",
+          "smart",
+          "materials"
+        ]
+      },
+      "comment": {
+        "id": 1061343,
+        "creationTimeSeconds": 1692742880,
+        "commentatorHandle": "Aphrim",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><a href=\"https://letmegooglethat.com/?q=How+to+practice+codeforces\">https://letmegooglethat.com/?q=How+to+practice+codeforces</a></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692742664,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1691942987,
+        "rating": 73,
+        "authorHandle": "lumibons",
+        "modificationTimeSeconds": 1692704360,
+        "id": 119333,
+        "title": "<p>CEOI 2023</p>",
+        "locale": "en",
+        "tags": [
+          "ceoi 2023",
+          "online mirror"
+        ]
+      },
+      "comment": {
+        "id": 1061341,
+        "creationTimeSeconds": 1692742664,
+        "commentatorHandle": "stefdasca",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Sounds good, thanks for the answer!</p></div>",
+        "parentCommentId": 1061333,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692742502,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061339,
+        "creationTimeSeconds": 1692742502,
+        "commentatorHandle": "Aphrim",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I will help you get LGM if you help me get master.</p></div>",
+        "parentCommentId": 1061310,
+        "rating": 3
+      }
+    },
+    {
+      "timeSeconds": 1692741383,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1686746140,
+        "rating": 15,
+        "authorHandle": "Sourav.Kumar007",
+        "modificationTimeSeconds": 1686760910,
+        "id": 117276,
+        "title": "<p>Your Favourite CF handle?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061337,
+        "creationTimeSeconds": 1692741383,
+        "commentatorHandle": "Alickon",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>You are legend. 1st best time to start was 10 year ago. 2nd best time to start is now.</p></div>",
+        "parentCommentId": 1061220,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692738144,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1691942987,
+        "rating": 73,
+        "authorHandle": "lumibons",
+        "modificationTimeSeconds": 1692704360,
+        "id": 119333,
+        "title": "<p>CEOI 2023</p>",
+        "locale": "en",
+        "tags": [
+          "ceoi 2023",
+          "online mirror"
+        ]
+      },
+      "comment": {
+        "id": 1061333,
+        "creationTimeSeconds": 1692738144,
+        "commentatorHandle": "lumibons",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>We intend to publish them on the website, and so other online judges may add them to their problem collection if they want to.</p></div>",
+        "parentCommentId": 1061237,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692737359,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061330,
+        "creationTimeSeconds": 1692737359,
+        "commentatorHandle": "aviralarpan3301",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>havent forgotten you lol plus that why should you give up blog is up again</p></div>",
+        "parentCommentId": 1061327,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692736622,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061329,
+        "creationTimeSeconds": 1692736622,
+        "commentatorHandle": "ofEGMLbh2u",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>i mean guys if someone is asking for help either you help him or just shut the fuck up and continue what u r doing in ur shitty life (if u have one) cuz i have doubt on that </p></div>",
+        "rating": -10
+      }
+    },
+    {
+      "timeSeconds": 1692736482,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061328,
+        "creationTimeSeconds": 1692736482,
+        "commentatorHandle": "vgtcross",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>What about people living on the west cost of the US? The time there is UTC-7 in the summer and UTC-8 in the winter. Contests start at 7:35 AM in the summer and 6:35 AM in the winter. If the contests started earlier, wouldn't it be a little early? You can't please everyone at once, the current start time is very good, if not the best.</p></div>",
+        "parentCommentId": 1061323,
+        "rating": 26
+      }
+    },
+    {
+      "timeSeconds": 1692735795,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061327,
+        "creationTimeSeconds": 1692735795,
+        "commentatorHandle": "abcsumits",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>don't forget me.... contests are coming. time to step forward</p></div>",
+        "parentCommentId": 1060254,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692734540,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061326,
+        "creationTimeSeconds": 1692734540,
+        "commentatorHandle": "MainuCodingBadiPasandAe",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Hitherto, I have reached a peak rating of 1451. As an astute programmer and a prudent MAANG mentor, I have guided more than 0 newbies to succeed in their inane endeavours. I would invigorate you with resources I have gathered over the years which would help you to not falter. I would be beatific to succour you contend with your frivolous problems.</p></div>",
+        "rating": 6
+      }
+    },
+    {
+      "timeSeconds": 1692734531,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1553010180,
+        "rating": 173,
+        "authorHandle": "Shisuko",
+        "modificationTimeSeconds": 1596534071,
+        "id": 66040,
+        "title": "<p>The Intuition Behind NIM and Grundy Numbers in Combinatorial Game Theory</p>",
+        "locale": "en",
+        "tags": [
+          "#game-theory",
+          "#nim-game",
+          "#xor",
+          "grundy",
+          "sprague-grundy"
+        ]
+      },
+      "comment": {
+        "id": 1061325,
+        "creationTimeSeconds": 1692734531,
+        "commentatorHandle": "_Shrey_Hehe_",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Lovely Explanation!!</p></div>",
+        "rating": 8
+      }
+    },
+    {
+      "timeSeconds": 1692734380,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061323,
+        "creationTimeSeconds": 1692734380,
+        "commentatorHandle": "salyg1n",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Is it actually there? In china (UTC +8) rounds start at 22:35 and end at least at 00:35. Isn't it inconvenient for them? There are a lot of Chinese on codeforces, but it might have been more if the competition started earlier</p></div>",
+        "parentCommentId": 1061321,
+        "rating": 3
+      }
+    },
+    {
+      "timeSeconds": 1692734108,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061322,
+        "creationTimeSeconds": 1692734108,
+        "commentatorHandle": "fernandezpalomojosue",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>10:35 </p></div>",
+        "rating": -3
+      }
+    },
+    {
+      "timeSeconds": 1692733691,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061321,
+        "creationTimeSeconds": 1692733691,
+        "commentatorHandle": "SecondThread",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Because you need to put night somewhere, and geographically the most reasonable place for it is in the Pacific Ocean.</p></div>",
+        "rating": 56
+      }
+    },
+    {
+      "timeSeconds": 1692733513,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061320,
+        "creationTimeSeconds": 1692733513,
+        "commentatorHandle": "salyg1n",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I'm happy that i'm Moscow student and I write rounds at 17:35</p></div>",
+        "rating": 17
+      }
+    },
+    {
+      "timeSeconds": 1692733505,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1691854702,
+        "rating": 264,
+        "authorHandle": "induk_v_tsiane",
+        "modificationTimeSeconds": 1691861500,
+        "id": 119287,
+        "title": "<p>Codeforces Round #892 (Div. 2) Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061319,
+        "creationTimeSeconds": 1692733505,
+        "commentatorHandle": "stakudog",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>how linear time? How do you find k without iterating N times?</p></div>",
+        "parentCommentId": 1057884,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692733413,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692733413,
+        "rating": 27,
+        "authorHandle": "salyg1n",
+        "modificationTimeSeconds": 1692733413,
+        "id": 119654,
+        "title": "<p>Why most rounds are at 14:35 UTC ?</p>",
+        "locale": "en",
+        "tags": []
+      }
+    },
+    {
+      "timeSeconds": 1692732935,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061318,
+        "creationTimeSeconds": 1692732935,
+        "commentatorHandle": "bazooka14",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Where is it written that there will be ?</p></div>",
+        "parentCommentId": 1061138,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692731717,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061317,
+        "creationTimeSeconds": 1692731717,
+        "commentatorHandle": "hlw-aryan",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Hoping to cross 1300 mark</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692730978,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692006947,
+        "rating": 69,
+        "authorHandle": "mohit_jx64",
+        "modificationTimeSeconds": 1692730978,
+        "id": 119363,
+        "title": "<p>[Invitation] Coding Events — Esya'23 IIIT-Delhi</p>",
+        "locale": "en",
+        "tags": []
+      }
+    },
+    {
+      "timeSeconds": 1692730596,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692669262,
+        "rating": -10,
+        "authorHandle": "N7itches",
+        "modificationTimeSeconds": 1692669262,
+        "id": 119626,
+        "title": "<p>How to practice ?</p>",
+        "locale": "en",
+        "tags": [
+          "practice",
+          "how",
+          "smart",
+          "materials"
+        ]
+      },
+      "comment": {
+        "id": 1061312,
+        "creationTimeSeconds": 1692730596,
+        "commentatorHandle": "Qasder",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>hi</p></div>",
+        "parentCommentId": 1061265,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692730504,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061311,
+        "creationTimeSeconds": 1692730504,
+        "commentatorHandle": "ofEGMLbh2u",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>what about u getting me to international master xD </p></div>",
+        "parentCommentId": 1061310,
+        "rating": -1
+      }
+    },
+    {
+      "timeSeconds": 1692730313,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061310,
+        "creationTimeSeconds": 1692730313,
+        "commentatorHandle": "pooty",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I am also looking for mentor if anyone can get me to LGM :)</p></div>",
+        "rating": 3
+      }
+    },
+    {
+      "timeSeconds": 1692729808,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061309,
+        "creationTimeSeconds": 1692729808,
+        "commentatorHandle": "ofEGMLbh2u",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><i>Auto comment: topic has been updated by <a class=\"rated-user user-gray\" href=\"/profile/ofEGMLbh2u\" title=\"Newbie ofEGMLbh2u\">ofEGMLbh2u</a> (<a href=\"/topic/120141/en1\">previous revision</a>, <a href=\"/topic/120141/en2\">new revision</a>, <a href=\"/topic/120141/diff/en1/en2\">compare</a>).</i></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692729808,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      }
+    },
+    {
+      "timeSeconds": 1692729676,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      }
+    },
+    {
+      "timeSeconds": 1692729545,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692396763,
+        "rating": 26,
+        "authorHandle": "ofEGMLbh2u",
+        "modificationTimeSeconds": 1692729808,
+        "id": 119517,
+        "title": "<p>Looking for Mentor — PAID</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061307,
+        "creationTimeSeconds": 1692729545,
+        "commentatorHandle": "ofEGMLbh2u",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>.</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692729074,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061305,
+        "creationTimeSeconds": 1692729074,
+        "commentatorHandle": "MainuCodingBadiPasandAe",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I am incredulous about the way you have defined these things. Are you sure you aren't just being pompous here? Such bogs are vile to the succinct resources I have prepared in the past</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692728143,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061304,
+        "creationTimeSeconds": 1692728143,
+        "commentatorHandle": "BigBadBully",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I didn't quite understand what you wanted to say, but this blog was written for the version of the problem in which we have infinite amounts of each item. But, if we have a limited amount of each item then we can build a frequency array (or map) of each item. We will calculate the polynomial based on the frequency array then. If $$$a$$$ is the freq array (or map) then the polynomial for $$$a_i$$$ is:</p> <center>$$$p_i(z) = 1 + z^{i} + z^{2i} + ... + z^{i\\cdot a_i}$$$</center><p>From now on, the solution is pretty much the same. </p></div>",
+        "parentCommentId": 1061288,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692727435,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1668137678,
+        "rating": 27,
+        "authorHandle": "Banda.",
+        "modificationTimeSeconds": 1692727435,
+        "id": 108939,
+        "title": "<p>A proof that the GCD(even sum, odd sum) &gt; 1 for a consecutive set of integers.</p>",
+        "locale": "en",
+        "tags": [
+          "math",
+          "number theory"
+        ]
+      },
+      "comment": {
+        "id": 1061303,
+        "creationTimeSeconds": 1692727435,
+        "commentatorHandle": "Banda.",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><i>Auto comment: topic has been updated by <a class=\"rated-user user-green\" href=\"/profile/Banda.\" title=\"Pupil Banda.\">Banda.</a> (<a href=\"/topic/109563/en10\">previous revision</a>, <a href=\"/topic/109563/en11\">new revision</a>, <a href=\"/topic/109563/diff/en10/en11\">compare</a>).</i></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692727435,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1668137678,
+        "rating": 27,
+        "authorHandle": "Banda.",
+        "modificationTimeSeconds": 1692727435,
+        "id": 108939,
+        "title": "<p>A proof that the GCD(even sum, odd sum) &gt; 1 for a consecutive set of integers.</p>",
+        "locale": "en",
+        "tags": [
+          "math",
+          "number theory"
+        ]
+      }
+    },
+    {
+      "timeSeconds": 1692725166,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692628157,
+        "rating": 9,
+        "authorHandle": "Jatin147",
+        "modificationTimeSeconds": 1692628157,
+        "id": 119608,
+        "title": "<p>reverse string by swapping adjacents characters</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061298,
+        "creationTimeSeconds": 1692725166,
+        "commentatorHandle": "pacha2880",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>for each letter in the alphabet, you create two arrays: the array $$$pos$$$ and the array $$$rev$$$, the first array correspond to the initial positions of all occurrences of the letter we are processing and the second array correspond to the reversed positions. Then greedily it's easy to prove that the resulting position of the left-most character in $$$pos$$$ will be the left-most value in the array $$$rev$$$, so you just need to reverse the array $$$rev$$$ and you get the resulting positions for the corresponding letter.</p><p>for example if you have the string &quot;aabbba&quot; the array $$$pos$$$ will be $$${0, 1, 5}$$$ and the array $$$rev$$$ will be $$${5, 4, 0}$$$, so the resulting positions are $$$0\\rightarrow 0, 1\\rightarrow4, 5\\rightarrow5$$$.</p><p>Here my <a href=\"https://codeforces.com/contest/1430/submission/219944035\">submission</a>.</p></div>",
+        "parentCommentId": 1061130,
+        "rating": 8
+      }
+    },
+    {
+      "timeSeconds": 1692725087,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692717011,
+        "rating": 10,
+        "authorHandle": "CandidFlakes",
+        "modificationTimeSeconds": 1692717011,
+        "id": 119647,
+        "title": "<p>Why the common multiples have to be least?</p>",
+        "locale": "en",
+        "tags": [
+          "lcm",
+          "gcd",
+          "__gcd",
+          "multiple"
+        ]
+      },
+      "comment": {
+        "id": 1061297,
+        "creationTimeSeconds": 1692725087,
+        "commentatorHandle": "TheScrasse",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Hint: use <a href=\"https://en.wikipedia.org/wiki/Greatest_common_divisor#Using_prime_factorizations\">this</a> &quot;definition&quot; of GCD, and solve for each prime independently.</p></div>",
+        "parentCommentId": 1061293,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692724934,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1686746140,
+        "rating": 15,
+        "authorHandle": "Sourav.Kumar007",
+        "modificationTimeSeconds": 1686760910,
+        "id": 117276,
+        "title": "<p>Your Favourite CF handle?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061294,
+        "creationTimeSeconds": 1692724934,
+        "commentatorHandle": "fast_cpp",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-cyan\" href=\"/profile/shalekberli\" title=\"Specialist shalekberli\">shalekberli</a></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692724342,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1687633992,
+        "rating": -28,
+        "authorHandle": "aviralarpan3301",
+        "modificationTimeSeconds": 1692724342,
+        "id": 117609,
+        "title": "<p>Setting a goal to prove that anything is possible with hard work</p>",
+        "locale": "en",
+        "tags": []
+      }
+    },
+    {
+      "timeSeconds": 1692724054,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692717011,
+        "rating": 10,
+        "authorHandle": "CandidFlakes",
+        "modificationTimeSeconds": 1692717011,
+        "id": 119647,
+        "title": "<p>Why the common multiples have to be least?</p>",
+        "locale": "en",
+        "tags": [
+          "lcm",
+          "gcd",
+          "__gcd",
+          "multiple"
+        ]
+      },
+      "comment": {
+        "id": 1061293,
+        "creationTimeSeconds": 1692724054,
+        "commentatorHandle": "CandidFlakes",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Thanks so much!</p><p>I am able to verify that if there is any valid b then the one in the spoiler is also valid. But, I still can't see the similarity between these two problems! Please give little more hint.</p></div>",
+        "parentCommentId": 1061282,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692723403,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      },
+      "comment": {
+        "id": 1061292,
+        "creationTimeSeconds": 1692723403,
+        "commentatorHandle": "Nobita_Nobi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><i>Auto comment: topic has been updated by <a class=\"rated-user user-green\" href=\"/profile/Nobita_Nobi\" title=\"Pupil Nobita_Nobi\">Nobita_Nobi</a> (<a href=\"/topic/120274/en2\">previous revision</a>, <a href=\"/topic/120274/en3\">new revision</a>, <a href=\"/topic/120274/diff/en2/en3\">compare</a>).</i></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692723403,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      }
+    },
+    {
+      "timeSeconds": 1692723401,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      },
+      "comment": {
+        "id": 1061291,
+        "creationTimeSeconds": 1692723401,
+        "commentatorHandle": "naman_dwivedi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Greatly excited to participate in the contest and will try to win it, And everybody remember always strive to become better than to get depressed, All the very best for preparing upcoming contests — The Nobita Nobi</p><p>Everybody must participate in every contest to get the thrill of competitive programming</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692723338,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      },
+      "comment": {
+        "id": 1061290,
+        "creationTimeSeconds": 1692723338,
+        "commentatorHandle": "Nobita_Nobi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p><i>Auto comment: topic has been updated by <a class=\"rated-user user-green\" href=\"/profile/Nobita_Nobi\" title=\"Pupil Nobita_Nobi\">Nobita_Nobi</a> (<a href=\"/topic/120274/en1\">previous revision</a>, <a href=\"/topic/120274/en2\">new revision</a>, <a href=\"/topic/120274/diff/en1/en2\">compare</a>).</i></p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692723179,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061289,
+        "creationTimeSeconds": 1692723179,
+        "commentatorHandle": "FBI",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>actually I think that it would be a great idea to post some math solutions to the problems (using FFT or matrix multiplication)</p></div>",
+        "parentCommentId": 1061288,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692723076,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061288,
+        "creationTimeSeconds": 1692723076,
+        "commentatorHandle": "FBI",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>You are right, FFT may be used for that, if you may take $$$b$$$ elements while choosing out of $$$n$$$ types <em>suppose that we have infinite amount of each item</em>,the question is how many are there possible ways to get sum $$$W$$$, then the solution would be to first construct a polinomial in which coeficient $$$k$$$ is the number of elements in initial array that have the value $$$k$$$, and after that you would have to raise this polinomial to the $$$b$$$-th power <em>I think that proof of that I am not ready to explain in English</em>, in a total time complexity of $$$O(biggest_element*b*log(biggest_element*b)*log(b))$$$ using FFT (the actual FFT, not the ordinary FT (fourier transform)). please correct me if I am wrong, sometimes i mess up with time complexity</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692722897,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061287,
+        "creationTimeSeconds": 1692722897,
+        "commentatorHandle": "i_love_milan",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>alt account says hi!</p></div>",
+        "parentCommentId": 1061235,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692722068,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692379317,
+        "rating": 80,
+        "authorHandle": "atcoder_official",
+        "modificationTimeSeconds": 1692379317,
+        "id": 119507,
+        "title": "<p>KEYENCE Programming Contest 2023 Summer（AtCoder Beginner Contest 315） Announcement</p>",
+        "locale": "en",
+        "tags": [
+          "atcoder"
+        ]
+      },
+      "comment": {
+        "id": 1061285,
+        "creationTimeSeconds": 1692722068,
+        "commentatorHandle": "vantaablackk",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Can someone please explain why my solution for problem F is not working? I have used dp[current index][no. of skipped checkpoints] = minimum distance of path; just as the editorial has mentioned. <a href=\"https://atcoder.jp/contests/abc315/submissions/44846426\">My Submission</a>.</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692721915,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692379317,
+        "rating": 80,
+        "authorHandle": "atcoder_official",
+        "modificationTimeSeconds": 1692379317,
+        "id": 119507,
+        "title": "<p>KEYENCE Programming Contest 2023 Summer（AtCoder Beginner Contest 315） Announcement</p>",
+        "locale": "en",
+        "tags": [
+          "atcoder"
+        ]
+      },
+      "comment": {
+        "id": 1061284,
+        "creationTimeSeconds": 1692721915,
+        "commentatorHandle": "vantaablackk",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Can you please explain why my solution is not working? I have used the same states. <a href=\"https://atcoder.jp/contests/abc315/submissions/44846426\">My submission</a>.</p></div>",
+        "parentCommentId": 1060525,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692720370,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692717011,
+        "rating": 10,
+        "authorHandle": "CandidFlakes",
+        "modificationTimeSeconds": 1692717011,
+        "id": 119647,
+        "title": "<p>Why the common multiples have to be least?</p>",
+        "locale": "en",
+        "tags": [
+          "lcm",
+          "gcd",
+          "__gcd",
+          "multiple"
+        ]
+      },
+      "comment": {
+        "id": 1061282,
+        "creationTimeSeconds": 1692720370,
+        "commentatorHandle": "TheScrasse",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Try to solve the problem with $$$\\min$$$ instead of $$$\\gcd$$$.</p> <div class=\"spoiler\"><b class=\"spoiler-title\">Solution</b><div class=\"spoiler-content\" style=\"display: none;\"><p>It's optimal to set $$$b_i = \\max(a_i, a_{i+1})$$$.</p></div></div><p>Prove that, if there is any valid $$$b$$$, the one in the spoiler is also valid.</p><p>Why is this problem similar to your problem?</p></div>",
+        "rating": 1
+      }
+    },
+    {
+      "timeSeconds": 1692720196,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692492547,
+        "rating": 144,
+        "authorHandle": "Smirk",
+        "modificationTimeSeconds": 1692492547,
+        "id": 119548,
+        "title": "<p>jiangly changes his pfp!</p>",
+        "locale": "en",
+        "tags": [
+          "jiangly",
+          "anime",
+          "girl"
+        ]
+      },
+      "comment": {
+        "id": 1061281,
+        "creationTimeSeconds": 1692720196,
+        "commentatorHandle": "Rice_Shower",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>next day, holo official returned to China</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692720189,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1690375228,
+        "rating": 96,
+        "authorHandle": "Vladosiya",
+        "modificationTimeSeconds": 1690375399,
+        "id": 118667,
+        "title": "<p>Codeforces round #888 (Div. 3) Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061280,
+        "creationTimeSeconds": 1692720189,
+        "commentatorHandle": "Lint_Whoppers",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>THese condition in question D is useless</p> <pre><code><br />vector&lt;int&gt; cntGt1;\n    for (auto p: cnt) {\n        if (p.second &gt; 1) {\n            cntGt1.push_back(p.first);\n        }\n    }\n    if (cntGt1.size() &gt; 1) {\n        cout &lt;&lt; &quot;NO\\n&quot;;\n        return;\n    }\n    if (cntGt1.size() == 1) {\n        int x1 = cntGt1[0];\n        if (cnt[x1] &gt; 2) {\n            cout &lt;&lt; &quot;NO\\n&quot;;\n            return;\n        }\n</code></pre> <pre>}</pre></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692719768,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061279,
+        "creationTimeSeconds": 1692719768,
+        "commentatorHandle": "bigbanginmyhouse",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>just have a fking normal round , don't fk up like those div2's .</p></div>",
+        "rating": -16
+      }
+    },
+    {
+      "timeSeconds": 1692719561,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      },
+      "comment": {
+        "id": 1061278,
+        "creationTimeSeconds": 1692719561,
+        "commentatorHandle": "Avik_AB",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Waiting for this contest!</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692719108,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692719012,
+        "rating": 20,
+        "authorHandle": "Nobita_Nobi",
+        "modificationTimeSeconds": 1692723403,
+        "id": 119650,
+        "title": "<p>Nobita Coding Adventure Round 1 | August 28, 2023</p>",
+        "locale": "en",
+        "tags": [
+          "contest",
+          "prizes",
+          "coding"
+        ]
+      },
+      "comment": {
+        "id": 1061276,
+        "creationTimeSeconds": 1692719108,
+        "commentatorHandle": "Doraemon_nobi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Great, I am excited to participate in your contest </p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692718428,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1686746140,
+        "rating": 15,
+        "authorHandle": "Sourav.Kumar007",
+        "modificationTimeSeconds": 1686760910,
+        "id": 117276,
+        "title": "<p>Your Favourite CF handle?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061274,
+        "creationTimeSeconds": 1692718428,
+        "commentatorHandle": "capt_Levi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>It's a dream come true. Thank you soo much <a class=\"rated-user user-violet\" href=\"/profile/Nuris\" title=\"Candidate Master Nuris\">Nuris</a>. I mean I am sooo happy.</p><p>As <a class=\"rated-user user-blue\" href=\"/profile/skywalkerr.\" title=\"Expert skywalkerr.\">skywalkerr.</a> said, you are the most kindest person.</p></div>",
+        "parentCommentId": 1061224,
+        "rating": 5
+      }
+    },
+    {
+      "timeSeconds": 1692717177,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692669262,
+        "rating": -10,
+        "authorHandle": "N7itches",
+        "modificationTimeSeconds": 1692669262,
+        "id": 119626,
+        "title": "<p>How to practice ?</p>",
+        "locale": "en",
+        "tags": [
+          "practice",
+          "how",
+          "smart",
+          "materials"
+        ]
+      },
+      "comment": {
+        "id": 1061272,
+        "creationTimeSeconds": 1692717177,
+        "commentatorHandle": "CandidFlakes",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Solve problems with rating +200 up from your current rating. Increase the rating as you feel comfortable. Meanwhile, read tutorials and learn the needed concepts if you can't solve a problem.</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692717011,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692717011,
+        "rating": 10,
+        "authorHandle": "CandidFlakes",
+        "modificationTimeSeconds": 1692717011,
+        "id": 119647,
+        "title": "<p>Why the common multiples have to be least?</p>",
+        "locale": "en",
+        "tags": [
+          "lcm",
+          "gcd",
+          "__gcd",
+          "multiple"
+        ]
+      }
+    },
+    {
+      "timeSeconds": 1692716946,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1622635633,
+        "rating": 1500,
+        "authorHandle": "parveen1981",
+        "modificationTimeSeconds": 1624474298,
+        "id": 91363,
+        "title": "<p>I compiled a list of almost all useful blogs ever published on Codeforces [update: till 09.06.2021]</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061271,
+        "creationTimeSeconds": 1692716946,
+        "commentatorHandle": "devot_e",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Thank you !</p><p>I was searching for something like this from many days</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692716279,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692340394,
+        "rating": 303,
+        "authorHandle": "setah82486",
+        "modificationTimeSeconds": 1692340394,
+        "id": 119482,
+        "title": "<p>Google Sucks [Diversity Hiring and Random Shortlisting Rant]</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061270,
+        "creationTimeSeconds": 1692716279,
+        "commentatorHandle": "sprudra5001",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>you are right !! Then the only option left is to gain 2 years of experience at a company where you actually learn dev stuff and then try switching to these big MNCs or established startups (which don't hire good talents due to diversity hiring). All the diversity hiring agenda goes in trash when hiring for experienced developers </p></div>",
+        "parentCommentId": 1060265,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692716048,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1420624094,
+        "rating": 970,
+        "authorHandle": "HosseinYousefi",
+        "modificationTimeSeconds": 1561560344,
+        "id": 15643,
+        "title": "<p>C++ Tricks</p>",
+        "locale": "en",
+        "tags": [
+          "c++",
+          "c++0x",
+          "tricks"
+        ]
+      },
+      "comment": {
+        "id": 1061269,
+        "creationTimeSeconds": 1692716048,
+        "commentatorHandle": "its_kundan",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>nice collection</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692715680,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1686746140,
+        "rating": 15,
+        "authorHandle": "Sourav.Kumar007",
+        "modificationTimeSeconds": 1686760910,
+        "id": 117276,
+        "title": "<p>Your Favourite CF handle?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061268,
+        "creationTimeSeconds": 1692715680,
+        "commentatorHandle": "ashibh",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>When I was starting with dp then I used to see <a class=\"rated-user user-red\" href=\"/profile/Bakry\" title=\"Grandmaster Bakry\">Bakry</a> 's solution they were nice to understand</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692715650,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1627133689,
+        "rating": 87,
+        "authorHandle": "maroonrk",
+        "modificationTimeSeconds": 1627133689,
+        "id": 93165,
+        "title": "<p>AtCoder Regular Contest 124 Announcement</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061266,
+        "creationTimeSeconds": 1692715650,
+        "commentatorHandle": "thangdz2k7",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>thank youu very muchh !!!</p></div>",
+        "parentCommentId": 848150,
+        "rating": 5
+      }
+    },
+    {
+      "timeSeconds": 1692715319,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692669262,
+        "rating": -10,
+        "authorHandle": "N7itches",
+        "modificationTimeSeconds": 1692669262,
+        "id": 119626,
+        "title": "<p>How to practice ?</p>",
+        "locale": "en",
+        "tags": [
+          "practice",
+          "how",
+          "smart",
+          "materials"
+        ]
+      },
+      "comment": {
+        "id": 1061265,
+        "creationTimeSeconds": 1692715319,
+        "commentatorHandle": "goextreme",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Hi</p></div>",
+        "parentCommentId": 1061232,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692715240,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061264,
+        "creationTimeSeconds": 1692715240,
+        "commentatorHandle": "BigBadBully",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>hoću, samo još trebam naučit CRT</p></div>",
+        "parentCommentId": 1061263,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692714452,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1566555654,
+        "rating": 119,
+        "authorHandle": "awoo",
+        "modificationTimeSeconds": 1566579200,
+        "id": 69314,
+        "title": "<p>Educational Codeforces Round 71 Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061262,
+        "creationTimeSeconds": 1692714452,
+        "commentatorHandle": "hydra_cody",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I have done it in a similar way. <a href=\"/contest/1207/submission/219922345\" title=\"Submission 219922345 by hydra_cody\">219922345</a>. The two array elements range till 1e5 at max when started with the Identity element in the first array.</p></div>",
+        "parentCommentId": 538918,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692714448,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692375104,
+        "rating": 111,
+        "authorHandle": "awoo",
+        "modificationTimeSeconds": 1692375149,
+        "id": 119504,
+        "title": "<p>Educational Codeforces Round 153 Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061261,
+        "creationTimeSeconds": 1692714448,
+        "commentatorHandle": "turtle_want_ac",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>OMG Lucy in cyberpunk O.o</p></div>",
+        "parentCommentId": 1060538,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692714306,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692378734,
+        "rating": 9,
+        "authorHandle": "MavrosOplarxigos",
+        "modificationTimeSeconds": 1692378734,
+        "id": 119506,
+        "title": "<p>IOI 2023 mirror?</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061260,
+        "creationTimeSeconds": 1692714306,
+        "commentatorHandle": "MavrosOplarxigos",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I remember back in the day when I competed in a regional ICPC contest in Romania (SEERC region) the contest was uploaded some time afterwards (maybe a month) and one was able to submit and retry solving problems and a PDF with the tasks was available. Here is the <a href=\"https://codeforces.com/gym/101964\">gym contest</a>.</p><p>On a site note: The only problem with this example is that no editorial is given and you can't view the solutions to a certain problem from other people. <a href=\"https://codeforces.com/blog/entry/68929\">This was the only blog I found for it</a>. Specifically for the problem <a href=\"https://codeforces.com/gym/101964/problem/A\">Numbers</a> it's been so many years and I haven't figured out a solution to it yet. During the contest it was solved by nobody. I tried contacting some of the people who solved in Codeforces to share with me their solution and nobody gives an answer back.</p></div>",
+        "parentCommentId": 1060209,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692713681,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1691942987,
+        "rating": 73,
+        "authorHandle": "lumibons",
+        "modificationTimeSeconds": 1692704360,
+        "id": 119333,
+        "title": "<p>CEOI 2023</p>",
+        "locale": "en",
+        "tags": [
+          "ceoi 2023",
+          "online mirror"
+        ]
+      },
+      "comment": {
+        "id": 1061259,
+        "creationTimeSeconds": 1692713681,
+        "commentatorHandle": "Aquius",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>On kilonova</p></div>",
+        "parentCommentId": 1061237,
+        "rating": 13
+      }
+    },
+    {
+      "timeSeconds": 1692713445,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692492547,
+        "rating": 144,
+        "authorHandle": "Smirk",
+        "modificationTimeSeconds": 1692492547,
+        "id": 119548,
+        "title": "<p>jiangly changes his pfp!</p>",
+        "locale": "en",
+        "tags": [
+          "jiangly",
+          "anime",
+          "girl"
+        ]
+      },
+      "comment": {
+        "id": 1061258,
+        "creationTimeSeconds": 1692713445,
+        "commentatorHandle": "_ArIsu",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Try me :)</p></div>",
+        "parentCommentId": 1061246,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692713406,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692696971,
+        "rating": 40,
+        "authorHandle": "Cristofor",
+        "modificationTimeSeconds": 1692696971,
+        "id": 119639,
+        "title": "<p>[Testing] Gray testing</p>",
+        "locale": "en",
+        "tags": [
+          "testing",
+          "newbie",
+          "graytesting"
+        ]
+      },
+      "comment": {
+        "id": 1061257,
+        "creationTimeSeconds": 1692713406,
+        "commentatorHandle": "Nafis",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Trust issue is the main thing which somehow depends on your color , for example it's obvious to trust a purple/yellow for a div-3 testing </p></div>",
+        "rating": 11
+      }
+    },
+    {
+      "timeSeconds": 1692712987,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692584758,
+        "rating": 15,
+        "authorHandle": "Once_I_Liked_AGirl",
+        "modificationTimeSeconds": 1692584758,
+        "id": 119584,
+        "title": "<p>Jiangly pfp situation</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061256,
+        "creationTimeSeconds": 1692712987,
+        "commentatorHandle": "attractors",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>and you did the same thing</p></div>",
+        "parentCommentId": 1061245,
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692712980,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692694718,
+        "rating": -5,
+        "authorHandle": "BigBadBully",
+        "modificationTimeSeconds": 1692729676,
+        "id": 119638,
+        "title": "<p>Subset sum with FFT</p>",
+        "locale": "en",
+        "tags": [
+          "fft",
+          "subset sum",
+          "math",
+          "i want to be pupil"
+        ]
+      },
+      "comment": {
+        "id": 1061255,
+        "creationTimeSeconds": 1692712980,
+        "commentatorHandle": "BigBadBully",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>why ami getting so much downvotes bruhh</p></div>",
+        "rating": 17
+      }
+    },
+    {
+      "timeSeconds": 1692712040,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061254,
+        "creationTimeSeconds": 1692712040,
+        "commentatorHandle": "saifur_shamim",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>waiting..............................</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692711980,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692492547,
+        "rating": 144,
+        "authorHandle": "Smirk",
+        "modificationTimeSeconds": 1692492547,
+        "id": 119548,
+        "title": "<p>jiangly changes his pfp!</p>",
+        "locale": "en",
+        "tags": [
+          "jiangly",
+          "anime",
+          "girl"
+        ]
+      },
+      "comment": {
+        "id": 1061253,
+        "creationTimeSeconds": 1692711980,
+        "commentatorHandle": "Faccirx",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>You probably misunderstood me. <a class=\"rated-user user-orange\" href=\"/profile/Zeardoe\" title=\"Master Zeardoe\">Zeardoe</a> has a girlfriend but he was too shy to admit. lol.</p></div>",
+        "parentCommentId": 1061236,
+        "rating": 24
+      }
+    },
+    {
+      "timeSeconds": 1692711787,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692696971,
+        "rating": 40,
+        "authorHandle": "Cristofor",
+        "modificationTimeSeconds": 1692696971,
+        "id": 119639,
+        "title": "<p>[Testing] Gray testing</p>",
+        "locale": "en",
+        "tags": [
+          "testing",
+          "newbie",
+          "graytesting"
+        ]
+      },
+      "comment": {
+        "id": 1061252,
+        "creationTimeSeconds": 1692711787,
+        "commentatorHandle": "cry",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>It's not about not letting newbies test, its more about trust. If I have a friend from school who is newbie and I trust a lot, then hell yea I'll let them test.</p></div>",
+        "rating": 12
+      }
+    },
+    {
+      "timeSeconds": 1692711538,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061250,
+        "creationTimeSeconds": 1692711538,
+        "commentatorHandle": "MADE_IN_HEAVEN",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Yall will like the problems.</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692711411,
+      "blogEntry": {
+        "originalLocale": "ru",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692506060,
+        "rating": 235,
+        "authorHandle": "diskoteka",
+        "modificationTimeSeconds": 1692693672,
+        "id": 119550,
+        "title": "<p>Codeforces Round #894 (Div.3)</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061249,
+        "creationTimeSeconds": 1692711411,
+        "commentatorHandle": "IS_Rushdi",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Hoping for great div3 contest__</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692711192,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1689958593,
+        "rating": 78,
+        "authorHandle": "mesanu",
+        "modificationTimeSeconds": 1689958773,
+        "id": 118466,
+        "title": "<p>Codeforces Round #886 (Div. 4) Editorial</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061247,
+        "creationTimeSeconds": 1692711192,
+        "commentatorHandle": "tanujvats",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>can we do F by checking for cycle ?</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692711160,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692492547,
+        "rating": 144,
+        "authorHandle": "Smirk",
+        "modificationTimeSeconds": 1692492547,
+        "id": 119548,
+        "title": "<p>jiangly changes his pfp!</p>",
+        "locale": "en",
+        "tags": [
+          "jiangly",
+          "anime",
+          "girl"
+        ]
+      },
+      "comment": {
+        "id": 1061246,
+        "creationTimeSeconds": 1692711160,
+        "commentatorHandle": "SIDecqwq",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I can never have a gf cause I'm a girl myself &gt;_&lt;</p></div>",
+        "rating": 0
+      }
+    },
+    {
+      "timeSeconds": 1692710449,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692584758,
+        "rating": 15,
+        "authorHandle": "Once_I_Liked_AGirl",
+        "modificationTimeSeconds": 1692584758,
+        "id": 119584,
+        "title": "<p>Jiangly pfp situation</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061245,
+        "creationTimeSeconds": 1692710449,
+        "commentatorHandle": "Marinush",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>Please stop ending your comments with your name at the end. It's cringe coming from your part.</p><p><em>Marinush</em></p></div>",
+        "parentCommentId": 1060913,
+        "rating": 15
+      }
+    },
+    {
+      "timeSeconds": 1692710303,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692709054,
+        "rating": 0,
+        "authorHandle": "Nafis",
+        "modificationTimeSeconds": 1692709054,
+        "id": 119645,
+        "title": "<p>Mashup Contest of Difficulty 1800-2000</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061244,
+        "creationTimeSeconds": 1692710303,
+        "commentatorHandle": "Nafis",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>yeah I have plan to do everyday too</p></div>",
+        "parentCommentId": 1061243,
+        "rating": -4
+      }
+    },
+    {
+      "timeSeconds": 1692710134,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": false,
+        "creationTimeSeconds": 1692709054,
+        "rating": 0,
+        "authorHandle": "Nafis",
+        "modificationTimeSeconds": 1692709054,
+        "id": 119645,
+        "title": "<p>Mashup Contest of Difficulty 1800-2000</p>",
+        "locale": "en",
+        "tags": []
+      },
+      "comment": {
+        "id": 1061243,
+        "creationTimeSeconds": 1692710134,
+        "commentatorHandle": "teemu_ryyti",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>How often? Let's do it every day?</p></div>",
+        "rating": -5
+      }
+    },
+    {
+      "timeSeconds": 1692709165,
+      "blogEntry": {
+        "originalLocale": "en",
+        "allowViewHistory": true,
+        "creationTimeSeconds": 1692705027,
+        "rating": 0,
+        "authorHandle": "eyasir2047",
+        "modificationTimeSeconds": 1692705027,
+        "id": 119644,
+        "title": "<p>Shortest Path</p>",
+        "locale": "en",
+        "tags": [
+          "graph",
+          "shortest path"
+        ]
+      },
+      "comment": {
+        "id": 1061242,
+        "creationTimeSeconds": 1692709165,
+        "commentatorHandle": "MainuCodingBadiPasandAe",
+        "locale": "en",
+        "text": "<div class=\"ttypography\"><p>I understand your voracious appetite for algorithms. But you should move away from this drudgery and explore other frontiers in CP.</p></div>",
+        "rating": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "status": "OK",
+  "result": {
+    "contest": {
+      "id": 566,
+      "name": "VK Cup 2015 - Finals, online mirror",
+      "type": "CF",
+      "phase": "FINISHED",
+      "frozen": false,
+      "durationSeconds": 10800,
+      "startTimeSeconds": 1438273200,
+      "relativeTimeSeconds": 254495498
+    },
+    "problems": [
+      {
+        "contestId": 566,
+        "index": "A",
+        "name": "Matching Names",
+        "type": "PROGRAMMING",
+        "points": 1750,
+        "rating": 2300,
+        "tags": [
+          "dfs and similar",
+          "strings",
+          "trees"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "B",
+        "name": "Replicating Processes",
+        "type": "PROGRAMMING",
+        "points": 2500,
+        "rating": 2600,
+        "tags": [
+          "constructive algorithms",
+          "greedy"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "C",
+        "name": "Logistical Questions",
+        "type": "PROGRAMMING",
+        "points": 3000,
+        "rating": 3000,
+        "tags": [
+          "dfs and similar",
+          "divide and conquer",
+          "trees"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "D",
+        "name": "Restructuring Company",
+        "type": "PROGRAMMING",
+        "points": 1000,
+        "rating": 1900,
+        "tags": [
+          "data structures",
+          "dsu"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "E",
+        "name": "Restoring Map",
+        "type": "PROGRAMMING",
+        "points": 3000,
+        "rating": 3200,
+        "tags": [
+          "bitmasks",
+          "constructive algorithms",
+          "trees"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "F",
+        "name": "Clique in the Divisibility Graph",
+        "type": "PROGRAMMING",
+        "points": 500,
+        "rating": 1500,
+        "tags": [
+          "dp",
+          "math",
+          "number theory"
+        ]
+      },
+      {
+        "contestId": 566,
+        "index": "G",
+        "name": "Max and Min",
+        "type": "PROGRAMMING",
+        "points": 2500,
+        "rating": 2500,
+        "tags": [
+          "geometry"
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "party": {
+          "contestId": 566,
+          "members": [
+            {
+              "handle": "maroonrk"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "ghost": false,
+          "startTimeSeconds": 1621605600
+        },
+        "rank": 1,
+        "points": 8238,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 1582,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1476
+          },
+          {
+            "points": 1830,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4078
+          },
+          {
+            "points": 1678,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6412
+          },
+          {
+            "points": 872,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1953
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL"
+          },
+          {
+            "points": 446,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1665
+          },
+          {
+            "points": 1830,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3445
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 566,
+          "members": [
+            {
+              "handle": "rng_58"
+            }
+          ],
+          "participantType": "CONTESTANT",
+          "ghost": false,
+          "room": 8,
+          "startTimeSeconds": 1438273200
+        },
+        "rank": 2,
+        "points": 7974,
+        "penalty": 0,
+        "successfulHackCount": 1,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 1330,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3624
+          },
+          {
+            "points": 1600,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5422
+          },
+          {
+            "points": 1404,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7991
+          },
+          {
+            "points": 840,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2447
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 490,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 339
+          },
+          {
+            "points": 2210,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1757
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 566,
+          "members": [
+            {
+              "handle": "hogloid"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "ghost": false,
+          "startTimeSeconds": 1467507300
+        },
+        "rank": 3,
+        "points": 7048,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 1162,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5046
+          },
+          {
+            "points": 2090,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2495
+          },
+          {
+            "points": 1256,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8273
+          },
+          {
+            "points": 752,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3738
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 478,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 698
+          },
+          {
+            "points": 1310,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6849
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 566,
+          "members": [
+            {
+              "handle": "ngfam_kongu"
+            },
+            {
+              "handle": "I_love_Hoang_Yen"
+            }
+          ],
+          "participantType": "CONTESTANT",
+          "teamId": 7180,
+          "teamName": "Zenith",
+          "ghost": false,
+          "room": 2,
+          "startTimeSeconds": 1438273200
+        },
+        "rank": 4,
+        "points": 6011,
+        "penalty": 0,
+        "successfulHackCount": 3,
+        "unsuccessfulHackCount": 1,
+        "problemResults": [
+          {
+            "points": 1267,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4167
+          },
+          {
+            "points": 1340,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6975
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 864,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2050
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 480,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 628
+          },
+          {
+            "points": 1810,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3852
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 566,
+          "members": [
+            {
+              "handle": "stevenkplus"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "ghost": false,
+          "startTimeSeconds": 1438468500
+        },
+        "rank": 5,
+        "points": 5872,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 1568,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1575
+          },
+          {
+            "points": 2140,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2215
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 788,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3196
+          },
+          {
+            "points": 0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 306,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4369
+          },
+          {
+            "points": 1070,
+            "rejectedAttemptCount": 6,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6803
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2215 @@
+{
+  "status": "OK",
+  "result": [
+    {
+      "id": 1297,
+      "creationTimeSeconds": 1267711734,
+      "commentatorHandle": "muntasir",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">I'm not sure that the Python interpreter is actually 2.6. I get runtime error every time I try to import the <a href=\"http://docs.python.org/library/collections\">collections</a> module. Could you please look into the matter? Thanks.</div>",
+      "rating": 0
+    },
+    {
+      "id": 1326,
+      "creationTimeSeconds": 1267733481,
+      "commentatorHandle": "anastasov.bg",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">There are so many switches, which are passed to GNU C++ 4 compiler. Is there any page, which describes what each one of them does?<br /><br />And why C++ and C are compiled in the exact same way?</div>",
+      "rating": 0
+    },
+    {
+      "id": 1336,
+      "creationTimeSeconds": 1267746510,
+      "commentatorHandle": "DAle",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><a href=\"http://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html\">http://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html</a></div>",
+      "parentCommentId": 1326,
+      "rating": 0
+    },
+    {
+      "id": 1825,
+      "creationTimeSeconds": 1268415193,
+      "commentatorHandle": "root85",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Mike, you've said that you are going to install Haskell. It is a very good intention, but I (and I think many others) would appreciate adding F# also (see http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/release.aspx , there are F# packages for many platforms). With the come of Visual Studio 2010 F# becomes accessible better than Haskell I think. What do you think about it?</div>",
+      "rating": 0
+    },
+    {
+      "id": 5371,
+      "creationTimeSeconds": 1274856100,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Done</div>",
+      "parentCommentId": 1825,
+      "rating": 0
+    },
+    {
+      "id": 5380,
+      "creationTimeSeconds": 1274884584,
+      "commentatorHandle": "ulandev",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\">I suggest to use &quot;ghc --make -O %s&quot;. This will allow GHC to resolve <a href=\"http://www.haskell.org/ghc/docs/6.10-latest/html/users_guide/packages.html#using-packages\">package dependencies</a>.</span><br /><div><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\">At the moment, importing &quot;Data.Map&quot; produces compile error, because Map is in containers package.</span></div><div><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\"><br /></span></div></div>",
+      "rating": 15
+    },
+    {
+      "id": 5382,
+      "creationTimeSeconds": 1274888406,
+      "commentatorHandle": "battosai",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Why Perl is not allowed ?<br />I don't know to whom should I request the same.</div>",
+      "rating": 0
+    },
+    {
+      "id": 5399,
+      "creationTimeSeconds": 1274891761,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Fixed, thank you!</div>",
+      "parentCommentId": 5380,
+      "rating": 0
+    },
+    {
+      "id": 5440,
+      "creationTimeSeconds": 1274950343,
+      "commentatorHandle": "removed1",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">&quot;There are plans to add Haskell.&quot; may be removed</div>",
+      "parentCommentId": 5399,
+      "rating": 12
+    },
+    {
+      "id": 5459,
+      "creationTimeSeconds": 1274967029,
+      "commentatorHandle": "lespea",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">I agree, it would be awesome if perl were supported!</div>",
+      "parentCommentId": 5382,
+      "rating": 0
+    },
+    {
+      "id": 5460,
+      "creationTimeSeconds": 1274971236,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Fixed. Thanks.</div>",
+      "parentCommentId": 5440,
+      "rating": 0
+    },
+    {
+      "id": 5485,
+      "creationTimeSeconds": 1275021505,
+      "commentatorHandle": "removed1",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Problem just for Perl: download problems statistics from Topcoder and parse it :D </div>",
+      "parentCommentId": 5382,
+      "rating": 0
+    },
+    {
+      "id": 5486,
+      "creationTimeSeconds": 1275021521,
+      "commentatorHandle": "removed1",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">s/Problem/Task/</div>",
+      "parentCommentId": 5485,
+      "rating": 0
+    },
+    {
+      "id": 5489,
+      "creationTimeSeconds": 1275025417,
+      "commentatorHandle": "kunaljain",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">I would also like you to see this<br />http://codeforces.com/blog/entry/405</div>",
+      "rating": 0
+    },
+    {
+      "id": 5545,
+      "creationTimeSeconds": 1275070890,
+      "commentatorHandle": "WildUtah",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Could we possibly have Clojure added to the languages?  <br /><br />It runs on the JVM so you could download the clojure.jar and clojure-contrib.jar jars (Clojure 1.1 is the current version) and run programs with <br /><br />java.exe -classpath &quot;clojure-contrib.jar;clojure.jar&quot; clojure.main %1<br /><br />I will help test it if you like.<br /><br />It would be a lot more fun for me and other Clojure programmers.  There were twice as many of us who qualified for GCJ this year as there were F# programmers.</div>",
+      "rating": 3
+    },
+    {
+      "id": 5547,
+      "creationTimeSeconds": 1275072218,
+      "commentatorHandle": "superkinhluan",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is it possible to change the C# compiler to using dmcs.exe so that we can write C# 4.0 code? <br /><br />According to this page: <a href=\"http://mono-project.com/CSharp_Compiler\">http://mono-project.com/CSharp_Compiler</a>, the gmcs compiler only targets the 2.0 runtime. </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 5774,
+      "creationTimeSeconds": 1275587409,
+      "commentatorHandle": "Peteris",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">That would be great.</div>",
+      "parentCommentId": 5545,
+      "rating": 0
+    },
+    {
+      "id": 5983,
+      "creationTimeSeconds": 1275813601,
+      "commentatorHandle": "removed1",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Why -O for Haskell, and not -O2 ?</div>",
+      "parentCommentId": 5460,
+      "rating": 0
+    },
+    {
+      "id": 9060,
+      "creationTimeSeconds": 1280754188,
+      "commentatorHandle": "SyFy",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Agree with you! We need C# 4.0 to use all its power :)</div>",
+      "parentCommentId": 5547,
+      "rating": 0
+    },
+    {
+      "id": 9734,
+      "creationTimeSeconds": 1282126078,
+      "commentatorHandle": "ulandev",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><div>Using the <a href=\"http://hackage.haskell.org/package/vector\">vector</a> package, I was able to speed up a Haskell solution of the CF25-C from 12 sec. to 1 sec. Unfortunately, the package is not installed on the server. Since the package optimizes array operations, it would allow to solve many DP-like problems in Haskell.</div><div><br /></div><div>May I ask to install it? There are two steps:</div><div>1) Download/install <a href=\"http://www.haskell.org/cabal/download.html\">the package manager</a> (cabal.exe or cabal-install.tar.gz).</div><div>2) run &quot;cabal install vector&quot; under the &quot;judge&quot; user account.</div><div>My <a href=\"http://gist.github.com/534214\">solution</a> of the CF25-C can be used for testing.</div><div><br /></div><div>It would also be nice to have parser-combinators and regular expressions (but not that important):</div><div>cabal install parsec</div><div>cabal install regex-posix</div><div><br /></div></div>",
+      "rating": 0
+    },
+    {
+      "id": 10872,
+      "creationTimeSeconds": 1285349292,
+      "commentatorHandle": "Eather",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">i dont understand how to check and what does it mean by <div><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\">cl /W4 /F268435456 /EHsc /O2 /DONLINE_JUDGE %1</span><br /></div><div><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\"><br /></span></div><div><span style=\"font-family: verdana , arial , sans-serif;font-size: 12.0px;line-height: 20.0px;\">i used codeblock software and 1st time i submitted by selecting GNU C++ as i did before, but i got WA, then i select MS C++, bt also got WA... then what compiler i will select? :'(</span></div></div>",
+      "rating": -3
+    },
+    {
+      "id": 10882,
+      "creationTimeSeconds": 1285349922,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Rather than switching compilers, why not fix your solution? Do you understand what WA means?</div>",
+      "parentCommentId": 10872,
+      "rating": 3
+    },
+    {
+      "id": 29904,
+      "creationTimeSeconds": 1301129363,
+      "commentatorHandle": "alhimik",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">While only Clojure? What about Scala?</div>",
+      "parentCommentId": 5545,
+      "rating": 0
+    },
+    {
+      "id": 32528,
+      "creationTimeSeconds": 1302500079,
+      "commentatorHandle": "miaout17",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Vote for Scala. (Clojure will be also good). </div>",
+      "parentCommentId": 29904,
+      "rating": 0
+    },
+    {
+      "id": 32581,
+      "creationTimeSeconds": 1302598503,
+      "commentatorHandle": "egorov_boris",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Hello. I have some problems with a compiler. I use Linux and solve some problems of Codeforces Beta Round #65 (Div.2). I compile my programs with keys:<br />-Wall --pedantic<br />And my gcc (gcc version 4.4.5 (Debian 4.4.5-8)) not give any errors. But when I posted my program here (on GNU C) it says &quot;Runtime error on test 1&quot;.<br />Program works correctly and take right answers. You can see code here: http://pastebin.com/jhec4ixB<br />Thanks for your attention.</div>",
+      "rating": 0
+    },
+    {
+      "id": 32582,
+      "creationTimeSeconds": 1302600273,
+      "commentatorHandle": "it4.kp",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">What is &quot;<span>long_words.txt</span>&quot;? You must read from standard input.</div>",
+      "parentCommentId": 32581,
+      "rating": 0
+    },
+    {
+      "id": 32583,
+      "creationTimeSeconds": 1302600372,
+      "commentatorHandle": "egorov_boris",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Oh, I see. Thank you.</div>",
+      "parentCommentId": 32582,
+      "rating": 0
+    },
+    {
+      "id": 32617,
+      "creationTimeSeconds": 1302633507,
+      "commentatorHandle": "Hadi_Asiaie",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Isn't there any chance that you add csc compiler,.Net compiler, for C#?I observe that  you already use .Net for F#.<br />And C# mono is much slower that csc.It is even slower than java(by a 2x factor)</div>",
+      "rating": 0
+    },
+    {
+      "id": 32637,
+      "creationTimeSeconds": 1302667589,
+      "commentatorHandle": "simp1eton",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Is it possible to change the judge such that it supports %lld? I did not understand what's wrong with my solutions at the last contest and only realised the error at the last minute :(</div>",
+      "rating": 0
+    },
+    {
+      "id": 33330,
+      "creationTimeSeconds": 1303032406,
+      "commentatorHandle": "riadwaw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">AFAIK,%lld is available with MS VC++.<div>It isn't  available with g++, because it is MinGW g++,which not support this identificator</div></div>",
+      "parentCommentId": 32637,
+      "rating": 0
+    },
+    {
+      "id": 33942,
+      "creationTimeSeconds": 1303288741,
+      "commentatorHandle": "bjin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><div class=\"from-renderer\"><div class=\"from-renderer\">The default stack size in ghc is 8mb, it's too small to fit some algorithm problems require like 100k levels recursion. So is there any chance to increase this limit to like 256mb(like default setting of g++ here)?<br /><br />to increase stack space size, you just have to pass &quot;RTS&quot; switches to executable file, leaving compiling command line unchanged.<br /><br />compile: <span>ghc --make -O program.hs<br />running: program.exe +RTS -K256m -A8m -RTS<br /><br />here -Ksize sets the maximum stack space size, the default value is 8mb, it's not reserved memory space, and won't affect overall performance.<br /><br />and -Asize sets the cache size of GC, it's a reserved space to speed up GC, the default value is 128k, and quite small for data structure problems here (via profiling I found my program spends more than 80% of running time on GC when solving a standard data structure problem here). <br /></span></div>                 </div></div>",
+      "parentCommentId": 5399,
+      "rating": 0
+    },
+    {
+      "id": 37717,
+      "creationTimeSeconds": 1305176080,
+      "commentatorHandle": "bjin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">If you feel it's difficult to set the running params, you can set the environment variable as well.<br />on *nix, it's simple, and you can leave the judge system setting untouched.<br /><b>export GHCRTS=&quot;</b><span><span><b>-K256m -A8m&quot;</b><br /><br />I guess it's also quite easy on Windows.<br /></span></span></div>",
+      "parentCommentId": 33942,
+      "rating": 0
+    },
+    {
+      "id": 42581,
+      "creationTimeSeconds": 1307519093,
+      "commentatorHandle": "RodionGork",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">+1 for last Google AI Challenge was won by LISP-written bot.<br /><br />Though we should note that after adding python and other interpreted languages we may expect complains that interpreters are not fast enough, while time limits are the same for them and for C-programmers.</div>",
+      "parentCommentId": 5545,
+      "rating": 0
+    },
+    {
+      "id": 43414,
+      "creationTimeSeconds": 1308244424,
+      "commentatorHandle": "KK123",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Please update Python 2.5 to Python 3.2.....<br />many other programming sites provides both versions...</div>",
+      "rating": 5
+    },
+    {
+      "id": 43455,
+      "creationTimeSeconds": 1308245248,
+      "commentatorHandle": "daftcoder",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">If you want that, press <a href=\"http://cforces.reformal.ru/proj/?ia=126130\">here</a> to the green button <img src=\"/predownloaded/f7/85/f785be491c77bbe02a63e9134581504ad98ec299.jpg\" style=\"max-width: 100.0%;max-height: 100.0%;\" />.</div>",
+      "parentCommentId": 43414,
+      "rating": -5
+    },
+    {
+      "id": 48509,
+      "creationTimeSeconds": 1311341984,
+      "commentatorHandle": "phantom11",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">In java 6 do i have to write a particular class name for a problem</div>",
+      "rating": 0
+    },
+    {
+      "id": 48691,
+      "creationTimeSeconds": 1311360120,
+      "commentatorHandle": "epizend",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">I have been able to use any class name. However, one must place it in the default package. If you accidentally place it in another package, you will get Runtime Error on the first test case, which won't count in the contest as a failed attempt.</div>",
+      "parentCommentId": 48509,
+      "rating": 0
+    },
+    {
+      "id": 50659,
+      "creationTimeSeconds": 1312782305,
+      "commentatorHandle": "hbsnmyj",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">scala is a good idea so i can avoid python...</div>",
+      "parentCommentId": 32528,
+      "rating": 0
+    },
+    {
+      "id": 66773,
+      "creationTimeSeconds": 1323392542,
+      "commentatorHandle": "ikk",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Could you give the detail about the compiler used to compile (newly-added) OCaml?  I'd like to know if the optimizing compiler <code>ocamlopt</code> is used (which I suppose it should be.)  Anyway, thanks for adding OCaml.</div>",
+      "rating": 1
+    },
+    {
+      "id": 68210,
+      "creationTimeSeconds": 1324091198,
+      "commentatorHandle": "szeyiuchau",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">I would also appreciate it if Python3.x is available.<div>I learnt Python with its 3.0 and 3.1 releases. They did some significant changes (including the syntax) from 2.x to 3.x but the 2.x version remains popular. (And I think that's why officially Python is still maintaining and offering both 2.x (latest 2.7) and 3.x (latest 3.2) at the same time).</div><div><br /></div><div>I guess it won't hurt to provide both on codeforces, like KK123 said, there are also some other programming practice sites doing that.</div></div>",
+      "parentCommentId": 43414,
+      "rating": 8
+    },
+    {
+      "id": 73023,
+      "creationTimeSeconds": 1326378878,
+      "commentatorHandle": "elizarov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Update to Java 7?</div>",
+      "rating": 12
+    },
+    {
+      "id": 73055,
+      "creationTimeSeconds": 1326380578,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">It will be soon, not as update but as a separate language for now. Also we have desire to use it in production. Do you have such experience?</div>",
+      "parentCommentId": 73023,
+      "rating": 0
+    },
+    {
+      "id": 73281,
+      "creationTimeSeconds": 1326402185,
+      "commentatorHandle": "elizarov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Not yet. Only played on small-scale problems with it so far.</div>",
+      "parentCommentId": 73055,
+      "rating": 0
+    },
+    {
+      "id": 74483,
+      "creationTimeSeconds": 1326854814,
+      "commentatorHandle": "Eather",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Ya, I understand and I'm trying that now. :) Thank you</div>",
+      "parentCommentId": 10882,
+      "rating": 0
+    },
+    {
+      "id": 74898,
+      "creationTimeSeconds": 1326962353,
+      "commentatorHandle": "SyFy",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Is there any possibility to increase time limits for <a href=\"//codeforces.com/contest/144/problem/B\">such</a> problems, which impossible to solve in Ruby due to large input data (test 28 for instance)?<div>Thanks.</div></div>",
+      "rating": 0
+    },
+    {
+      "id": 75906,
+      "creationTimeSeconds": 1327240368,
+      "commentatorHandle": "SyFy",
+      "locale": "en",
+      "text": "<div class=\"ttypography\">Why cant we use SortedSet / BigInteger etc in C# ?<div>Is is possible to include needed libraries / dependencies?</div><div><br /></div><div>Thanks.</div></div>",
+      "rating": 0
+    },
+    {
+      "id": 81920,
+      "creationTimeSeconds": 1330935546,
+      "commentatorHandle": "ikk",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Why is <code>-fno-optimize-sibling-calls</code> which disables tail call optimization passed to GCC? I've always assumed during the contests that GCC does TCO, so I'm a bit confused.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 81998,
+      "creationTimeSeconds": 1330962017,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Because we found that sometimes <a href=\"http://gcc.gnu.org/bugzilla/show_bug.cgi?id=48837\">this optimization makes code to be invalid</a>.</p></div>",
+      "parentCommentId": 81920,
+      "rating": 1
+    },
+    {
+      "id": 82001,
+      "creationTimeSeconds": 1330962221,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>This problem has a solution on Python consumed 60 ms and 3100 KB. I think it is possibly to solve it on Ruby. Anyway we do not guarantee that any problem has a solution on languages like Perl/PHP/Python/Ruby.</p></div>",
+      "parentCommentId": 74898,
+      "rating": 0
+    },
+    {
+      "id": 82322,
+      "creationTimeSeconds": 1331063314,
+      "commentatorHandle": "madkite",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>You use version 4.6.1 — this bug already fixed in this version.</p></div>",
+      "parentCommentId": 81998,
+      "rating": 0
+    },
+    {
+      "id": 83579,
+      "creationTimeSeconds": 1331768239,
+      "commentatorHandle": "s-peter",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It would be nice if you could add the Go programming language. They are close to finalizing the first stable version (Go 1). The latest weekly release is RC1.<br /> <a href=\"http://weekly.golang.org/\">http://weekly.golang.org/</a> <br /> <a href=\"http://code.google.com/p/go/downloads/list\">http://code.google.com/p/go/downloads/list</a> <br /> The syntax and standard library API are mostly fixed; there are a few remaining implementation bugs but it is already generally very stable and usable.</p></div>",
+      "rating": -4
+    },
+    {
+      "id": 94352,
+      "creationTimeSeconds": 1338173784,
+      "commentatorHandle": "farter",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>i think &quot;special languages&quot; should not be disabled for those &quot;normal problems&quot;... also, some of normal problems are not so hard for esoteric languages to solve...</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 94700,
+      "creationTimeSeconds": 1338470572,
+      "commentatorHandle": "thePerv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is there any plans to allow some versions of Lisp in contests? Common Lisp / Racket</p></div>",
+      "rating": -2
+    },
+    {
+      "id": 94706,
+      "creationTimeSeconds": 1338473224,
+      "commentatorHandle": "Nickolas",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please, not until I do a Surprise Language Round for it :-)</p></div>",
+      "parentCommentId": 94700,
+      "rating": 12
+    },
+    {
+      "id": 97773,
+      "creationTimeSeconds": 1340981680,
+      "commentatorHandle": "oimaster",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think Java should have larger stack size. Default stack size is too strict for some problems. Stack size can be changed with -Xss option.</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 97779,
+      "creationTimeSeconds": 1340981878,
+      "commentatorHandle": "dalex",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I agree, it should not be hard. For now it's possible to create a new Thread and specify the stack size in Thread's constructor.</p></div>",
+      "parentCommentId": 97773,
+      "rating": 0
+    },
+    {
+      "id": 100050,
+      "creationTimeSeconds": 1343065208,
+      "commentatorHandle": "axe_code",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I submitted a code in Java,But I get the following error</p><p>Source should satisfy regex [^{}]*public\\s+class\\s+(\\w+).*</p><p>What does this mean???</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 100135,
+      "creationTimeSeconds": 1343069345,
+      "commentatorHandle": "riadwaw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It should contain <code>public class SomeName</code> before any '{' or '}' </p><p>or something like this. Can yo give link to the submission ?</p></div>",
+      "parentCommentId": 100050,
+      "rating": 0
+    },
+    {
+      "id": 104446,
+      "creationTimeSeconds": 1347531623,
+      "commentatorHandle": "fp4me",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you add the mtl package for Haskell to use the very useful Monad Transformer and State Monad</p><p>Thanks</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 105168,
+      "creationTimeSeconds": 1348157431,
+      "commentatorHandle": "sasha.sochka",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Will Python 3.x will be supported? You could add it as a separate language, it's not neccessary to replace python 2.x. I think it's not hard to add it at all...</p></div>",
+      "rating": -8
+    },
+    {
+      "id": 105220,
+      "creationTimeSeconds": 1348259360,
+      "commentatorHandle": "SePulTribe",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I don't see an F# option when submitting solutions. Help?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 105241,
+      "creationTimeSeconds": 1348298200,
+      "commentatorHandle": "RodionGork",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>There are several discussions about it in this thread in Russian &quot;view&quot; (which you can read, though poorly, via google translate, I think). It looks like F# compiler have technical or some other problems and it was disabled for an unknown period of time...</p></div>",
+      "parentCommentId": 105220,
+      "rating": 0
+    },
+    {
+      "id": 111850,
+      "creationTimeSeconds": 1352986699,
+      "commentatorHandle": "watashi",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you please upgrade GHC to the latest release (7.6.1)?</p><p>There are significant improvements comparing to the current one used in codeforces. It contains newer libraries which providing more powerful apis, provides new features and generates faster programs. These will make people using Haskell be able to challenge more complicated problems.</p></div>",
+      "rating": 17
+    },
+    {
+      "id": 112616,
+      "creationTimeSeconds": 1353495963,
+      "commentatorHandle": "bjin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I also agree on replacing the outdated GHC6 with GHC7.</p><p>Instead of upgrading to GHC 7.6 directly, I suggest Codeforces to install Haskell-Platform 2012.4.0.0, which is more stable and well supported in many aspects. It contains GHC 7.4 and some new packages like <code>vector</code>, which makes Haskell competitive to imperative languages like C++ and Java in some problems.</p> <ul>   <li><a href=\"http://www.haskell.org/platform/\">http://www.haskell.org/platform/</a></li>   <li><a href=\"http://www.haskell.org/platform/changelog.html\">http://www.haskell.org/platform/changelog.html</a></li> </ul><p>The LLVM backend is now stable in GHC7.4, and with <code>-fllvm</code> flags it will be enabled.</p><p>I use <code>ByteString</code> state monad to parse input in haskell codes, Unfortunately, <code>mtl</code> package is not shipped with GHC (but included in haskell platform), so I have to paste a very long (like 50 lines?) piece of code implementing a very simple state monad each time.</p></div>",
+      "parentCommentId": 111850,
+      "rating": 17
+    },
+    {
+      "id": 116181,
+      "creationTimeSeconds": 1356338865,
+      "commentatorHandle": "evandrix",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>May i know if this <code>g++.exe -static -fno-optimize-sibling-calls -fno-strict-aliasing -DONLINE_JUDGE -lm -s -x c++ -Wl,--stack=268435456 -O2 -o %name%.exe %1</code> is still valid, ie. applies to <code>GNU C++ 4.7</code> (currently used in programming contests held here on this site)?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 116247,
+      "creationTimeSeconds": 1356424409,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Yes</p></div>",
+      "parentCommentId": 116181,
+      "rating": 0
+    },
+    {
+      "id": 117221,
+      "creationTimeSeconds": 1357439882,
+      "commentatorHandle": "rilut",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Add Go and Rust please, thank you</p></div>",
+      "rating": 3
+    },
+    {
+      "id": 117551,
+      "creationTimeSeconds": 1357705993,
+      "commentatorHandle": "wiza",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can't agree more(just for Go).</p></div>",
+      "parentCommentId": 117221,
+      "rating": 0
+    },
+    {
+      "id": 117827,
+      "creationTimeSeconds": 1357995080,
+      "commentatorHandle": "boleyn.su",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>How the system compiles C++ 0x program? with -std=c++11? </p></div>",
+      "rating": 8
+    },
+    {
+      "id": 117890,
+      "creationTimeSeconds": 1358022685,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><code>-std=c++0x</code></p></div>",
+      "parentCommentId": 117827,
+      "rating": 0
+    },
+    {
+      "id": 117913,
+      "creationTimeSeconds": 1358053031,
+      "commentatorHandle": "boleyn.su",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>thanks</p></div>",
+      "parentCommentId": 117890,
+      "rating": 0
+    },
+    {
+      "id": 117917,
+      "creationTimeSeconds": 1358065525,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Maybe it should be changed to <code>-std=gnu++0x</code> for consistency? After all, GNU extensions are enabled when compiling in default mode (the command line for &quot;GNU C++ 4&quot; will implicitly use <code>-std=gnu++98</code>).</p></div>",
+      "parentCommentId": 117890,
+      "rating": -1
+    },
+    {
+      "id": 120336,
+      "creationTimeSeconds": 1359396149,
+      "commentatorHandle": "navi",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>In the past two contests, I met a problem with Perl. Such as these submissions.</p><p><a href=\"//codeforces.com/contest/266/submission/2991670\">http://codeforces.com/contest/266/submission/2991670</a> <a href=\"//codeforces.com/contest/268/submission/3021653\">http://codeforces.com/contest/268/submission/3021653</a> <a href=\"//codeforces.com/contest/268/submission/3022677\">http://codeforces.com/contest/268/submission/3022677</a> <a href=\"//codeforces.com/contest/268/submission/3025426\">http://codeforces.com/contest/268/submission/3025426</a></p><p>The programs passes some test cases, but got a &quot;Idleness limit exceeded&quot; on some other cases. Could anyone help me with this problem?</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 122614,
+      "creationTimeSeconds": 1360851486,
+      "commentatorHandle": "vinayakgarg",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please make it <code>-std=c++11</code></p></div>",
+      "parentCommentId": 117890,
+      "rating": 5
+    },
+    {
+      "id": 126318,
+      "creationTimeSeconds": 1363476471,
+      "commentatorHandle": "Nabuccodonosor",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I am having problems with that library too.</p></div>",
+      "parentCommentId": 1297,
+      "rating": 0
+    },
+    {
+      "id": 126319,
+      "creationTimeSeconds": 1363476640,
+      "commentatorHandle": "Nabuccodonosor",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>True, I have encountered that problem while solving problems and using Python.</p><p>Maybe we could use the slightly faster Python 3.x?</p></div>",
+      "parentCommentId": 42581,
+      "rating": 0
+    },
+    {
+      "id": 126320,
+      "creationTimeSeconds": 1363477029,
+      "commentatorHandle": "Nabuccodonosor",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is it possible to know why we can't use <code>import collections</code> in our Python code?</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 127732,
+      "creationTimeSeconds": 1364219322,
+      "commentatorHandle": "soulmachine",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It seems the compiler haven't enable -std=c++0x, for example here is my code for <a href=\"//www.codeforces.com/contest/218/problem/A\">http://www.codeforces.com/contest/218/problem/A</a>, in which I used 'auto' to declare a variable: </p> <pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;algorithm&gt;\n#include &lt;cmath&gt;\n#include &lt;map&gt;\n#include &lt;set&gt;\nusing namespace std;\n\nconst int N = 1000;\n\nint main() {\n\tauto n = 0,k = 0;\n\tcin&gt;&gt;n&gt;&gt;k;\n\n\tauto a = new int[2*n+1];\n\n\tfor(int i=0;i&lt;=2*n;i++) {\n\t\tcin&gt;&gt;a[i];\n\t}\n\n\tfor(int i=0;i&lt;=2*n;i++) {\n\t\tif(k &amp;&amp; i%2==1 &amp;&amp; a[i]-a[i-1]&gt;1 &amp;&amp; a[i]-a[i+1]&gt;1) {\n\t\t\ta[i]--;\n\t\t\tk--;\n\t\t}\n\t\tcout&lt;&lt;a[i]&lt;&lt;' ';\n\t}\n\treturn 0;\n}\n</code></pre></div>",
+      "parentCommentId": 117890,
+      "rating": 0
+    },
+    {
+      "id": 127745,
+      "creationTimeSeconds": 1364226135,
+      "commentatorHandle": "riadwaw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Choose <code>c++0x</code> version of compiler. Your solution accepted: <a href=\"/contest/218/submission/3404996\" title=\"Submission 3404996 by riadwaw\">3404996</a></p></div>",
+      "parentCommentId": 127732,
+      "rating": 3
+    },
+    {
+      "id": 128727,
+      "creationTimeSeconds": 1365124196,
+      "commentatorHandle": "majmun",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>OK, I know that [almost] nobody likes it, and that maybe it's not the best thing for programming [contests], but I would really like to use Fortran in the contests. So, that's it. Thanks anyway!</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 130420,
+      "creationTimeSeconds": 1366211760,
+      "commentatorHandle": "knight-erraunt",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Well, probably many people write things like that and it may be annoying but... I think that scheme/lisp is a really nice language and that it would be nice to have the possibility to submit code in it. It is quite unique compared to other languages.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 130612,
+      "creationTimeSeconds": 1366384515,
+      "commentatorHandle": "boleyn.su",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>As I am taking an assembly language course, I found it hard to find problems to practice. I think it will be great if CF add a assembly compiler to the system so we can use some simple problem to improve our assembly programming skills.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 130623,
+      "creationTimeSeconds": 1366385447,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I suggest you to try <a href=\"https://projecteuler.net/\">https://projecteuler.net/</a> instead.</p></div>",
+      "parentCommentId": 130612,
+      "rating": 0
+    },
+    {
+      "id": 130702,
+      "creationTimeSeconds": 1366400900,
+      "commentatorHandle": "sasha.sochka",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Sorry for repeating, but I think it's a right time to finally add Python 3. It would be really nice from your side.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 131294,
+      "creationTimeSeconds": 1366754818,
+      "commentatorHandle": "idemura",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Mike, could you please add GCC C99 build target? It's so sweet to have variables in the middle of the scope and in for loop. Just gcc -std=c99. Or even update GNU C to support C99 — this shouldn't break existing C89 programs, while some people may take advantage of C99. Note you have C++11 as separate target.</p></div>",
+      "rating": 3
+    },
+    {
+      "id": 132776,
+      "creationTimeSeconds": 1367945911,
+      "commentatorHandle": "loskutov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Maybe -std=gnu99 would be better as it also provides the GNU extensions</p></div>",
+      "parentCommentId": 131294,
+      "rating": 3
+    },
+    {
+      "id": 140819,
+      "creationTimeSeconds": 1373815469,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I would like to +1 to numerous requests in this thread about missing Haskell libraries. Here is a list of the most important ones, in my opinion:</p><p><code>vector</code> — provides Vector data type. <a href=\"http://blog.johantibell.com/2011/04/haskell-libraries-you-should-use.html\">Reference</a>: 'Use this package whenever you'd use an array in another language'</p><p><code>unordered-containers</code> — provides HashMap and HashSet data types.</p><p><code>mtl</code> — provides Control.Monad.State, Control.Monad.Reader and others. Crucial for writing stateful code, without them it feels like part of the language is missing.</p><p>These are really the most basic packages and IMHO shouldn't be missing. (How would you feel about exclusion of std::vector from C++?) It would be great if at least these packages were installed but it's really simpler to just install Haskell Platform.</p></div>",
+      "rating": 5
+    },
+    {
+      "id": 140904,
+      "creationTimeSeconds": 1373831805,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you provide me an example source which uses all of the requested features?</p></div>",
+      "parentCommentId": 140819,
+      "rating": 5
+    },
+    {
+      "id": 140944,
+      "creationTimeSeconds": 1373866801,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Sure, here you go: <a href=\"http://codebin.org/view/869e25b2\">http://codebin.org/view/869e25b2</a></p><p>Output on my machine (GHC 7.4.1):</p> <pre><code>fromList [(4,1),(5,2),(0,1),(1,1),(2,2),(3,2)]\nfromList [4,5,0,1,2,3]\n25\n</code></pre></div>",
+      "parentCommentId": 140904,
+      "rating": 1
+    },
+    {
+      "id": 141878,
+      "creationTimeSeconds": 1374487105,
+      "commentatorHandle": "shivawu",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>About Ruby. Ruby has no built-in support for multi-dimensional arrays, and the workaround like <code>Array.new(n) { Array.new(m) { 0 } }</code> is really a pain in the ass. </p><p>I think arrays are really important to algorithm problems. So just like other guys suggested to add the 'vector' hackage to Haskell(which I'll totally vote for it), maybe a more handy version of multi-dimensional array for Ruby should be added, like 'narray'.</p><p>Here's the webpage for narray. <a href=\"http://narray.rubyforge.org/SPEC.en\">http://narray.rubyforge.org/SPEC.en</a></p><p>It's pretty neat.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 141998,
+      "creationTimeSeconds": 1374609821,
+      "commentatorHandle": "tinamanea",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello,</p><p>This might not be the appropriate place for my question but I don't know where else I can post.</p><p>I have submitted 2 problems and at some point, a test fails for each. The same happens when I run a custom test with the code and input. The issue is that when I run them locally, with the same set of data, the answer is the expected one. I chose GNU C 4 and locally I have GCC 4.7.3. I tried with the compile options from this page but I still have the same problem. Any ideas on this?</p><p>Thanks.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 141999,
+      "creationTimeSeconds": 1374610647,
+      "commentatorHandle": "Toxic",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>see this <a href=\"http://ideone.com/GDLpO7\">http://ideone.com/GDLpO7</a>.</p><p>Try to printf values after scanf (in server code runner)</p><p>Problem is in the line with scanf</p></div>",
+      "parentCommentId": 141998,
+      "rating": -1
+    },
+    {
+      "id": 142001,
+      "creationTimeSeconds": 1374611642,
+      "commentatorHandle": "tinamanea",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello,</p><p>Thank you for your reply. Indeed, it seems to be a problem with scanf. Any clue on how to solve this?</p><p>Thanks.</p></div>",
+      "parentCommentId": 141999,
+      "rating": 2
+    },
+    {
+      "id": 142002,
+      "creationTimeSeconds": 1374612717,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>An <code>unsigned long</code> is only guaranteed to be able to hold values up to <span class=\"tex-span\">2<sup class=\"upper-index\">32</sup> - 1 ≈ 4·10<sup class=\"upper-index\">9</sup></span>. Check carefully, could the result that your solutions are printing be greater than this?</p></div>",
+      "parentCommentId": 141998,
+      "rating": 0
+    },
+    {
+      "id": 142135,
+      "creationTimeSeconds": 1374691339,
+      "commentatorHandle": "tinamanea",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>On my machine, unsigned long was stored on 8 bytes, here on 4. I did not think of this. :) Using long long unsigned did the job.</p><p>Thanks.</p></div>",
+      "parentCommentId": 142002,
+      "rating": 0
+    },
+    {
+      "id": 151286,
+      "creationTimeSeconds": 1384867758,
+      "commentatorHandle": "hetong007",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Will R-cran be supported? Topcoder have already done that.</p><p>I have compete in GCJ with R in 2012 and 2013, it was never a bottleneck. Here are some examples: <a href=\"https://github.com/hetong007/r4codejam\">https://github.com/hetong007/r4codejam</a></p></div>",
+      "rating": 0
+    },
+    {
+      "id": 151452,
+      "creationTimeSeconds": 1384889493,
+      "commentatorHandle": "insomniac",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Maybe instead of Python you can use pypy (<a href=\"http://pypy.org/)\">http://pypy.org/)</a>. Its a python JIT enabled runtime and much faster than default CPython interpreter and fully compatible with standard libs. I just had a time limit exceed due to a loop of 10^6 taking 5 seconds in CPython but only 0.1 sec in PyPy due to JIT. Please, consider replacing Python with PyPy</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 152022,
+      "creationTimeSeconds": 1385361450,
+      "commentatorHandle": "abufct",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I have just +1'ed all the posts that push PyPy. Let's add (or replace) CPython with PyPy. Example from 214: my <a href=\"http://codeforces.ru/contest/366/submission/5217580\">solution</a> to problem 3 got TLE on test 20. So I run the test with PyPy:</p> <pre><code>$time python 3.py &lt; 20\n1750\n\nreal\t0m3.343s\nuser\t0m3.245s\nsys\t0m0.065s\n\n$time pypy 3.py &lt; 20\n1750\n\nreal\t0m0.908s\nuser\t0m0.745s\nsys\t0m0.111s\n</code></pre><p>(I was able to pass TLE by <a href=\"http://codeforces.ru/contest/366/submission/5229196\">patching</a> my solution, but anyway...)</p></div>",
+      "parentCommentId": 151452,
+      "rating": 1
+    },
+    {
+      "id": 152177,
+      "creationTimeSeconds": 1385453801,
+      "commentatorHandle": "abufct",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>+1 for unordered-containers at least. no hashmaps === very sad. =( here is code sample: <a href=\"http://codeforces.ru/contest/366/submission/5241289\">http://codeforces.ru/contest/366/submission/5241289</a></p></div>",
+      "parentCommentId": 140904,
+      "rating": 0
+    },
+    {
+      "id": 162199,
+      "creationTimeSeconds": 1395390054,
+      "commentatorHandle": "Amid",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>hi why your c# compiler represent '.' like ',' so I'll get &quot;Wrong answer&quot; result on test. thx in advance </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 162207,
+      "creationTimeSeconds": 1395399006,
+      "commentatorHandle": "marat.snowbear",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>If you mean printing numbers then it is probably because computers which test the solutions have russian locale by default. You need to print numbers in culture-independent manner (CultureInfo.InvariantCulture).</p></div>",
+      "parentCommentId": 162199,
+      "rating": 0
+    },
+    {
+      "id": 162211,
+      "creationTimeSeconds": 1395400704,
+      "commentatorHandle": "AlexSam",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I also want to complaint on this. Last contest I got 2 RE2 on my solution before I got what is the problem. Here is submits — <a href=\"/contest/404/submission/6072446\" title=\"Submission 6072446 by AlexSam\">6072446</a> <a href=\"/contest/404/submission/6072446\" title=\"Submission 6072446 by AlexSam\">6072446</a> so... it's not to honest for participant to guess why you have runtime on server and correct answer on local PC.</p></div>",
+      "parentCommentId": 162207,
+      "rating": 0
+    },
+    {
+      "id": 163935,
+      "creationTimeSeconds": 1396726981,
+      "commentatorHandle": "Nitto",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>thank you! I almost deleted the whole code without knowing that simply reordering the classes would solve the problem :)</p></div>",
+      "parentCommentId": 100135,
+      "rating": -8
+    },
+    {
+      "id": 164261,
+      "creationTimeSeconds": 1396881178,
+      "commentatorHandle": "Logsha",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>c++ is my favorite language.</p></div>",
+      "rating": -8
+    },
+    {
+      "id": 164264,
+      "creationTimeSeconds": 1396881479,
+      "commentatorHandle": "Findxiaoxun",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Are you adobe?</p></div>",
+      "parentCommentId": 164261,
+      "rating": -16
+    },
+    {
+      "id": 166871,
+      "creationTimeSeconds": 1398499766,
+      "commentatorHandle": "sergey.tihon",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello. Could you please describe what problems do you have with F#? What OS do you use with F#? I think that we can help deal with the problems and return it to the list of languages. Thanks.</p></div>",
+      "rating": 6
+    },
+    {
+      "id": 169465,
+      "creationTimeSeconds": 1400097838,
+      "commentatorHandle": "zholnin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I support that. I used PyPy for Codejam and it often gave 2-3 times speed up compared to official Python compiler.</p></div>",
+      "parentCommentId": 152022,
+      "rating": 0
+    },
+    {
+      "id": 170467,
+      "creationTimeSeconds": 1400734145,
+      "commentatorHandle": "michalburger1",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Any chance to get a 64-bit version of PHP? Or do I need to start using a real programming language? :)</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 171439,
+      "creationTimeSeconds": 1401397136,
+      "commentatorHandle": "limed",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I never saw it mentioned anywhere in the blogs, so FWIW: I've noticed that Scala compiler has recently been upgraded to the latest and greatest (2.11.1). Whoever did this, thanks a lot.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 171442,
+      "creationTimeSeconds": 1401400984,
+      "commentatorHandle": "beatoriche",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>is php an imaginary language? ;)</p></div>",
+      "parentCommentId": 170467,
+      "rating": 5
+    },
+    {
+      "id": 171877,
+      "creationTimeSeconds": 1401615276,
+      "commentatorHandle": "rossoft",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Yeah, PyPy should be the standard for programming contests instead of CPython. I hope they support it in the near future!</p></div>",
+      "parentCommentId": 169465,
+      "rating": 0
+    },
+    {
+      "id": 176262,
+      "creationTimeSeconds": 1404165121,
+      "commentatorHandle": "turingcomplete",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think codeforces has a great collection of supported languages, but most of them are from the ALGOL family. It would be really awesome if we could also have support for a Lisp. Could we possibly have support for Clojure or Common Lisp?</p></div>",
+      "rating": 9
+    },
+    {
+      "id": 178526,
+      "creationTimeSeconds": 1405758641,
+      "commentatorHandle": "fqw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>same issue as <a class=\"rated-user user-red\" href=\"/profile/bjin\" title=\"Grandmaster bjin\">bjin</a>. the stack size of Haskell is too small to solve many large-scale-data problems.</p><p>could u pls make it larger?</p></div>",
+      "parentCommentId": 5399,
+      "rating": 11
+    },
+    {
+      "id": 178854,
+      "creationTimeSeconds": 1405867957,
+      "commentatorHandle": "wil93",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>HI, what do you think about adding <a href=\"https://www.dartlang.org\">Dart</a> language? It looks like a very cool language, and it has been <a href=\"http://news.dartlang.org/2014/07/ecma-approves-1st-edition-of-dart.html\">recently approved</a> and standardized by ECMA.</p></div>",
+      "rating": 3
+    },
+    {
+      "id": 182810,
+      "creationTimeSeconds": 1408075342,
+      "commentatorHandle": "pengdu",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>support!!!</p><p>python always got TLE</p><p>use PyPy or extend time limit for python language</p></div>",
+      "parentCommentId": 171877,
+      "rating": 3
+    },
+    {
+      "id": 182958,
+      "creationTimeSeconds": 1408124440,
+      "commentatorHandle": "pengdu",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>What about change python run env from cpython to pypy? Because the algorithm problems are always CPU intensive, pypy is 2-3 times faster than cpython in general.</p><p>Another solution is to extend the time limit for python, such as 5 times as cpp. For example, the time limit for java is 3 times as cpp at <a href=\"http://poj.org/\">http://poj.org/</a></p><p>Because codeforces is all about algorithm problem solving, it's unfair for python programmer in the competitions.</p></div>",
+      "rating": -18
+    },
+    {
+      "id": 183134,
+      "creationTimeSeconds": 1408188424,
+      "commentatorHandle": "Thomas_Ahle",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I have never had a problem with this.</p></div>",
+      "parentCommentId": 126320,
+      "rating": 0
+    },
+    {
+      "id": 186567,
+      "creationTimeSeconds": 1410096070,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It is unfair to give one language a bigger time limit than to others. Python users already get the advantage of clean high-level syntax, data structures and language support, so they have to pay with a slower run time for this. Other, faster languages should not be handicapped just because they are better than Python in this regard.</p></div>",
+      "parentCommentId": 182958,
+      "rating": 26
+    },
+    {
+      "id": 186766,
+      "creationTimeSeconds": 1410163412,
+      "commentatorHandle": "structure",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It would be great to see some of the following Assemblers on CF: FASM, MASM, yasm or at least gas (with intel syntax).</p><p>Thanks!</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 186800,
+      "creationTimeSeconds": 1410184174,
+      "commentatorHandle": "kronos",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Thank you for ruby, go and ocaml. Closure would be great.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 186849,
+      "creationTimeSeconds": 1410236784,
+      "commentatorHandle": "JuanMata",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>so, Haskell for you? :D</p></div>",
+      "parentCommentId": 186795,
+      "rating": 14
+    },
+    {
+      "id": 190202,
+      "creationTimeSeconds": 1412134143,
+      "commentatorHandle": "azukun",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Any particular reason why C# .NET references System.Numerics assembly, but Mono doesn't?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 194360,
+      "creationTimeSeconds": 1414327173,
+      "commentatorHandle": "w0ws0d0gg0",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hmm my last comment was in Russian for some reason. Please add Clojure. It's growing quite well.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 199256,
+      "creationTimeSeconds": 1417538077,
+      "commentatorHandle": "I_love_Hoang_Yen",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is there any particular reason for running Java with <code>-Xmx512M -Xss64M</code> ?</p><p>For stack size, while C++ is compiled with 256MB stack size, why Java only have 64MB?</p><p>For Xmx, I think setting it to 512M makes behaviour of codes which heavily use objects unpredictable, because garbage collector <em>may</em> runs only after the code already got MLE.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 199263,
+      "creationTimeSeconds": 1417539731,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>You are right, I'm planning to change it. Thanks.</p></div>",
+      "parentCommentId": 199256,
+      "rating": 8
+    },
+    {
+      "id": 204120,
+      "creationTimeSeconds": 1420005034,
+      "commentatorHandle": "shijianguang2007",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I did not see the <em>&quot;GNU C++ 11&quot;</em> in the drop down list of language. Actually I saw <em>&quot;GNU C 4&quot;, &quot;GNU C++ 4.7&quot; and &quot;GNU C++0x 4&quot;</em>. Does <em>&quot;GNU C++ 4.7&quot;</em> option means run g++ command with --std=c++11?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 204138,
+      "creationTimeSeconds": 1420015689,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>GNU C++0x 4 is what you want for C++11.</p></div>",
+      "parentCommentId": 204120,
+      "rating": 0
+    },
+    {
+      "id": 207195,
+      "creationTimeSeconds": 1421506650,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I've updated <code>g++/gcc</code> to 4.9.2. We are using 32-bit MinGW on Windows 7 (64-bit OS). You can download it here: <a href=\"//assets.codeforces.com/files/mingw-4.9.2.7z\">http://assets.codeforces.com/files/mingw-4.9.2.7z</a></p></div>",
+      "rating": 25
+    },
+    {
+      "id": 207281,
+      "creationTimeSeconds": 1421549167,
+      "commentatorHandle": "lazyc97",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>May I ask what is the use of &quot;-D__USE_MINGW_ANSI_STDIO=0&quot; ?</p></div>",
+      "parentCommentId": 207195,
+      "rating": 0
+    },
+    {
+      "id": 208749,
+      "creationTimeSeconds": 1422041634,
+      "commentatorHandle": "limed",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>When you are at it, please remember to do the same stack increase for Scala solutions as well. Thank you in advance.</p></div>",
+      "parentCommentId": 199263,
+      "rating": 0
+    },
+    {
+      "id": 213752,
+      "creationTimeSeconds": 1424286801,
+      "commentatorHandle": "PinkieDashForever",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Now that you have g++ 4.9 please add the -std=c++1y option to the command line (or make it a different language, C++ 14)</p></div>",
+      "parentCommentId": 207195,
+      "rating": 0
+    },
+    {
+      "id": 214139,
+      "creationTimeSeconds": 1424577573,
+      "commentatorHandle": "barty1245",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Add rust please, thank you !</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 214178,
+      "creationTimeSeconds": 1424607377,
+      "commentatorHandle": "virtualight",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Yeah, Rust is a very fast language (it's on par with C++ in Mike's &quot;binary heap&quot; benchmark) with great templates system. However, it's probably not a good idea to add it right now, because it's still unstable. For example, <code>std::io</code> is marked as a &quot;work in progress&quot;.</p></div>",
+      "parentCommentId": 214139,
+      "rating": 12
+    },
+    {
+      "id": 214733,
+      "creationTimeSeconds": 1424819724,
+      "commentatorHandle": "nakeep",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Now it is named GNU G++11 4.9.2</p></div>",
+      "parentCommentId": 204120,
+      "rating": 0
+    },
+    {
+      "id": 217193,
+      "creationTimeSeconds": 1425943658,
+      "commentatorHandle": "traff",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you please consider adding Rust language.</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 218514,
+      "creationTimeSeconds": 1426800560,
+      "commentatorHandle": "mipt.vi002",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Mike, could you please install Haskell Platform? It's quite annoying to implement Control.Monad.State again and again, while this monad is quite handful for input parsing.</p></div>",
+      "rating": 28
+    },
+    {
+      "id": 218981,
+      "creationTimeSeconds": 1427028464,
+      "commentatorHandle": "KhaledKEE",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>For Ruby:</p><p>Ruby standard library hardly contains any algorithm implementation. Can you include for example &quot;<a href=\"https://github.com/Kanwei/Algorithms/\">Ruby Algorithms and Containers project</a>&quot; by Kanwei Li 2009.</p><p>Anyway, PHP/Python/Ruby/Pearl are used for web development and scripting. Their standard input and output interface are very painful and inflexible unlink c/c++. But it's somehow fun to use them in easy-medium problems.</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 220563,
+      "creationTimeSeconds": 1428089190,
+      "commentatorHandle": "EbTech",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Rust is shaping up to be a very nice modern successor to languages like C++ (more so than D or Go). The 1.0 beta came out today, so please if you're reading this Mike, this is a great time to add it! :-D</p></div>",
+      "parentCommentId": 214139,
+      "rating": 18
+    },
+    {
+      "id": 222420,
+      "creationTimeSeconds": 1429040259,
+      "commentatorHandle": "limed",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please update Scala compiler to 2.11.6. Looks like currently installed version (2.11.2) fails when parsing empty string to array of ints, which has caused my submission <a href=\"/contest/536/submission/10718173\" title=\"Submission 10718173 by limed\">10718173</a> for <a href=\"/contest/536/problem/B\" title=\"Codeforces Round 299 (Div. 1)\">536B - Tavas and Malekas</a> to fail on test #55 (m=0), which works fine on my local machine with 2.11.6.</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 222521,
+      "creationTimeSeconds": 1429070342,
+      "commentatorHandle": "yum",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think you should remove the warning when you submit code that contains %lld. Both %I64d and %lld work fine with g++ now so now it is just annoying to submit the same code twice.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 222671,
+      "creationTimeSeconds": 1429161516,
+      "commentatorHandle": "atulshanbhag",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please do add support for R and Rust too</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 222693,
+      "creationTimeSeconds": 1429175385,
+      "commentatorHandle": "sgondala2",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I experienced problems in using functions like to_string() and stoi() even when I select GNU C++11. The judge reports an error saying that it is not defined. Why is that so?</p></div>",
+      "rating": 6
+    },
+    {
+      "id": 222722,
+      "creationTimeSeconds": 1429200179,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It's a <a href=\"https://gcc.gnu.org/bugzilla/show_bug.cgi?id=52015\">bug in MinGW</a>. As far as I understand, the fix is not released yet.</p></div>",
+      "parentCommentId": 222693,
+      "rating": 19
+    },
+    {
+      "id": 223785,
+      "creationTimeSeconds": 1429795341,
+      "commentatorHandle": "wakeuprj",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can someone please give me an example of the correct code(the whole code) in Java for ANY question. Actually I am new here and wanted to know about the specifications required in the programs.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 223824,
+      "creationTimeSeconds": 1429822755,
+      "commentatorHandle": "marat.snowbear",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Go to <a href=\"/contest/535/status\">contest results</a> for any finished contest and filter submissions by status and language using the panel on the right. Then clicking on the submission id link in the table will show you the code. </p></div>",
+      "parentCommentId": 223785,
+      "rating": 5
+    },
+    {
+      "id": 227612,
+      "creationTimeSeconds": 1431720604,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Rust 1.0 is released: <a href=\"http://blog.rust-lang.org/2015/05/15/Rust-1.0.html\">http://blog.rust-lang.org/2015/05/15/Rust-1.0.html</a></p></div>",
+      "parentCommentId": 214139,
+      "rating": 37
+    },
+    {
+      "id": 233638,
+      "creationTimeSeconds": 1433680149,
+      "commentatorHandle": "abhisekp",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>How to take inputs using Javascript as the language of choice?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 234520,
+      "creationTimeSeconds": 1434076375,
+      "commentatorHandle": "ilyoan",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Rust 1.0 was released so add rust please.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 234559,
+      "creationTimeSeconds": 1434088905,
+      "commentatorHandle": "structure",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello! Do you plan to add C++14 compliant compilers? (gcc (mostly) and clang (full)) ?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 240447,
+      "creationTimeSeconds": 1436557754,
+      "commentatorHandle": "snsokolov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>@Codeforces Is there a chance to install &quot;blist&quot; or &quot;sortedcontainers&quot; packages for Python?</p><p>Unfortunately Python built-in lists are not well optimized for extra-large arrays typically used in Codeforces contests (&gt;&gt;10^5 elements). Python has very sluggish inserts and pops behavior for these gigantic lists — O(N) take seconds because it has to update every single index in the list. </p><p>These packages are using B+ trees to store lists and provide O(log(n)) vs O(n) speed improvement for list dels and inserts (though by the cost of slower lookup) and are essential for solving binary search problems without getting a TLE.</p><p><a href=\"https://pypi.python.org/pypi/blist/?\">https://pypi.python.org/pypi/blist/?</a> <a href=\"https://pypi.python.org/pypi/sortedcontainers/?\">https://pypi.python.org/pypi/sortedcontainers/?</a></p></div>",
+      "rating": 1
+    },
+    {
+      "id": 241396,
+      "creationTimeSeconds": 1437258851,
+      "commentatorHandle": "agat00",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>you should use <code>readline()</code> to read lines and <code>write(str)</code> or <code>print(str)</code> to return results. Difference is that <code>print</code> will also write <code>\\n</code> for you in the end. So if you are outputing result string by string <code>print</code> could be prettier (but outputting all result at once would be faster in case when it matters). In case you will use <code>write</code> don't forget to end your total input with <code>\\n</code>! Or checker will ignore your last line</p></div>",
+      "parentCommentId": 233638,
+      "rating": 0
+    },
+    {
+      "id": 241914,
+      "creationTimeSeconds": 1437585800,
+      "commentatorHandle": "tomoki",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Mike, could you remove the code style limitation in Scala? Unlike Java, we can write multiple class or package in one file. This is a big limitation to make libraries. For example, following code cannot be accepted in Codeforces.</p> <pre><code>// There maybe multiple package definition.\npackage net.pushl {\n  object Test {\n  }\n}\npackage net.pushl {\n  class Test2 {\n  }\n}\n\n// Multiple classes or objects can be defined in one file.\nclass Solver(){\n  def main() : Unit = {\n    println(&quot;Hello world&quot;)\n  }\n}\n\nobject Main {\n  def main(args : Array[String]){\n    (new Solver).main()\n  }\n}\n</code></pre><p>To run this code, you cannot use &quot;scala&quot; command because it reads source code as &quot;script&quot;. Use &quot;scalac main.scala; scala Main&quot; instead.</p><p>Thanks.</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 248207,
+      "creationTimeSeconds": 1440668889,
+      "commentatorHandle": "fqw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Add rust please! It is an elegant language and I really hope to see it and use it in Codeforces contests.</p></div>",
+      "rating": 14
+    },
+    {
+      "id": 248291,
+      "creationTimeSeconds": 1440731903,
+      "commentatorHandle": "jiangzhijie",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>And it's fast...</p></div>",
+      "parentCommentId": 248207,
+      "rating": 0
+    },
+    {
+      "id": 253179,
+      "creationTimeSeconds": 1443503353,
+      "commentatorHandle": "DarthShrine",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is it possible to update the Ocaml compiler from 4.00.1? Int64/Big_int performance is a bit lacking on this version. Newer versions appear to have improved this somewhat.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 263164,
+      "creationTimeSeconds": 1447761712,
+      "commentatorHandle": "alexey.shchepin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>The problem is that the installed version is 32-bit, and it generates very slow int64 code.</p></div>",
+      "parentCommentId": 253179,
+      "rating": 0
+    },
+    {
+      "id": 263220,
+      "creationTimeSeconds": 1447791282,
+      "commentatorHandle": "arunkumarthedancer",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I like to program in <a href=\"http://www.techcrashcourse.com/2015/05/c-programming-language-tutorial.html\">C programming language</a> because C programs executes faster.</p></div>",
+      "rating": -8
+    },
+    {
+      "id": 271299,
+      "creationTimeSeconds": 1452243594,
+      "commentatorHandle": "ruslan5t",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Lets add Kotlin as a programming language.</p><p>It is new language from JetBrains for JVM. It is even supported by default in Intellij IDEA, I think that's enough for adding it.</p></div>",
+      "rating": 4
+    },
+    {
+      "id": 272173,
+      "creationTimeSeconds": 1452601729,
+      "commentatorHandle": "sharpobject",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello,</p><p>I would like to write solutions in Lua. It is a 23-year-old language that doesn't have any novel features. The best interpreter for Lua is Luajit: <a href=\"http://luajit.org/\">http://luajit.org/</a></p><p>Thanks.</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 272691,
+      "creationTimeSeconds": 1452797555,
+      "commentatorHandle": "rsampaths16",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Got this error when 2-minutes were left in the contest #339::Div2::C I thought &quot;M_PI&quot; was standard in &quot;G++11&quot; /--------------------------------------------------------------------/ Can't compile file: program.cpp: In function 'int main()':</p><p>program.cpp:191:10: error: 'M_PI' was not declared in this scope</p><p>ans=ans*M_PI;  ^ /--------------------------------------------------------------------/ Submission Link <a href=\"//codeforces.com/contest/614/submission/15372460\">http://codeforces.com/contest/614/submission/15372460</a></p></div>",
+      "parentCommentId": 5371,
+      "rating": -5
+    },
+    {
+      "id": 272694,
+      "creationTimeSeconds": 1452797580,
+      "commentatorHandle": "rsampaths16",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Got this error when 2-minutes were left in the contest #339::Div2::C I thought &quot;M_PI&quot; was standard in &quot;G++11&quot; /--------------------------------------------------------------------/ Can't compile file: program.cpp: In function 'int main()':</p><p>program.cpp:191:10: error: 'M_PI' was not declared in this scope</p><p>ans=ans*M_PI;  ^ /--------------------------------------------------------------------/ Submission Link <a href=\"//codeforces.com/contest/614/submission/15372460\">http://codeforces.com/contest/614/submission/15372460</a></p></div>",
+      "rating": -5
+    },
+    {
+      "id": 273101,
+      "creationTimeSeconds": 1452956154,
+      "commentatorHandle": "halyavin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Codeforces switched to GCC 5.1 and supports both C and C11 now. What are their compiler command lines?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 273103,
+      "creationTimeSeconds": 1452956568,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I wonder why specifically GCC 5.1 if the latest release in the GCC 5 series is 5.3.</p></div>",
+      "parentCommentId": 273101,
+      "rating": 0
+    },
+    {
+      "id": 273104,
+      "creationTimeSeconds": 1452956648,
+      "commentatorHandle": "andreyv",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><code>M_PI</code> is not a standard C++ feature. You should define the constant yourself.</p></div>",
+      "parentCommentId": 272694,
+      "rating": 0
+    },
+    {
+      "id": 273119,
+      "creationTimeSeconds": 1452960550,
+      "commentatorHandle": "Gassa",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Perhaps because <a href=\"http://tdm-gcc.tdragon.net/\">TDM-GCC</a> is used, and 5.1 is the latest supported stable version.</p><p>There are some alternatives (for example, <a href=\"http://sourceforge.net/projects/mingw-w64/\">MinGW-w64</a>), but perhaps they are not that popular in contest programming.</p></div>",
+      "parentCommentId": 273103,
+      "rating": 0
+    },
+    {
+      "id": 274770,
+      "creationTimeSeconds": 1453732684,
+      "commentatorHandle": "ananthhh",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Admins, Please add clojure.. </p></div>",
+      "parentCommentId": 1297,
+      "rating": -11
+    },
+    {
+      "id": 277384,
+      "creationTimeSeconds": 1454858318,
+      "commentatorHandle": "chaitanya_ashtekar",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>javascript v8.does it mean it supports node.js too ?</p></div>",
+      "rating": 3
+    },
+    {
+      "id": 278355,
+      "creationTimeSeconds": 1455382410,
+      "commentatorHandle": "Epiq",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could also please add support for Erlang?</p><p>As far as I know, CodeChef already supports it.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 280240,
+      "creationTimeSeconds": 1456247807,
+      "commentatorHandle": "agat00",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>What do you mean by supporting node.js? You don't need any of web-server API node.js provides to solve Codeforces problems. Just submit JS code and it will work. There is specific API to read/write — you could find it explained here earlier (search this page by &quot;javascript&quot;)</p></div>",
+      "parentCommentId": 277384,
+      "rating": 0
+    },
+    {
+      "id": 280253,
+      "creationTimeSeconds": 1456250476,
+      "commentatorHandle": "duckladydinh",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Dear Mike,</p><p>Will you consider adding Julia? It is said to have the syntax of Python and speed of C. Honestly, I have not learnt it yet, but Codeforces has been such a great place for me to learn a new language. It would be great if you add it to Codeforces.</p><p>Thank you so much for this great platform.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 284033,
+      "creationTimeSeconds": 1457827246,
+      "commentatorHandle": "voxl",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I'd like to throw in my vote for Rust again. We're at 1.7 now and climbing.</p></div>",
+      "rating": 23
+    },
+    {
+      "id": 284190,
+      "creationTimeSeconds": 1457922608,
+      "commentatorHandle": "watashi",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I found that Safe Haskell was turned on in codeforces, which made a lot of modules unavailable, such as</p> <pre><code>Control.Monad.ST\nData.Array.Base (unsafeRead, unsafeWrite)\nData.Array.MArray\nSystem.IO.Unsafe (unsafePerformIO)\n</code></pre><p>This is very annoying as the word &quot;safe&quot; here has nothing to do with the safety of online judge, but more likely to disable a lot of unsafe (non-pure or something can make your program behavior weird or crash) modules for optimization. Can we disable this. And what exact flags are used for Haskell now?</p><p>Also, can we have ghc7.10 as a separate compiler? (I don't mind if it replaces ghc7.8 though) As ghc changed a lot in 7.10 due to <a href=\"https://wiki.haskell.org/Functor-Applicative-Monad_Proposal\">https://wiki.haskell.org/Functor-Applicative-Monad_Proposal</a> and many code won't compile.</p></div>",
+      "rating": 26
+    },
+    {
+      "id": 284572,
+      "creationTimeSeconds": 1458187335,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Since g++ version was updated to 5.1, can you change the compilation flag <code>-std=c++11</code> to <code>-std=c++14</code>?</p></div>",
+      "rating": 18
+    },
+    {
+      "id": 284576,
+      "creationTimeSeconds": 1458190257,
+      "commentatorHandle": "Infinity25",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I used regex in GNU C++ 11 and got a CE:</p> <pre><code>    error: use of deleted function 'bool std::regex_match(...\n</code></pre><p>but I complied my code successfully with G++ 4.9.1 using -std=c++11<br />I wonder whether it is my fault or regex is not allowed.</p><p>My submission<br /><a href=\"/contest/644/submission/16757403\" title=\"Submission 16757403 by Infinity25\">16757403</a></p></div>",
+      "rating": 1
+    },
+    {
+      "id": 284577,
+      "creationTimeSeconds": 1458192713,
+      "commentatorHandle": "slycelote",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can't see your code, but does <a href=\"https://stackoverflow.com/questions/32164501/error-use-of-deleted-function-bool-regex-match-with-gcc-5-2-0\">this</a> help?</p></div>",
+      "parentCommentId": 284576,
+      "rating": 0
+    },
+    {
+      "id": 284579,
+      "creationTimeSeconds": 1458193552,
+      "commentatorHandle": "Infinity25",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It really helps, thank you.</p></div>",
+      "parentCommentId": 284577,
+      "rating": 0
+    },
+    {
+      "id": 285386,
+      "creationTimeSeconds": 1458494585,
+      "commentatorHandle": "tomoki",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I really need this... </p></div>",
+      "parentCommentId": 241914,
+      "rating": 0
+    },
+    {
+      "id": 286204,
+      "creationTimeSeconds": 1459051076,
+      "commentatorHandle": "sqdcn",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Haskell seems to be compiled with -XSafe flag, which makes using ST Monads impossible.</p><p>How to reproduce:</p> <pre><code>import Control.Monad.ST\nmain = return ()\n</code></pre><p>Plus. it would be nice if we have the latest ghc :-) Since the standard library shipped with the current version is a little out-dated.</p></div>",
+      "rating": 13
+    },
+    {
+      "id": 286205,
+      "creationTimeSeconds": 1459051290,
+      "commentatorHandle": "sqdcn",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Erh, by the way, Safe Haskell has nothing to do with the safety of the host machine. It's just a restriction imposed on how you could use the language. It's actually kind of like the opposite of <code>-fpermissive</code></p></div>",
+      "parentCommentId": 286204,
+      "rating": 0
+    },
+    {
+      "id": 288139,
+      "creationTimeSeconds": 1459952899,
+      "commentatorHandle": "marty.stranger",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Haskell is unusable on codeforces without Control.Monad.ST. Please remove -XSafe option. It doesn't make haskell safer for test system!</p><p>Also current Haskell settlement lacks Data.Vector package. Haskell Platform should be used instead of bare GHC compiler. It's like Java or .NET without collection libraries <a href=\"https://www.haskell.org/platform/\">https://www.haskell.org/platform/</a></p></div>",
+      "rating": 5
+    },
+    {
+      "id": 290517,
+      "creationTimeSeconds": 1461525206,
+      "commentatorHandle": "leonidvasilyev",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> can we add reference to System.Numerics.dll to Mono compiler arguments in order to use <code>BigInteger</code>? For Mono 3.12.1 this will do the trick:<br /><code>mcs -define:ONLINE_JUDGE -r:System.Numerics.dll -o+ -out:{filename}.exe {file}</code></p></div>",
+      "rating": 0
+    },
+    {
+      "id": 291039,
+      "creationTimeSeconds": 1461779182,
+      "commentatorHandle": "stefanj32",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Exactly this. Haskell is currently unusable for some of the problems</p></div>",
+      "parentCommentId": 288139,
+      "rating": 0
+    },
+    {
+      "id": 293045,
+      "creationTimeSeconds": 1462758415,
+      "commentatorHandle": "meowoo",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Agree with you! -XSafe has nothing to do with the safety, users can still use &quot;System.Process.system&quot; or other malicious functions, it just prohibit many legal techniques which are essential for high performance such as Control.Monad.ST, Data.Array.Base.</p><p>At the moment, we may resort to safer versions: Control.Monad.ST.Safe, Data.Array.IO.Safe, Data.Array.IO.ST.Safe .</p></div>",
+      "parentCommentId": 284190,
+      "rating": 0
+    },
+    {
+      "id": 293074,
+      "creationTimeSeconds": 1462790112,
+      "commentatorHandle": "EkimVonayazrim",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>So codeforces doesn't support F# anymore?</p><p>//sad</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 301823,
+      "creationTimeSeconds": 1466698055,
+      "commentatorHandle": "yarrr",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><img alt=\" \" src=\"/predownloaded/d5/26/d526b81c973457884692fca193327cf5705e901c.svg\" style=\"max-width: 100.0%;max-height: 100.0%;\" /></p><p>Rust, please.</p></div>",
+      "rating": 24
+    },
+    {
+      "id": 307454,
+      "creationTimeSeconds": 1469783716,
+      "commentatorHandle": "winme",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think Visual Basic.NET is a good language.And Visual Basic.NET is in top 10 every year nearly.Visual Basic.NET is ninth in Jun 2016 from TIOBE programming language list.So i suggest <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> add Visual Basic.NET 6.0 to CodeForces programming languages list.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 308057,
+      "creationTimeSeconds": 1470212198,
+      "commentatorHandle": "CountZero",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a href=\"//codeforces.com/contest/702/submission/19589375\">http://codeforces.com/contest/702/submission/19589375</a>. </p><p>here we go. </p><p>The International 6, Windows 10 Anniversary Update, and then this. What a time to be alive!</p></div>",
+      "parentCommentId": 301823,
+      "rating": 0
+    },
+    {
+      "id": 309426,
+      "creationTimeSeconds": 1470875743,
+      "commentatorHandle": "nakeep",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Rust and Go are now added although not listed above. I wish Swift gets added too.</p></div>",
+      "parentCommentId": 214139,
+      "rating": 0
+    },
+    {
+      "id": 320092,
+      "creationTimeSeconds": 1476228710,
+      "commentatorHandle": "hammouti",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I got compilation error on my first submission even thought it works fine on my PC i am a beginner so i am not used to compiler the language i use is C</p><p>edit: Fixed </p></div>",
+      "rating": -8
+    },
+    {
+      "id": 329535,
+      "creationTimeSeconds": 1481113708,
+      "commentatorHandle": "ekaanshkhosla",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Why the following options are not coming in my compiler? Java 6 javac 1.6.0_45 Java 7 javac 1.7.0_72</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 353274,
+      "creationTimeSeconds": 1491632946,
+      "commentatorHandle": "deepakdbou",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think Android And JavaScript is most demanding programming <a href=\"http://www.codeverb.com/c-interview-questions\">Languages</a></p></div>",
+      "rating": -24
+    },
+    {
+      "id": 386824,
+      "creationTimeSeconds": 1506013605,
+      "commentatorHandle": "Edvard",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can you please update the Go compiler version until 1.8 or 1.9? There are some incompatible differences between 1.7 and 1.8/1.9 that makes difficult to test solutions.</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 392725,
+      "creationTimeSeconds": 1509204651,
+      "commentatorHandle": "owr",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Rust, please, thank you so much!</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 392726,
+      "creationTimeSeconds": 1509205177,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Done</p></div>",
+      "parentCommentId": 386824,
+      "rating": 8
+    },
+    {
+      "id": 392791,
+      "creationTimeSeconds": 1509263832,
+      "commentatorHandle": "SirNickolas",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you update PyPy and, especially, PyPy3, please? There were some changes in the stdlib since Python 3.2. The JIT got smarter, too.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 405538,
+      "creationTimeSeconds": 1515131051,
+      "commentatorHandle": "sahmosavian",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is it possible to add Julia to the list of supported languages? </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 413033,
+      "creationTimeSeconds": 1518113156,
+      "commentatorHandle": "adamjking3",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please update the JavaScript v8 engine to the latest stable version. v4.8 just isn't very relevant anymore. On that note, when will we get equalizer coefficients for slower languages? I'm getting penalized in my classes for using JavaScript, although that's the language I use for my career so it's the language I see the most benefit in programming in. </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 424210,
+      "creationTimeSeconds": 1523135654,
+      "commentatorHandle": "alex347",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Any chance we can get PHP 64 bit? 32 bit is useless for some problems</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 433208,
+      "creationTimeSeconds": 1527265522,
+      "commentatorHandle": "EbraM96",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>How do you actually prohibit system calls? <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a></p></div>",
+      "rating": -1
+    },
+    {
+      "id": 436188,
+      "creationTimeSeconds": 1528557990,
+      "commentatorHandle": "EbraM96",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>What is the linux-based equivalent for parameter --stack=268435456 ??</p><p>And is this considered the memory limit for the problem ?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 436209,
+      "creationTimeSeconds": 1528563541,
+      "commentatorHandle": "CountZero",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a href=\"http://man7.org/linux/man-pages/man2/setrlimit.2.html\">http://man7.org/linux/man-pages/man2/setrlimit.2.html</a></p> <pre><code>#include &lt;sys/resource.h&gt;\n\nint main() {\n  const rlim_t val = 268435456;\n  struct rlimit lim = {.rlim_cur = val, .rlim_max = val};\n  if (setrlimit(RLIMIT_STACK, &amp;lim)) {\n    printf(&quot;ERROR!\\n&quot;);\n  }\n}\n</code></pre></div>",
+      "parentCommentId": 436188,
+      "rating": 0
+    },
+    {
+      "id": 436221,
+      "creationTimeSeconds": 1528566236,
+      "commentatorHandle": "EbraM96",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is this considered the memory limit for the executable file ?</p></div>",
+      "parentCommentId": 436209,
+      "rating": 0
+    },
+    {
+      "id": 436223,
+      "creationTimeSeconds": 1528566402,
+      "commentatorHandle": "FalseMirror",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>You can use -fno-stack-limit</p></div>",
+      "parentCommentId": 436188,
+      "rating": 0
+    },
+    {
+      "id": 437505,
+      "creationTimeSeconds": 1529048954,
+      "commentatorHandle": "CountZero",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>please fix syntax highlighting for rust submissions <a href=\"/contest/985/submission/39259717\" title=\"Submission 39259717 by CountZero\">39259717</a> </p><p>&quot;Custom invocation&quot; page shows correct highlighting, so why not to use the same ace editor here</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 451952,
+      "creationTimeSeconds": 1534562793,
+      "commentatorHandle": "nakeep",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you please add the Ring Programming language: <a href=\"http://ring-lang.sourceforge.net/\">http://ring-lang.sourceforge.net/</a></p></div>",
+      "rating": -5
+    },
+    {
+      "id": 453235,
+      "creationTimeSeconds": 1534915718,
+      "commentatorHandle": "ramesh.public",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you please upgrade the version of haskell to 8.4 ?</p><p>thanks</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 456988,
+      "creationTimeSeconds": 1536347355,
+      "commentatorHandle": "sahmosavian",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Now that Julia 1.0 has been released, it would be specially nice if CodeForces supports it.</p></div>",
+      "parentCommentId": 405538,
+      "rating": 0
+    },
+    {
+      "id": 457879,
+      "creationTimeSeconds": 1536929623,
+      "commentatorHandle": "BOOBA",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Do you plan to add Petooh compiler?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 475393,
+      "creationTimeSeconds": 1544120675,
+      "commentatorHandle": "moss3s",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you please update version of java to <a href=\"https://en.wikipedia.org/wiki/Java_version_history\">11</a>?</p><p>It should also affect kotlin.</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 476315,
+      "creationTimeSeconds": 1544699482,
+      "commentatorHandle": "cyberpenguin",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can we please get SBCL (the most popular implementation of Common Lisp) support? It is an extremely mature Lisp and probably the most performant one around right now.</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 486947,
+      "creationTimeSeconds": 1548356794,
+      "commentatorHandle": "arman.t",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>+1 for Julia — would be amazing to have it supported.</p></div>",
+      "rating": 16
+    },
+    {
+      "id": 490146,
+      "creationTimeSeconds": 1549351772,
+      "commentatorHandle": "leaf",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>need Kotlin</p></div>",
+      "rating": -5
+    },
+    {
+      "id": 490153,
+      "creationTimeSeconds": 1549354564,
+      "commentatorHandle": "spookywooky",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Kotlin works fine, currently 1.3.10</p></div>",
+      "parentCommentId": 490146,
+      "rating": 12
+    },
+    {
+      "id": 492685,
+      "creationTimeSeconds": 1550324328,
+      "commentatorHandle": "wasomi",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is there any plan to add Swift?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 493262,
+      "creationTimeSeconds": 1550426125,
+      "commentatorHandle": "krishnanarwani",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I got TLE using Pyhton but same code got AC in C++14. why is it so...</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 493267,
+      "creationTimeSeconds": 1550428072,
+      "commentatorHandle": "meiniak",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>submit your code in pypy it will get accepted <a href=\"https://codeforces.com/contest/1113/submission/50072158\">here</a></p></div>",
+      "parentCommentId": 493262,
+      "rating": 0
+    },
+    {
+      "id": 497886,
+      "creationTimeSeconds": 1552098843,
+      "commentatorHandle": "riadwaw",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I think stack sizes should be increased as much as possible. It seem it doesn't hurt even if the limit is more than a memory limit, so we can just set the limit to few gygabytes. </p><p>It will allow focus on algorithmic part of problem solving instead of learning some <a href=\"https://codeforces.com/contest/1137/submission/51059986\">platform-dependent hacks</a></p><p>I'm talking mostly about c++, not sure if there are downsides for other languages (e.g possibility to use more memory because stack is handled incorrectly and/or problems with GC)</p><p>cc <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a></p></div>",
+      "rating": 0
+    },
+    {
+      "id": 506795,
+      "creationTimeSeconds": 1555859509,
+      "commentatorHandle": "natsukagami",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please bring back F#! After so many years the language and compiler have improved a lot, I believe it is worth a re-assessment for adding into the platform.</p><p>Sorry for the ping <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a>...</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 511876,
+      "creationTimeSeconds": 1558024913,
+      "commentatorHandle": "sridhar153999",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>my programme perform well in hackerrank enviroment but here gives wrong an??nd i found d problem is with set.lowerbound in both hackerrank nd cideforces they r different??why submission id==54249666</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 529065,
+      "creationTimeSeconds": 1563739381,
+      "commentatorHandle": "ahmat",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hi, the currently available DMD compiler is DMD 2.064 released in 2013. Could you please upgrade DMD compiler to the latest stable release (DMD 2.087)? thanks.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 543635,
+      "creationTimeSeconds": 1568847645,
+      "commentatorHandle": "anshulsinghvi",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It would be excellent to get Julia in — it's seeing growing adoption, and would be interesting to use with stdlibs. Getting it in would also feed back into Julia stdlib quality.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 548670,
+      "creationTimeSeconds": 1570542580,
+      "commentatorHandle": "artworks",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Thanks for the platform and problems! </p><p>Could we have the latest C# compiler? Mono C# compiler version 5.18 is late! There is already 6.4.0 with great <code>mcs</code> which supports C# 6th version and some 7th. Or we can use .Net Core compiler, csc.</p></div>",
+      "rating": 3
+    },
+    {
+      "id": 552219,
+      "creationTimeSeconds": 1571580851,
+      "commentatorHandle": "joojis",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I want to know which compiler version is used for Rust.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 554947,
+      "creationTimeSeconds": 1572487581,
+      "commentatorHandle": "648771054",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I wonder how to submit a solution by using javascript,can anyone show me an example, thanks</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 560869,
+      "creationTimeSeconds": 1574871549,
+      "commentatorHandle": "verngutz",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>This post seems not up-to-date. Is there an updated list of compiler versions and compilation commands somewhere?</p></div>",
+      "rating": -3
+    },
+    {
+      "id": 578450,
+      "creationTimeSeconds": 1580877825,
+      "commentatorHandle": "ftiasch",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Is Dlang somehow broken on Codeforces? Even the simple hello world program cannot execute successfully with custom invocation.</p><p>Code</p> <pre><code>import std;\n\nvoid main()\n{\n    writeln(&quot;hello world&quot;);\n}\n</code></pre><p>Result</p> <pre><code>Aborting from \nobject.Error@(0): Access Violation\n\nRuntime error: exit code is 1\n=====\nUsed: 0 ms, 204 KB\n</code></pre></div>",
+      "rating": 0
+    },
+    {
+      "id": 581507,
+      "creationTimeSeconds": 1581960206,
+      "commentatorHandle": "uju",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I am also getting same error what is the solution</p></div>",
+      "parentCommentId": 100050,
+      "rating": 0
+    },
+    {
+      "id": 598408,
+      "creationTimeSeconds": 1586166269,
+      "commentatorHandle": "ludoro",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Will Julia be added? I feel there are a lot of people that would love to use it, Google Code Jam has it for example! </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 598422,
+      "creationTimeSeconds": 1586169181,
+      "commentatorHandle": "t0mcr8se",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>WE WANT BRAINFUCK DUDE</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 598426,
+      "creationTimeSeconds": 1586170306,
+      "commentatorHandle": "Gassa",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>The <code>import std;</code> line currently does not work. Probably because some library from the whole set, like network and such, triggers security checks. Works fine when you specify individual imports you need.</p><p><a href=\"//codeforces.com/blog/entry/75327?#comment-596155\">Here is</a> a recent discussion of a similar matter, with Python &amp; D involved.</p></div>",
+      "parentCommentId": 578450,
+      "rating": 0
+    },
+    {
+      "id": 599569,
+      "creationTimeSeconds": 1586383029,
+      "commentatorHandle": "Epiq",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please update Node.js to version 10.4.0 or higher, since it supports <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt\">BigInt</a></p></div>",
+      "rating": 0
+    },
+    {
+      "id": 606079,
+      "creationTimeSeconds": 1587079485,
+      "commentatorHandle": "rishabhdeepsingh",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>any updates on c++17?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 606115,
+      "creationTimeSeconds": 1587085928,
+      "commentatorHandle": "_dobby_",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a href=\"https://codeforces.com/blog/entry/57646\">https://codeforces.com/blog/entry/57646</a> (2 years old)</p><p>even <a href=\"https://codeforces.com/blog/entry/75004\">https://codeforces.com/blog/entry/75004</a></p></div>",
+      "parentCommentId": 606079,
+      "rating": 0
+    },
+    {
+      "id": 606400,
+      "creationTimeSeconds": 1587137584,
+      "commentatorHandle": "nokdoot",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>update perl please, it's already 5.30.2</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 607069,
+      "creationTimeSeconds": 1587272199,
+      "commentatorHandle": "gautam2roy",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I want to put in a request to upgrade the version of Ruby interpreter to more a recent version like 2.7.0. <a href=\"https://www.ruby-lang.org/en/downloads/releases/\">https://www.ruby-lang.org/en/downloads/releases/</a> The current version (2.0.0p353) is from 2013 and new convenience functions have been released which would make Ruby more usable. </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 611700,
+      "creationTimeSeconds": 1587974214,
+      "commentatorHandle": "limed",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> kindly please update <strong>Scala</strong> from <code>2.12.8</code> to the latest <code>2.13.3</code>. It contains many performance improvements and new features relevant to Competitive Programming (some of them were contributed by members of CodeForces community).</p><p>Thank you in advance.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 614439,
+      "creationTimeSeconds": 1588457562,
+      "commentatorHandle": "avtobus",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I've recently run into an issue that ruby code was working fine locally, but was raising RuntimeError in CF.</p><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> please update ruby to the latest release: <a href=\"https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/\">2.7.1</a>. The version that is currently in Codeforces (2.0.0) is much too old. (The version <a href=\"https://www.ruby-lang.org/en/news/2020/04/05/support-of-ruby-2-4-has-ended/\">2.4</a> has recently been deprecated.)</p></div>",
+      "parentCommentId": 607069,
+      "rating": 0
+    },
+    {
+      "id": 626201,
+      "creationTimeSeconds": 1589824325,
+      "commentatorHandle": "ehsanoo",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can we have GDC/LDC please?</p></div>",
+      "rating": 8
+    },
+    {
+      "id": 626206,
+      "creationTimeSeconds": 1589824936,
+      "commentatorHandle": "ehsanoo",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>I encountered the exact same problem yesterday. Do you think it can be fixed by removing those libraries from being imported in <code>std/package.d</code>? </p></div>",
+      "parentCommentId": 598426,
+      "rating": 8
+    },
+    {
+      "id": 626336,
+      "creationTimeSeconds": 1589864913,
+      "commentatorHandle": "arvindf232",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please add Swift! It has really clean syntax</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 640780,
+      "creationTimeSeconds": 1591997702,
+      "commentatorHandle": "adityagupta1089",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> At least unordered-containers could be added. We really need HashMap. See <a href=\"/contest/633/submission/83564736\" title=\"Submission 83564736 by adityagupta1089\">83564736</a> for an example.</p></div>",
+      "parentCommentId": 140904,
+      "rating": 0
+    },
+    {
+      "id": 660116,
+      "creationTimeSeconds": 1594515692,
+      "commentatorHandle": "terry_u16",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Great work for updating compilers!</p><p>Unfortunately, mono C# compiler <code>mcs</code> doesn't support some latest C# features, so I'd like to use <code>csc</code> compilers that supports full C# 8.0. Or supporting .NET Core platform in addition to mono like AtCoder will be also fine. Thanks!</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 710703,
+      "creationTimeSeconds": 1602908821,
+      "commentatorHandle": "cheese-cracker",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>The current D language is 32-bit. This causes unexpected bugs while compilation like, <strong>array indices cannot be long</strong>. (see <a href=\"/contest/1407/submission/92492947\" title=\"Submission 92492947 by cheese-cracker\">92492947</a> and <a href=\"/contest/1407/submission/92493027\" title=\"Submission 92493027 by cheese-cracker\">92493027</a>). This problem does not occur on any of the latest versions of D or on the codechef compiler. <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> could you please upgrade compiler to the latest 64-bit version. <br />Thanks in advance!<br /> Also, it would be good if <code>ldc -O</code> could be used instead of <code>dmd</code> so problems run faster.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 711825,
+      "creationTimeSeconds": 1603081860,
+      "commentatorHandle": "angelbeats",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> std::reduce broken for C++17 (both GNU C++17 and GNU C++17(64))</p><p>See <a href=\"/contest/1421/submission/95894458\" title=\"Submission 95894458 by angelbeats\">95894458</a>, here ooo(v) means v.begin(), v.end()</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 725373,
+      "creationTimeSeconds": 1606127341,
+      "commentatorHandle": "kessido",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> Would be wonderful if you could add Julia :) seem as it was previously asked for here.</p><p>Ido</p></div>",
+      "rating": 10
+    },
+    {
+      "id": 733125,
+      "creationTimeSeconds": 1608054196,
+      "commentatorHandle": "tscha",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Would be nice if we could add Julia. It has a very succinct syntax that makes it easy for prototyping, yet it is (unlike other scripting languages like Python) blazingly fast. Here is a report of a participant using Julia in a contest: <a href=\"https://software.intel.com/sites/default/files/managed/73/11/delacorte-julia-rev2.pdf\">https://software.intel.com/sites/default/files/managed/73/11/delacorte-julia-rev2.pdf</a></p><p>We would just need to make sure that JIT compiling (which might take a short moment) is not added to the runtime.</p></div>",
+      "rating": 10
+    },
+    {
+      "id": 733134,
+      "creationTimeSeconds": 1608054662,
+      "commentatorHandle": "MikeMirzayanov",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Please, add a pull request with Julia here <a href=\"https://github.com/MikeMirzayanov/binary-heap-benchmark\">https://github.com/MikeMirzayanov/binary-heap-benchmark</a></p><p>Also please provide me a link to the problem <a href=\"/contest/1/problem/A\" title=\"Codeforces Beta Round 1\">1A - Theatre Square</a>.</p><p>It will help much.</p></div>",
+      "parentCommentId": 733125,
+      "rating": 13
+    },
+    {
+      "id": 734065,
+      "creationTimeSeconds": 1608266147,
+      "commentatorHandle": "tscha",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Sent you a pm.</p><p>EDIT 3 weeks later: My message to you is still unread. Don't know how else to contact you. But I implemented the binary heap benchmark as well as the toy problem. In the PM there are links to both implementations.</p></div>",
+      "parentCommentId": 733134,
+      "rating": 0
+    },
+    {
+      "id": 761056,
+      "creationTimeSeconds": 1613235560,
+      "commentatorHandle": "elsantodel90",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Has this ever been addressed? Is Haskell still run with a very low stack size?</p></div>",
+      "parentCommentId": 178526,
+      "rating": 0
+    },
+    {
+      "id": 780845,
+      "creationTimeSeconds": 1618559278,
+      "commentatorHandle": "ssvb",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a> Could you please increase the Ruby interpreter stack size limit for better feature parity with the other programming languages? This can be done by defining <strong>RUBY_THREAD_VM_STACK_SIZE</strong> environment variable.</p><p>Right now any deep recursion results in a <em>&quot;Runtime error&quot;</em> verdict for Ruby solutions. It's probably not the best example, but you can have a look at these two submissions for the same problem: <a href=\"https://codeforces.com/contest/1513/submission/113150131\">https://codeforces.com/contest/1513/submission/113150131</a> and <a href=\"https://codeforces.com/contest/1513/submission/113150168\">https://codeforces.com/contest/1513/submission/113150168</a> (one is using recursion and the other doesn't).</p></div>",
+      "rating": 1
+    },
+    {
+      "id": 803035,
+      "creationTimeSeconds": 1623491329,
+      "commentatorHandle": "maxverr",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It's still broken :(</p></div>",
+      "parentCommentId": 437505,
+      "rating": 0
+    },
+    {
+      "id": 803822,
+      "creationTimeSeconds": 1623616443,
+      "commentatorHandle": "fk4517",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hi Mike, Any chance the Go compiler can be updated? </p></div>",
+      "rating": 0
+    },
+    {
+      "id": 857081,
+      "creationTimeSeconds": 1636295056,
+      "commentatorHandle": "cloudmist",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello, I want to know why set <code>GOARCH=386</code> for golang?<br />For fair? It's not convenient for us to compile program with 32bit. Could you set <code>GOARCH=amd64</code> ?</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 859754,
+      "creationTimeSeconds": 1637425605,
+      "commentatorHandle": "Superuzir",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hi! What are compilation options for Rust submissions? When I run the test locally with <code>cargo test --release</code>, I see execution time more than 10 times lower than at Codeforces.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 909092,
+      "creationTimeSeconds": 1651693306,
+      "commentatorHandle": "cod1r",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Could you update the OCaml compiler? That would be much appreciated :)</p></div>",
+      "rating": 5
+    },
+    {
+      "id": 971032,
+      "creationTimeSeconds": 1667951529,
+      "commentatorHandle": "Greg8128",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Can we get a hash table library for Haskell? Haskell has several, but I can't use any of them in codeforces, which is frustrating. Possibilities include:</p><p><code>unordered-containers</code>: <a href=\"https://hackage.haskell.org/package/unordered-containers\">https://hackage.haskell.org/package/unordered-containers</a></p><p><code>hashtables</code>: <a href=\"https://hackage.haskell.org/package/hashtables-1.2.3.4\">https://hackage.haskell.org/package/hashtables-1.2.3.4</a></p></div>",
+      "rating": 0
+    },
+    {
+      "id": 978501,
+      "creationTimeSeconds": 1670592565,
+      "commentatorHandle": "Gleefre",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello! Can you add Common Lisp as a supported language please? It is a very powerful language that can run at speed of c++ and is even more expressive than python.</p></div>",
+      "rating": 0
+    },
+    {
+      "id": 978523,
+      "creationTimeSeconds": 1670599366,
+      "commentatorHandle": "chromate00",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Hello, can you please consider increasing the stack size limit for Ruby? I have been practicing the language recently, and realized that the language has a 1MiB stack size limit by default. This limit makes a lot of things impossible for the language in CP (i.e. it dies here and there due to SystemStackError). This issue has been existent on other online judges as well, and I hope to see a resolution to this issue on Codeforces (and other judges as well). The language is mostly great (The ability to write concise code is a good thing in CP after all), and I hope other people could enjoy the language in CP as well. Still, this change may be crucial for people to truly enjoy the experience, without too many frustrations. (I won't complain about the language being too slow, sacrificing speed for conciseness is a good deal)</p><p>UPD: An update to Ruby 3.1.0 (or higher) would be a good change as well!</p></div>",
+      "rating": 4
+    },
+    {
+      "id": 978534,
+      "creationTimeSeconds": 1670608007,
+      "commentatorHandle": "Gleefre",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p><a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Штаб, MikeMirzayanov\">MikeMirzayanov</a> In hope that it will be able to help (judging by comment to Julia request):</p> <hr /><p>Here is an implementation of <strong>binary heap sort benchmark</strong> in common lisp: <a href=\"https://github.com/Gleefre/binary-heap-benchmark/blob/master/common-lisp/heap.lisp\">https://github.com/Gleefre/binary-heap-benchmark/blob/master/common-lisp/heap.lisp</a> (and I'll be glad to create a PR if wanted).</p><p>One of the best open source common lisp implementations is probably <a href=\"https://www.sbcl.org\">SBCL</a> which can be installed <a href=\"https://www.sbcl.org/platform-table.html\">here</a>.</p><p>A common lisp script can be run with sbcl like this: <code>sbcl --script &lt;filename&gt;</code>.</p><p>Or, if (probably) needed, with an increased/decreased dynamic stack size: <code>sbcl --dynamic-space-size &lt;megabytes&gt; --script &lt;filename&gt;</code>. It's default value is platform dependent.</p><p>On my computer, <code>heap.lisp</code> benchmark results in a range of <code>[693..846] ms</code> with an average time of <code>701.69 ms</code>.</p> <hr /><p>The problem <strong>1A — Theatre Square</strong> can be solved like this:</p> <pre><code>(defun theatre-square (n m a)\n  (* (1+ (floor (1- n) a))\n     (1+ (floor (1- m) a))))\n\n(format t &quot;~a~%&quot; (theatre-square (read) (read) (read)))\n</code></pre></div>",
+      "parentCommentId": 978501,
+      "rating": 0
+    },
+    {
+      "id": 1012580,
+      "creationTimeSeconds": 1678781807,
+      "commentatorHandle": "mivael",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>It would be convenient to be able to use the <code>Data.List.Split</code> module in Haskell. Could you please make sure the <code>split</code> package is available?</p><p>There are several common useful string splitting functions in this module (<code>chunksOf</code>, <code>splitOn</code>, ...).</p><p>Text splitting functions are available for participants in many other languages (like <em>str.split()</em> in Python).</p><p>Thank you!</p><p>Example <strong>submissions</strong>:<br />Uses <em>chunksOf</em>: <a href=\"/contest/1788/submission/197324175\" title=\"Посылка 197324175 от mivael\">197324175</a> (does not compile)<br />Same with <em>chunksOf</em> re-implemented by hand: <a href=\"/contest/1788/submission/197325080\" title=\"Посылка 197325080 от mivael\">197325080</a> (works but with additional code)</p><p>The package which provides Data.List.Split: <a href=\"https://hackage.haskell.org/package/split-0.2.3.5\">https://hackage.haskell.org/package/split-0.2.3.5</a></p><p>(Alternatively, I believe this package is a part of the Haskell Platform, one could install Haskell Platform, together with other useful libraries.)</p><p>Example documentation on some useful function from this module:</p><p><a href=\"https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:splitOn\">https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:splitOn</a></p><p><a href=\"https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:chunksOf\">https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:chunksOf</a></p></div>",
+      "rating": -5
+    },
+    {
+      "id": 1013421,
+      "creationTimeSeconds": 1679088840,
+      "commentatorHandle": "mivael",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Another common useful function from <code>Data.List.Split</code> is <code>splitPlaces</code>,<br />as in submission <a href=\"/contest/1775/submission/197833892\" title=\"Submission 197833892 by mivael\">197833892</a>.</p><p><a href=\"https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:splitPlaces\">https://hackage.haskell.org/package/split-0.2.3.5/docs/Data-List-Split.html#v:splitPlaces</a></p><p>Cc: <a class=\"rated-user user-admin\" href=\"/profile/MikeMirzayanov\" title=\"Headquarters, MikeMirzayanov\">MikeMirzayanov</a></p></div>",
+      "parentCommentId": 1012580,
+      "rating": 0
+    },
+    {
+      "id": 1022923,
+      "creationTimeSeconds": 1681479155,
+      "commentatorHandle": "PAUL007",
+      "locale": "en",
+      "text": "<div class=\"ttypography\"><p>Pls bump Rust version to 1.68.2 current stable.</p></div>",
+      "rating": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "OK",
+  "result": [
+    {
+      "lastName": "Khodyrev",
+      "lastOnlineTimeSeconds": 1679518491,
+      "rating": 1709,
+      "friendOfCount": 93,
+      "titlePhoto": "https://userpic.codeforces.org/1592/title/27e43714e4bea090.jpg",
+      "handle": "DmitriyH",
+      "avatar": "https://userpic.codeforces.org/1592/avatar/7cef566902732053.jpg",
+      "firstName": "Dmitriy",
+      "contribution": 0,
+      "organization": "",
+      "rank": "expert",
+      "maxRating": 2072,
+      "registrationTimeSeconds": 1268570311,
+      "maxRank": "candidate master"
+    },
+    {
+      "lastName": "Fefer",
+      "country": "Russia",
+      "lastOnlineTimeSeconds": 1672070012,
+      "city": "Saratov",
+      "rating": 2174,
+      "friendOfCount": 394,
+      "titlePhoto": "https://userpic.codeforces.org/242/title/151ab49dee0779f8.jpg",
+      "handle": "Fefer_Ivan",
+      "avatar": "https://userpic.codeforces.org/242/avatar/c4e6a102a9e66281.jpg",
+      "firstName": "Ivan",
+      "contribution": 0,
+      "organization": "Booking.com",
+      "rank": "master",
+      "maxRating": 2476,
+      "registrationTimeSeconds": 1264960450,
+      "maxRank": "grandmaster"
+    },
+    {
+      "lastName": "Peduri",
+      "country": "India",
+      "lastOnlineTimeSeconds": 1692748868,
+      "rating": 1974,
+      "friendOfCount": 2274,
+      "titlePhoto": "https://userpic.codeforces.org/100074/title/4ca7345e3cb73be2.jpg",
+      "handle": "codelegend",
+      "avatar": "https://userpic.codeforces.org/100074/avatar/f1c8cf3f1b9cc8d5.jpg",
+      "firstName": "Anurudh",
+      "contribution": 9,
+      "organization": "Ruhr University Bochum (RUB)",
+      "rank": "candidate master",
+      "maxRating": 2475,
+      "registrationTimeSeconds": 1366650521,
+      "maxRank": "grandmaster"
+    }
+  ]
+}

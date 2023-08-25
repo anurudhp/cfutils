@@ -1,0 +1,3 @@
+[submodule "ccs-specs"]
+	path = ccs-specs
+	url = https://github.com/icpc/ccs-specs

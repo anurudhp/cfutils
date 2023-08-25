@@ -1,0 +1,2075 @@
+{
+  "status": "OK",
+  "result": [
+    {
+      "contestId": 344,
+      "contestName": "Codeforces Round 200 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 654,
+      "ratingUpdateTimeSeconds": 1379180400,
+      "oldRating": 0,
+      "newRating": 1520
+    },
+    {
+      "contestId": 347,
+      "contestName": "Codeforces Round 201 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1425,
+      "ratingUpdateTimeSeconds": 1379698200,
+      "oldRating": 1520,
+      "newRating": 1431
+    },
+    {
+      "contestId": 550,
+      "contestName": "Codeforces Round 306 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 710,
+      "ratingUpdateTimeSeconds": 1433442600,
+      "oldRating": 1431,
+      "newRating": 1525
+    },
+    {
+      "contestId": 551,
+      "contestName": "Codeforces Round 307 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1138,
+      "ratingUpdateTimeSeconds": 1434134700,
+      "oldRating": 1525,
+      "newRating": 1454
+    },
+    {
+      "contestId": 552,
+      "contestName": "Codeforces Round 308 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 297,
+      "ratingUpdateTimeSeconds": 1434652200,
+      "oldRating": 1454,
+      "newRating": 1622
+    },
+    {
+      "contestId": 554,
+      "contestName": "Codeforces Round 309 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1736,
+      "ratingUpdateTimeSeconds": 1435171200,
+      "oldRating": 1622,
+      "newRating": 1529
+    },
+    {
+      "contestId": 557,
+      "contestName": "Codeforces Round 311 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 963,
+      "ratingUpdateTimeSeconds": 1435683600,
+      "oldRating": 1529,
+      "newRating": 1475
+    },
+    {
+      "contestId": 574,
+      "contestName": "Codeforces Round 318 [RussianCodeCup Thanks-Round] (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1075,
+      "ratingUpdateTimeSeconds": 1440873600,
+      "oldRating": 1475,
+      "newRating": 1451
+    },
+    {
+      "contestId": 577,
+      "contestName": "Codeforces Round 319 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 923,
+      "ratingUpdateTimeSeconds": 1441910400,
+      "oldRating": 1451,
+      "newRating": 1494
+    },
+    {
+      "contestId": 580,
+      "contestName": "Codeforces Round 321 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 466,
+      "ratingUpdateTimeSeconds": 1442946600,
+      "oldRating": 1494,
+      "newRating": 1608
+    },
+    {
+      "contestId": 606,
+      "contestName": "Codeforces Round 335 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 998,
+      "ratingUpdateTimeSeconds": 1449684300,
+      "oldRating": 1608,
+      "newRating": 1597
+    },
+    {
+      "contestId": 608,
+      "contestName": "Codeforces Round 336 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 640,
+      "ratingUpdateTimeSeconds": 1450895700,
+      "oldRating": 1597,
+      "newRating": 1621
+    },
+    {
+      "contestId": 610,
+      "contestName": "Codeforces Round 337 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 423,
+      "ratingUpdateTimeSeconds": 1451222400,
+      "oldRating": 1621,
+      "newRating": 1656
+    },
+    {
+      "contestId": 611,
+      "contestName": "Good Bye 2015",
+      "handle": "codelegend",
+      "rank": 825,
+      "ratingUpdateTimeSeconds": 1451498700,
+      "oldRating": 1656,
+      "newRating": 1721
+    },
+    {
+      "contestId": 618,
+      "contestName": "Wunder Fund Round 2016 (Div. 1 + Div. 2 combined)",
+      "handle": "codelegend",
+      "rank": 2682,
+      "ratingUpdateTimeSeconds": 1454094600,
+      "oldRating": 1721,
+      "newRating": 1618
+    },
+    {
+      "contestId": 621,
+      "contestName": "Codeforces Round 341 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1115,
+      "ratingUpdateTimeSeconds": 1454256300,
+      "oldRating": 1618,
+      "newRating": 1605
+    },
+    {
+      "contestId": 624,
+      "contestName": "AIM Tech Round (Div. 2)",
+      "handle": "codelegend",
+      "rank": 674,
+      "ratingUpdateTimeSeconds": 1454612700,
+      "oldRating": 1605,
+      "newRating": 1630
+    },
+    {
+      "contestId": 625,
+      "contestName": "Codeforces Round 342 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1040,
+      "ratingUpdateTimeSeconds": 1454843100,
+      "oldRating": 1630,
+      "newRating": 1599
+    },
+    {
+      "contestId": 651,
+      "contestName": "Codeforces Round 345 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 388,
+      "ratingUpdateTimeSeconds": 1457349900,
+      "oldRating": 1599,
+      "newRating": 1646
+    },
+    {
+      "contestId": 658,
+      "contestName": "VK Cup 2016 - Round 1 (Div. 2 Edition)",
+      "handle": "codelegend",
+      "rank": 422,
+      "ratingUpdateTimeSeconds": 1459190100,
+      "oldRating": 1646,
+      "newRating": 1647
+    },
+    {
+      "contestId": 659,
+      "contestName": "Codeforces Round 346 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 302,
+      "ratingUpdateTimeSeconds": 1459362900,
+      "oldRating": 1647,
+      "newRating": 1708
+    },
+    {
+      "contestId": 669,
+      "contestName": "Codeforces Round 348 (VK Cup 2016 Round 2, Div. 2 Edition)",
+      "handle": "codelegend",
+      "rank": 936,
+      "ratingUpdateTimeSeconds": 1461522900,
+      "oldRating": 1708,
+      "newRating": 1636
+    },
+    {
+      "contestId": 667,
+      "contestName": "Codeforces Round 349 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1740,
+      "ratingUpdateTimeSeconds": 1461954900,
+      "oldRating": 1636,
+      "newRating": 1540
+    },
+    {
+      "contestId": 670,
+      "contestName": "Codeforces Round 350 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 303,
+      "ratingUpdateTimeSeconds": 1462473300,
+      "oldRating": 1540,
+      "newRating": 1628
+    },
+    {
+      "contestId": 675,
+      "contestName": "Codeforces Round 353 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 51,
+      "ratingUpdateTimeSeconds": 1463423700,
+      "oldRating": 1628,
+      "newRating": 1793
+    },
+    {
+      "contestId": 676,
+      "contestName": "Codeforces Round 354 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 472,
+      "ratingUpdateTimeSeconds": 1464195900,
+      "oldRating": 1793,
+      "newRating": 1783
+    },
+    {
+      "contestId": 680,
+      "contestName": "Codeforces Round 356 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 23,
+      "ratingUpdateTimeSeconds": 1465410900,
+      "oldRating": 1783,
+      "newRating": 1938
+    },
+    {
+      "contestId": 685,
+      "contestName": "Codeforces Round 359 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 425,
+      "ratingUpdateTimeSeconds": 1466706900,
+      "oldRating": 1938,
+      "newRating": 1877
+    },
+    {
+      "contestId": 688,
+      "contestName": "Codeforces Round 360 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 341,
+      "ratingUpdateTimeSeconds": 1467227100,
+      "oldRating": 1877,
+      "newRating": 1867
+    },
+    {
+      "contestId": 689,
+      "contestName": "Codeforces Round 361 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 94,
+      "ratingUpdateTimeSeconds": 1467830100,
+      "oldRating": 1867,
+      "newRating": 1934
+    },
+    {
+      "contestId": 696,
+      "contestName": "Codeforces Round 362 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 138,
+      "ratingUpdateTimeSeconds": 1468522200,
+      "oldRating": 1934,
+      "newRating": 2030
+    },
+    {
+      "contestId": 698,
+      "contestName": "Codeforces Round 363 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 483,
+      "ratingUpdateTimeSeconds": 1468941600,
+      "oldRating": 2030,
+      "newRating": 1957
+    },
+    {
+      "contestId": 700,
+      "contestName": "Codeforces Round 364 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 335,
+      "ratingUpdateTimeSeconds": 1469212500,
+      "oldRating": 1957,
+      "newRating": 1890
+    },
+    {
+      "contestId": 705,
+      "contestName": "Codeforces Round 366 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 69,
+      "ratingUpdateTimeSeconds": 1470585900,
+      "oldRating": 1890,
+      "newRating": 1967
+    },
+    {
+      "contestId": 708,
+      "contestName": "AIM Tech Round 3 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 334,
+      "ratingUpdateTimeSeconds": 1472063700,
+      "oldRating": 1967,
+      "newRating": 1973
+    },
+    {
+      "contestId": 713,
+      "contestName": "Codeforces Round 371 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 458,
+      "ratingUpdateTimeSeconds": 1473791700,
+      "oldRating": 1973,
+      "newRating": 1920
+    },
+    {
+      "contestId": 715,
+      "contestName": "Codeforces Round 372 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 307,
+      "ratingUpdateTimeSeconds": 1474127100,
+      "oldRating": 1920,
+      "newRating": 1934
+    },
+    {
+      "contestId": 737,
+      "contestName": "Codeforces Round 380 (Div. 1, Rated, Based on Technocup 2017 - Elimination Round 2)",
+      "handle": "codelegend",
+      "rank": 219,
+      "ratingUpdateTimeSeconds": 1479639900,
+      "oldRating": 1934,
+      "newRating": 1961
+    },
+    {
+      "contestId": 739,
+      "contestName": "Codeforces Round 381 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 360,
+      "ratingUpdateTimeSeconds": 1479926100,
+      "oldRating": 1961,
+      "newRating": 1942
+    },
+    {
+      "contestId": 736,
+      "contestName": "Codeforces Round 382 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 249,
+      "ratingUpdateTimeSeconds": 1480271700,
+      "oldRating": 1942,
+      "newRating": 1982
+    },
+    {
+      "contestId": 741,
+      "contestName": "Codeforces Round 383 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 218,
+      "ratingUpdateTimeSeconds": 1481042100,
+      "oldRating": 1982,
+      "newRating": 2020
+    },
+    {
+      "contestId": 744,
+      "contestName": "Codeforces Round 385 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 307,
+      "ratingUpdateTimeSeconds": 1481999700,
+      "oldRating": 2020,
+      "newRating": 2015
+    },
+    {
+      "contestId": 750,
+      "contestName": "Good Bye 2016",
+      "handle": "codelegend",
+      "rank": 1819,
+      "ratingUpdateTimeSeconds": 1483116300,
+      "oldRating": 2015,
+      "newRating": 1941
+    },
+    {
+      "contestId": 755,
+      "contestName": "8VC Venture Cup 2017 - Elimination Round",
+      "handle": "codelegend",
+      "rank": 602,
+      "ratingUpdateTimeSeconds": 1484507100,
+      "oldRating": 1941,
+      "newRating": 1943
+    },
+    {
+      "contestId": 759,
+      "contestName": "Codeforces Round 393 (Div. 1) (8VC Venture Cup 2017 - Final Round Div. 1 Edition)",
+      "handle": "codelegend",
+      "rank": 366,
+      "ratingUpdateTimeSeconds": 1485116100,
+      "oldRating": 1943,
+      "newRating": 1861
+    },
+    {
+      "contestId": 764,
+      "contestName": "Codeforces Round 395 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 128,
+      "ratingUpdateTimeSeconds": 1486049700,
+      "oldRating": 1861,
+      "newRating": 1911
+    },
+    {
+      "contestId": 765,
+      "contestName": "Codeforces Round 397 by Kaspersky Lab and Barcelona Bootcamp (Div. 1 + Div. 2 combined)",
+      "handle": "codelegend",
+      "rank": 622,
+      "ratingUpdateTimeSeconds": 1487070300,
+      "oldRating": 1911,
+      "newRating": 1904
+    },
+    {
+      "contestId": 768,
+      "contestName": "Divide by Zero 2017 and Codeforces Round 399 (Div. 1 + Div. 2, combined)",
+      "handle": "codelegend",
+      "rank": 1343,
+      "ratingUpdateTimeSeconds": 1487616300,
+      "oldRating": 1904,
+      "newRating": 1848
+    },
+    {
+      "contestId": 776,
+      "contestName": "ICM Technex 2017 and Codeforces Round 400 (Div. 1 + Div. 2, combined)",
+      "handle": "codelegend",
+      "rank": 184,
+      "ratingUpdateTimeSeconds": 1487868900,
+      "oldRating": 1848,
+      "newRating": 1977
+    },
+    {
+      "contestId": 781,
+      "contestName": "Codeforces Round 403 (Div. 1, based on Technocup 2017 Finals)",
+      "handle": "codelegend",
+      "rank": 401,
+      "ratingUpdateTimeSeconds": 1488726300,
+      "oldRating": 1977,
+      "newRating": 1929
+    },
+    {
+      "contestId": 788,
+      "contestName": "Codeforces Round 407 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 191,
+      "ratingUpdateTimeSeconds": 1490810700,
+      "oldRating": 1929,
+      "newRating": 1993
+    },
+    {
+      "contestId": 793,
+      "contestName": "Tinkoff Challenge - Elimination Round",
+      "handle": "codelegend",
+      "rank": 1214,
+      "ratingUpdateTimeSeconds": 1492973100,
+      "oldRating": 1993,
+      "newRating": 1885
+    },
+    {
+      "contestId": 805,
+      "contestName": "Codeforces Round 411 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 135,
+      "ratingUpdateTimeSeconds": 1493916600,
+      "oldRating": 1885,
+      "newRating": 1924
+    },
+    {
+      "contestId": 809,
+      "contestName": "Codeforces Round 415 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 123,
+      "ratingUpdateTimeSeconds": 1495310700,
+      "oldRating": 1924,
+      "newRating": 2020
+    },
+    {
+      "contestId": 815,
+      "contestName": "Codeforces Round 419 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 317,
+      "ratingUpdateTimeSeconds": 1497717300,
+      "oldRating": 2020,
+      "newRating": 2024
+    },
+    {
+      "contestId": 840,
+      "contestName": "Codeforces Round 429 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 396,
+      "ratingUpdateTimeSeconds": 1503075900,
+      "oldRating": 2024,
+      "newRating": 1975
+    },
+    {
+      "contestId": 843,
+      "contestName": "AIM Tech Round 4 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 308,
+      "ratingUpdateTimeSeconds": 1503601500,
+      "oldRating": 1975,
+      "newRating": 1973
+    },
+    {
+      "contestId": 848,
+      "contestName": "Codeforces Round 431 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 340,
+      "ratingUpdateTimeSeconds": 1504280100,
+      "oldRating": 1973,
+      "newRating": 1977
+    },
+    {
+      "contestId": 850,
+      "contestName": "Codeforces Round 432 (Div. 1, based on IndiaHacks Final Round 2017)",
+      "handle": "codelegend",
+      "rank": 164,
+      "ratingUpdateTimeSeconds": 1504544700,
+      "oldRating": 1977,
+      "newRating": 2023
+    },
+    {
+      "contestId": 859,
+      "contestName": "MemSQL Start[c]UP 3.0 - Round 1",
+      "handle": "codelegend",
+      "rank": 285,
+      "ratingUpdateTimeSeconds": 1505592300,
+      "oldRating": 2023,
+      "newRating": 2045
+    },
+    {
+      "contestId": 855,
+      "contestName": "Manthan, Codefest 17",
+      "handle": "codelegend",
+      "rank": 383,
+      "ratingUpdateTimeSeconds": 1506272700,
+      "oldRating": 2045,
+      "newRating": 2034
+    },
+    {
+      "contestId": 866,
+      "contestName": "MemSQL Start[c]UP 3.0 - Round 2 and Codeforces Round 437 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 369,
+      "ratingUpdateTimeSeconds": 1506801900,
+      "oldRating": 2034,
+      "newRating": 1961
+    },
+    {
+      "contestId": 868,
+      "contestName": "Codeforces Round 438 by Sberbank and Barcelona Bootcamp (Div. 1 + Div. 2 combined)",
+      "handle": "codelegend",
+      "rank": 531,
+      "ratingUpdateTimeSeconds": 1507197900,
+      "oldRating": 1961,
+      "newRating": 1934
+    },
+    {
+      "contestId": 871,
+      "contestName": "Codeforces Round 440 (Div. 1, based on Technocup 2018 Elimination Round 2)",
+      "handle": "codelegend",
+      "rank": 215,
+      "ratingUpdateTimeSeconds": 1508061900,
+      "oldRating": 1934,
+      "newRating": 1942
+    },
+    {
+      "contestId": 878,
+      "contestName": "Codeforces Round 443 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 199,
+      "ratingUpdateTimeSeconds": 1509036300,
+      "oldRating": 1942,
+      "newRating": 1979
+    },
+    {
+      "contestId": 906,
+      "contestName": "Codeforces Round 454 (Div. 1, based on Technocup 2018 Elimination Round 4)",
+      "handle": "codelegend",
+      "rank": 256,
+      "ratingUpdateTimeSeconds": 1514045100,
+      "oldRating": 1979,
+      "newRating": 2000
+    },
+    {
+      "contestId": 908,
+      "contestName": "Good Bye 2017",
+      "handle": "codelegend",
+      "rank": 724,
+      "ratingUpdateTimeSeconds": 1514571000,
+      "oldRating": 2000,
+      "newRating": 1999
+    },
+    {
+      "contestId": 913,
+      "contestName": "Hello 2018",
+      "handle": "codelegend",
+      "rank": 1227,
+      "ratingUpdateTimeSeconds": 1515431700,
+      "oldRating": 1999,
+      "newRating": 1949
+    },
+    {
+      "contestId": 917,
+      "contestName": "Codeforces Round 459 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 313,
+      "ratingUpdateTimeSeconds": 1517243700,
+      "oldRating": 1949,
+      "newRating": 1913
+    },
+    {
+      "contestId": 933,
+      "contestName": "Codeforces Round 462 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 131,
+      "ratingUpdateTimeSeconds": 1518617100,
+      "oldRating": 1913,
+      "newRating": 2023
+    },
+    {
+      "contestId": 932,
+      "contestName": "ICM Technex 2018 and Codeforces Round 463 (Div. 1 + Div. 2, combined)",
+      "handle": "codelegend",
+      "rank": 267,
+      "ratingUpdateTimeSeconds": 1518712500,
+      "oldRating": 2023,
+      "newRating": 2064
+    },
+    {
+      "contestId": 936,
+      "contestName": "Codeforces Round 467 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 333,
+      "ratingUpdateTimeSeconds": 1519581900,
+      "oldRating": 2064,
+      "newRating": 2013
+    },
+    {
+      "contestId": 930,
+      "contestName": "Codeforces Round 468 (Div. 1, based on Technocup 2018 Final Round)",
+      "handle": "codelegend",
+      "rank": 161,
+      "ratingUpdateTimeSeconds": 1520184900,
+      "oldRating": 2013,
+      "newRating": 2065
+    },
+    {
+      "contestId": 979,
+      "contestName": "Codeforces Round 482 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 148,
+      "ratingUpdateTimeSeconds": 1526315700,
+      "oldRating": 2065,
+      "newRating": 2088
+    },
+    {
+      "contestId": 983,
+      "contestName": "Codeforces Round 483 (Div. 1) [Thanks, Botan Investments and Victor Shaburov!]",
+      "handle": "codelegend",
+      "rank": 477,
+      "ratingUpdateTimeSeconds": 1526402700,
+      "oldRating": 2088,
+      "newRating": 2003
+    },
+    {
+      "contestId": 997,
+      "contestName": "Codeforces Round 493 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 339,
+      "ratingUpdateTimeSeconds": 1530461100,
+      "oldRating": 2003,
+      "newRating": 1970
+    },
+    {
+      "contestId": 1004,
+      "contestName": "Codeforces Round 495 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 140,
+      "ratingUpdateTimeSeconds": 1530815700,
+      "oldRating": 1970,
+      "newRating": 2004
+    },
+    {
+      "contestId": 1007,
+      "contestName": "Codeforces Round 497 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 229,
+      "ratingUpdateTimeSeconds": 1531500300,
+      "oldRating": 2004,
+      "newRating": 2022
+    },
+    {
+      "contestId": 1023,
+      "contestName": "Codeforces Round 504 (rated, Div. 1 + Div. 2, based on VK Cup 2018 Final)",
+      "handle": "codelegend",
+      "rank": 255,
+      "ratingUpdateTimeSeconds": 1534524600,
+      "oldRating": 2022,
+      "newRating": 2077
+    },
+    {
+      "contestId": 1027,
+      "contestName": "Educational Codeforces Round 49 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 385,
+      "ratingUpdateTimeSeconds": 1534610100,
+      "oldRating": 2077,
+      "newRating": 2049
+    },
+    {
+      "contestId": 1025,
+      "contestName": "Codeforces Round 505 (rated, Div. 1 + Div. 2, based on VK Cup 2018 Final)",
+      "handle": "codelegend",
+      "rank": 1650,
+      "ratingUpdateTimeSeconds": 1534693800,
+      "oldRating": 2049,
+      "newRating": 1955
+    },
+    {
+      "contestId": 1028,
+      "contestName": "AIM Tech Round 5 (rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 209,
+      "ratingUpdateTimeSeconds": 1535395800,
+      "oldRating": 1955,
+      "newRating": 2038
+    },
+    {
+      "contestId": 1039,
+      "contestName": "Codeforces Round 507 (Div. 1, based on Olympiad of Metropolises)",
+      "handle": "codelegend",
+      "rank": 312,
+      "ratingUpdateTimeSeconds": 1536172500,
+      "oldRating": 2038,
+      "newRating": 1937
+    },
+    {
+      "contestId": 1038,
+      "contestName": "Codeforces Round 508 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 114,
+      "ratingUpdateTimeSeconds": 1536255300,
+      "oldRating": 1937,
+      "newRating": 2014
+    },
+    {
+      "contestId": 1051,
+      "contestName": "Educational Codeforces Round 51 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 291,
+      "ratingUpdateTimeSeconds": 1537461900,
+      "oldRating": 2014,
+      "newRating": 2004
+    },
+    {
+      "contestId": 1053,
+      "contestName": "Codeforces Round 512 (Div. 1, based on Technocup 2019 Elimination Round 1)",
+      "handle": "codelegend",
+      "rank": 253,
+      "ratingUpdateTimeSeconds": 1537715100,
+      "oldRating": 2004,
+      "newRating": 2009
+    },
+    {
+      "contestId": 1033,
+      "contestName": "Lyft Level 5 Challenge 2018 - Elimination Round",
+      "handle": "codelegend",
+      "rank": 309,
+      "ratingUpdateTimeSeconds": 1538939100,
+      "oldRating": 2009,
+      "newRating": 2051
+    },
+    {
+      "contestId": 1063,
+      "contestName": "Codeforces Round 516 (Div. 1, by Moscow Team Olympiad)",
+      "handle": "codelegend",
+      "rank": 70,
+      "ratingUpdateTimeSeconds": 1539518700,
+      "oldRating": 2051,
+      "newRating": 2171
+    },
+    {
+      "contestId": 1054,
+      "contestName": "Mail.Ru Cup 2018 Round 1",
+      "handle": "codelegend",
+      "rank": 229,
+      "ratingUpdateTimeSeconds": 1539889500,
+      "oldRating": 2171,
+      "newRating": 2181
+    },
+    {
+      "contestId": 1067,
+      "contestName": "Codeforces Round 518 (Div. 1) [Thanks, Mail.Ru!]",
+      "handle": "codelegend",
+      "rank": 244,
+      "ratingUpdateTimeSeconds": 1540406100,
+      "oldRating": 2181,
+      "newRating": 2135
+    },
+    {
+      "contestId": 1043,
+      "contestName": "Codeforces Round 519 by Botan Investments",
+      "handle": "codelegend",
+      "rank": 720,
+      "ratingUpdateTimeSeconds": 1540748100,
+      "oldRating": 2135,
+      "newRating": 2085
+    },
+    {
+      "contestId": 1074,
+      "contestName": "Lyft Level 5 Challenge 2018 - Final Round (Open Div. 1)",
+      "handle": "codelegend",
+      "rank": 71,
+      "ratingUpdateTimeSeconds": 1541364000,
+      "oldRating": 2085,
+      "newRating": 2169
+    },
+    {
+      "contestId": 1055,
+      "contestName": "Mail.Ru Cup 2018 Round 2",
+      "handle": "codelegend",
+      "rank": 104,
+      "ratingUpdateTimeSeconds": 1541869500,
+      "oldRating": 2169,
+      "newRating": 2244
+    },
+    {
+      "contestId": 1056,
+      "contestName": "Mail.Ru Cup 2018 Round 3",
+      "handle": "codelegend",
+      "rank": 221,
+      "ratingUpdateTimeSeconds": 1543172700,
+      "oldRating": 2244,
+      "newRating": 2239
+    },
+    {
+      "contestId": 1083,
+      "contestName": "Codeforces Round 526 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 75,
+      "ratingUpdateTimeSeconds": 1544466900,
+      "oldRating": 2239,
+      "newRating": 2287
+    },
+    {
+      "contestId": 1086,
+      "contestName": "Codeforces Round 528 (Div. 1, based on Technocup 2019 Elimination Round 4)",
+      "handle": "codelegend",
+      "rank": 211,
+      "ratingUpdateTimeSeconds": 1545579300,
+      "oldRating": 2287,
+      "newRating": 2257
+    },
+    {
+      "contestId": 1091,
+      "contestName": "Good Bye 2018",
+      "handle": "codelegend",
+      "rank": 449,
+      "ratingUpdateTimeSeconds": 1546190100,
+      "oldRating": 2257,
+      "newRating": 2251
+    },
+    {
+      "contestId": 1097,
+      "contestName": "Hello 2019",
+      "handle": "codelegend",
+      "rank": 275,
+      "ratingUpdateTimeSeconds": 1546623900,
+      "oldRating": 2251,
+      "newRating": 2271
+    },
+    {
+      "contestId": 1098,
+      "contestName": "Codeforces Round 530 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 74,
+      "ratingUpdateTimeSeconds": 1546715100,
+      "oldRating": 2271,
+      "newRating": 2350
+    },
+    {
+      "contestId": 1103,
+      "contestName": "Codeforces Round 534 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 96,
+      "ratingUpdateTimeSeconds": 1548174900,
+      "oldRating": 2350,
+      "newRating": 2372
+    },
+    {
+      "contestId": 1110,
+      "contestName": "Codeforces Global Round 1",
+      "handle": "codelegend",
+      "rank": 860,
+      "ratingUpdateTimeSeconds": 1549553700,
+      "oldRating": 2372,
+      "newRating": 2280
+    },
+    {
+      "contestId": 1109,
+      "contestName": "Codeforces Round 539 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 72,
+      "ratingUpdateTimeSeconds": 1550343900,
+      "oldRating": 2280,
+      "newRating": 2334
+    },
+    {
+      "contestId": 1129,
+      "contestName": "Codeforces Round 542 [Alex Lopashev Thanks-Round] (Div. 1)",
+      "handle": "codelegend",
+      "rank": 138,
+      "ratingUpdateTimeSeconds": 1551029700,
+      "oldRating": 2334,
+      "newRating": 2316
+    },
+    {
+      "contestId": 1137,
+      "contestName": "Codeforces Round 545 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 278,
+      "ratingUpdateTimeSeconds": 1552044900,
+      "oldRating": 2316,
+      "newRating": 2250
+    },
+    {
+      "contestId": 1142,
+      "contestName": "Codeforces Round 549 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 94,
+      "ratingUpdateTimeSeconds": 1553973000,
+      "oldRating": 2250,
+      "newRating": 2281
+    },
+    {
+      "contestId": 1119,
+      "contestName": "Codeforces Global Round 2",
+      "handle": "codelegend",
+      "rank": 201,
+      "ratingUpdateTimeSeconds": 1554557700,
+      "oldRating": 2281,
+      "newRating": 2306
+    },
+    {
+      "contestId": 1146,
+      "contestName": "Forethought Future Cup - Elimination Round",
+      "handle": "codelegend",
+      "rank": 165,
+      "ratingUpdateTimeSeconds": 1555792500,
+      "oldRating": 2306,
+      "newRating": 2309
+    },
+    {
+      "contestId": 1149,
+      "contestName": "Codeforces Round 556 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 374,
+      "ratingUpdateTimeSeconds": 1556555700,
+      "oldRating": 2309,
+      "newRating": 2244
+    },
+    {
+      "contestId": 1148,
+      "contestName": "Codeforces Global Round 3",
+      "handle": "codelegend",
+      "rank": 506,
+      "ratingUpdateTimeSeconds": 1559407800,
+      "oldRating": 2244,
+      "newRating": 2204
+    },
+    {
+      "contestId": 1172,
+      "contestName": "Codeforces Round 564 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 224,
+      "ratingUpdateTimeSeconds": 1559916300,
+      "oldRating": 2204,
+      "newRating": 2200
+    },
+    {
+      "contestId": 1179,
+      "contestName": "Codeforces Round 569 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 343,
+      "ratingUpdateTimeSeconds": 1561143900,
+      "oldRating": 2200,
+      "newRating": 2140
+    },
+    {
+      "contestId": 1188,
+      "contestName": "Codeforces Round 572 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 227,
+      "ratingUpdateTimeSeconds": 1562346300,
+      "oldRating": 2140,
+      "newRating": 2149
+    },
+    {
+      "contestId": 1198,
+      "contestName": "Codeforces Round 576 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 112,
+      "ratingUpdateTimeSeconds": 1564504500,
+      "oldRating": 2149,
+      "newRating": 2234
+    },
+    {
+      "contestId": 1205,
+      "contestName": "Codeforces Round 580 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 203,
+      "ratingUpdateTimeSeconds": 1566143700,
+      "oldRating": 2234,
+      "newRating": 2250
+    },
+    {
+      "contestId": 1208,
+      "contestName": "Manthan, Codefest 19 (open for everyone, rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 1999,
+      "ratingUpdateTimeSeconds": 1566751200,
+      "oldRating": 2250,
+      "newRating": 2112
+    },
+    {
+      "contestId": 1214,
+      "contestName": "Codeforces Round 583 (Div. 1 + Div. 2, based on Olympiad of Metropolises)",
+      "handle": "codelegend",
+      "rank": 34,
+      "ratingUpdateTimeSeconds": 1567596900,
+      "oldRating": 2112,
+      "newRating": 2288
+    },
+    {
+      "contestId": 1220,
+      "contestName": "Codeforces Round 586 (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 106,
+      "ratingUpdateTimeSeconds": 1568829900,
+      "oldRating": 2288,
+      "newRating": 2343
+    },
+    {
+      "contestId": 1229,
+      "contestName": "Codeforces Round 588 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 66,
+      "ratingUpdateTimeSeconds": 1569256500,
+      "oldRating": 2343,
+      "newRating": 2422
+    },
+    {
+      "contestId": 1237,
+      "contestName": "Codeforces Global Round 5",
+      "handle": "codelegend",
+      "rank": 145,
+      "ratingUpdateTimeSeconds": 1571245500,
+      "oldRating": 2422,
+      "newRating": 2454
+    },
+    {
+      "contestId": 1239,
+      "contestName": "Codeforces Round 594 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 389,
+      "ratingUpdateTimeSeconds": 1571569500,
+      "oldRating": 2454,
+      "newRating": 2343
+    },
+    {
+      "contestId": 1246,
+      "contestName": "Codeforces Round 596 (Div. 1, based on Technocup 2020 Elimination Round 2)",
+      "handle": "codelegend",
+      "rank": 253,
+      "ratingUpdateTimeSeconds": 1572095100,
+      "oldRating": 2343,
+      "newRating": 2303
+    },
+    {
+      "contestId": 1242,
+      "contestName": "Codeforces Round 599 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 385,
+      "ratingUpdateTimeSeconds": 1573059900,
+      "oldRating": 2303,
+      "newRating": 2255
+    },
+    {
+      "contestId": 1254,
+      "contestName": "Codeforces Round 601 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 207,
+      "ratingUpdateTimeSeconds": 1574181300,
+      "oldRating": 2255,
+      "newRating": 2264
+    },
+    {
+      "contestId": 1261,
+      "contestName": "Codeforces Round 602 (Div. 1, based on Technocup 2020 Elimination Round 3)",
+      "handle": "codelegend",
+      "rank": 80,
+      "ratingUpdateTimeSeconds": 1574589900,
+      "oldRating": 2264,
+      "newRating": 2334
+    },
+    {
+      "contestId": 1264,
+      "contestName": "Codeforces Round 604 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 90,
+      "ratingUpdateTimeSeconds": 1575563700,
+      "oldRating": 2334,
+      "newRating": 2392
+    },
+    {
+      "contestId": 1276,
+      "contestName": "Codeforces Round 606 (Div. 1, based on Technocup 2020 Elimination Round 4)",
+      "handle": "codelegend",
+      "rank": 66,
+      "ratingUpdateTimeSeconds": 1576328700,
+      "oldRating": 2392,
+      "newRating": 2455
+    },
+    {
+      "contestId": 1266,
+      "contestName": "Codeforces Global Round 6",
+      "handle": "codelegend",
+      "rank": 138,
+      "ratingUpdateTimeSeconds": 1576604100,
+      "oldRating": 2455,
+      "newRating": 2475
+    },
+    {
+      "contestId": 1268,
+      "contestName": "Codeforces Round 609 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 340,
+      "ratingUpdateTimeSeconds": 1576933500,
+      "oldRating": 2475,
+      "newRating": 2381
+    },
+    {
+      "contestId": 1270,
+      "contestName": "Good Bye 2019",
+      "handle": "codelegend",
+      "rank": 113,
+      "ratingUpdateTimeSeconds": 1577639100,
+      "oldRating": 2381,
+      "newRating": 2446
+    },
+    {
+      "contestId": 1284,
+      "contestName": "Hello 2020",
+      "handle": "codelegend",
+      "rank": 375,
+      "ratingUpdateTimeSeconds": 1578148500,
+      "oldRating": 2446,
+      "newRating": 2415
+    },
+    {
+      "contestId": 1286,
+      "contestName": "Codeforces Round 612 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 392,
+      "ratingUpdateTimeSeconds": 1578240300,
+      "oldRating": 2415,
+      "newRating": 2347
+    },
+    {
+      "contestId": 1292,
+      "contestName": "Codeforces Round 614 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 184,
+      "ratingUpdateTimeSeconds": 1579448100,
+      "oldRating": 2347,
+      "newRating": 2357
+    },
+    {
+      "contestId": 1290,
+      "contestName": "Codeforces Round 616 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 850,
+      "ratingUpdateTimeSeconds": 1580661300,
+      "oldRating": 2357,
+      "newRating": 2220
+    },
+    {
+      "contestId": 1299,
+      "contestName": "Codeforces Round 618 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 328,
+      "ratingUpdateTimeSeconds": 1581264300,
+      "oldRating": 2220,
+      "newRating": 2228
+    },
+    {
+      "contestId": 1314,
+      "contestName": "Codeforces Round 623 (Div. 1, based on VK Cup 2019-2020 - Elimination Round, Engine)",
+      "handle": "codelegend",
+      "rank": 241,
+      "ratingUpdateTimeSeconds": 1582482900,
+      "oldRating": 2228,
+      "newRating": 2209
+    },
+    {
+      "contestId": 1320,
+      "contestName": "Codeforces Round 625 (Div. 1, based on Technocup 2020 Final Round)",
+      "handle": "codelegend",
+      "rank": 346,
+      "ratingUpdateTimeSeconds": 1583075700,
+      "oldRating": 2209,
+      "newRating": 2211
+    },
+    {
+      "contestId": 1305,
+      "contestName": "Ozon Tech Challenge 2020 (Div.1 + Div.2, Rated, T-shirts + prizes!)",
+      "handle": "codelegend",
+      "rank": 234,
+      "ratingUpdateTimeSeconds": 1583254200,
+      "oldRating": 2211,
+      "newRating": 2273
+    },
+    {
+      "contestId": 1322,
+      "contestName": "Codeforces Round 626 (Div. 1, based on Moscow Open Olympiad in Informatics)",
+      "handle": "codelegend",
+      "rank": 212,
+      "ratingUpdateTimeSeconds": 1583580900,
+      "oldRating": 2273,
+      "newRating": 2293
+    },
+    {
+      "contestId": 1326,
+      "contestName": "Codeforces Global Round 7",
+      "handle": "codelegend",
+      "rank": 200,
+      "ratingUpdateTimeSeconds": 1584637500,
+      "oldRating": 2293,
+      "newRating": 2355
+    },
+    {
+      "contestId": 1329,
+      "contestName": "Codeforces Round 631 (Div. 1) - Thanks, Denis aramis Shitov!",
+      "handle": "codelegend",
+      "rank": 216,
+      "ratingUpdateTimeSeconds": 1585931700,
+      "oldRating": 2355,
+      "newRating": 2388
+    },
+    {
+      "contestId": 1338,
+      "contestName": "Codeforces Round 633 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 331,
+      "ratingUpdateTimeSeconds": 1586707500,
+      "oldRating": 2388,
+      "newRating": 2372
+    },
+    {
+      "contestId": 1336,
+      "contestName": "Codeforces Round 635 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 247,
+      "ratingUpdateTimeSeconds": 1586970300,
+      "oldRating": 2372,
+      "newRating": 2388
+    },
+    {
+      "contestId": 1349,
+      "contestName": "Codeforces Round 641 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 438,
+      "ratingUpdateTimeSeconds": 1589295900,
+      "oldRating": 2388,
+      "newRating": 2351
+    },
+    {
+      "contestId": 1368,
+      "contestName": "Codeforces Global Round 8",
+      "handle": "codelegend",
+      "rank": 683,
+      "ratingUpdateTimeSeconds": 1592500500,
+      "oldRating": 2351,
+      "newRating": 2315
+    },
+    {
+      "contestId": 1375,
+      "contestName": "Codeforces Global Round 9",
+      "handle": "codelegend",
+      "rank": 179,
+      "ratingUpdateTimeSeconds": 1593882900,
+      "oldRating": 2315,
+      "newRating": 2392
+    },
+    {
+      "contestId": 1381,
+      "contestName": "Codeforces Round 658 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 278,
+      "ratingUpdateTimeSeconds": 1595349300,
+      "oldRating": 2392,
+      "newRating": 2386
+    },
+    {
+      "contestId": 1383,
+      "contestName": "Codeforces Round 659 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 1081,
+      "ratingUpdateTimeSeconds": 1595608500,
+      "oldRating": 2386,
+      "newRating": 2263
+    },
+    {
+      "contestId": 1394,
+      "contestName": "Codeforces Round 664 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 845,
+      "ratingUpdateTimeSeconds": 1597250100,
+      "oldRating": 2263,
+      "newRating": 2176
+    },
+    {
+      "contestId": 1392,
+      "contestName": "Codeforces Global Round 10",
+      "handle": "codelegend",
+      "rank": 271,
+      "ratingUpdateTimeSeconds": 1597599300,
+      "oldRating": 2176,
+      "newRating": 2240
+    },
+    {
+      "contestId": 1396,
+      "contestName": "Codeforces Round 666 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 542,
+      "ratingUpdateTimeSeconds": 1598805300,
+      "oldRating": 2240,
+      "newRating": 2220
+    },
+    {
+      "contestId": 1404,
+      "contestName": "Codeforces Round 668 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 449,
+      "ratingUpdateTimeSeconds": 1599410100,
+      "oldRating": 2220,
+      "newRating": 2213
+    },
+    {
+      "contestId": 1408,
+      "contestName": "Grakn Forces 2020",
+      "handle": "codelegend",
+      "rank": 277,
+      "ratingUpdateTimeSeconds": 1601486400,
+      "oldRating": 2213,
+      "newRating": 2270
+    },
+    {
+      "contestId": 1427,
+      "contestName": "Codeforces Global Round 11",
+      "handle": "codelegend",
+      "rank": 161,
+      "ratingUpdateTimeSeconds": 1602352200,
+      "oldRating": 2270,
+      "newRating": 2359
+    },
+    {
+      "contestId": 1428,
+      "contestName": "Codeforces Raif Round 1 (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 518,
+      "ratingUpdateTimeSeconds": 1602948900,
+      "oldRating": 2359,
+      "newRating": 2333
+    },
+    {
+      "contestId": 1434,
+      "contestName": "Codeforces Round 679 (Div. 1, based on Technocup 2021 Elimination Round 1)",
+      "handle": "codelegend",
+      "rank": 605,
+      "ratingUpdateTimeSeconds": 1603631100,
+      "oldRating": 2333,
+      "newRating": 2240
+    },
+    {
+      "contestId": 1444,
+      "contestName": "Codeforces Round 680 (Div. 1, based on Moscow Team Olympiad)",
+      "handle": "codelegend",
+      "rank": 436,
+      "ratingUpdateTimeSeconds": 1604235900,
+      "oldRating": 2240,
+      "newRating": 2217
+    },
+    {
+      "contestId": 1446,
+      "contestName": "Codeforces Round 683 (Div. 1, by Meet IT)",
+      "handle": "codelegend",
+      "rank": 396,
+      "ratingUpdateTimeSeconds": 1605459900,
+      "oldRating": 2217,
+      "newRating": 2207
+    },
+    {
+      "contestId": 1439,
+      "contestName": "Codeforces Round 684 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 353,
+      "ratingUpdateTimeSeconds": 1605631800,
+      "oldRating": 2207,
+      "newRating": 2212
+    },
+    {
+      "contestId": 1450,
+      "contestName": "Codeforces Global Round 12",
+      "handle": "codelegend",
+      "rank": 993,
+      "ratingUpdateTimeSeconds": 1607276100,
+      "oldRating": 2212,
+      "newRating": 2160
+    },
+    {
+      "contestId": 1458,
+      "contestName": "Codeforces Round 691 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 319,
+      "ratingUpdateTimeSeconds": 1608377700,
+      "oldRating": 2160,
+      "newRating": 2173
+    },
+    {
+      "contestId": 1466,
+      "contestName": "Good Bye 2020",
+      "handle": "codelegend",
+      "rank": 274,
+      "ratingUpdateTimeSeconds": 1609349700,
+      "oldRating": 2173,
+      "newRating": 2259
+    },
+    {
+      "contestId": 1477,
+      "contestName": "Codeforces Round 698 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 638,
+      "ratingUpdateTimeSeconds": 1611852600,
+      "oldRating": 2259,
+      "newRating": 2175
+    },
+    {
+      "contestId": 1479,
+      "contestName": "Codeforces Round 700 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 923,
+      "ratingUpdateTimeSeconds": 1612716600,
+      "oldRating": 2175,
+      "newRating": 2095
+    },
+    {
+      "contestId": 1486,
+      "contestName": "Codeforces Round 703 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 73,
+      "ratingUpdateTimeSeconds": 1613667000,
+      "oldRating": 2095,
+      "newRating": 2179
+    },
+    {
+      "contestId": 1491,
+      "contestName": "Codeforces Global Round 13",
+      "handle": "codelegend",
+      "rank": 681,
+      "ratingUpdateTimeSeconds": 1614530100,
+      "oldRating": 2179,
+      "newRating": 2186
+    },
+    {
+      "contestId": 1500,
+      "contestName": "Codeforces Round 707 (Div. 1, based on Moscow Open Olympiad in Informatics)",
+      "handle": "codelegend",
+      "rank": 543,
+      "ratingUpdateTimeSeconds": 1615635300,
+      "oldRating": 2186,
+      "newRating": 2123
+    },
+    {
+      "contestId": 1503,
+      "contestName": "Codeforces Round 712 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 260,
+      "ratingUpdateTimeSeconds": 1617468600,
+      "oldRating": 2123,
+      "newRating": 2194
+    },
+    {
+      "contestId": 1515,
+      "contestName": "Codeforces Global Round 14",
+      "handle": "codelegend",
+      "rank": 3024,
+      "ratingUpdateTimeSeconds": 1619976900,
+      "oldRating": 2194,
+      "newRating": 2050
+    },
+    {
+      "contestId": 1521,
+      "contestName": "Codeforces Round 720 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1046,
+      "ratingUpdateTimeSeconds": 1620406200,
+      "oldRating": 2050,
+      "newRating": 2001
+    },
+    {
+      "contestId": 1528,
+      "contestName": "Codeforces Round 722 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 392,
+      "ratingUpdateTimeSeconds": 1621875000,
+      "oldRating": 2001,
+      "newRating": 2066
+    },
+    {
+      "contestId": 1526,
+      "contestName": "Codeforces Round 723 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 175,
+      "ratingUpdateTimeSeconds": 1622219700,
+      "oldRating": 2066,
+      "newRating": 2105
+    },
+    {
+      "contestId": 1523,
+      "contestName": "Deltix Round, Spring 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 177,
+      "ratingUpdateTimeSeconds": 1622393400,
+      "oldRating": 2105,
+      "newRating": 2232
+    },
+    {
+      "contestId": 1534,
+      "contestName": "Codeforces LATOKEN Round 1 (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 471,
+      "ratingUpdateTimeSeconds": 1623609300,
+      "oldRating": 2232,
+      "newRating": 2226
+    },
+    {
+      "contestId": 1540,
+      "contestName": "Codeforces Round 728 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 431,
+      "ratingUpdateTimeSeconds": 1624643400,
+      "oldRating": 2226,
+      "newRating": 2185
+    },
+    {
+      "contestId": 1545,
+      "contestName": "Codeforces Round 732 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 320,
+      "ratingUpdateTimeSeconds": 1626021300,
+      "oldRating": 2185,
+      "newRating": 2216
+    },
+    {
+      "contestId": 1530,
+      "contestName": "Codeforces Round 733 (Div. 1 + Div. 2, based on VK Cup 2021 - Elimination (Engine))",
+      "handle": "codelegend",
+      "rank": 3200,
+      "ratingUpdateTimeSeconds": 1626543300,
+      "oldRating": 2216,
+      "newRating": 2051
+    },
+    {
+      "contestId": 1553,
+      "contestName": "Harbour.Space Scholarship Contest 2021-2022 (open for everyone, rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 308,
+      "ratingUpdateTimeSeconds": 1626973500,
+      "oldRating": 2051,
+      "newRating": 2132
+    },
+    {
+      "contestId": 1552,
+      "contestName": "Codeforces Global Round 15",
+      "handle": "codelegend",
+      "rank": 1228,
+      "ratingUpdateTimeSeconds": 1627233600,
+      "oldRating": 2132,
+      "newRating": 2084
+    },
+    {
+      "contestId": 1554,
+      "contestName": "Codeforces Round 735 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 1536,
+      "ratingUpdateTimeSeconds": 1627576500,
+      "oldRating": 2084,
+      "newRating": 1996
+    },
+    {
+      "contestId": 1555,
+      "contestName": "Educational Codeforces Round 112 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 2069,
+      "ratingUpdateTimeSeconds": 1627662900,
+      "oldRating": 1996,
+      "newRating": 1910
+    },
+    {
+      "contestId": 1558,
+      "contestName": "Codeforces Round 740 (Div. 1, based on VK Cup 2021 - Final (Engine))",
+      "handle": "codelegend",
+      "rank": 870,
+      "ratingUpdateTimeSeconds": 1629824700,
+      "oldRating": 1910,
+      "newRating": 1841
+    },
+    {
+      "contestId": 1556,
+      "contestName": "Deltix Round, Summer 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 2744,
+      "ratingUpdateTimeSeconds": 1630256700,
+      "oldRating": 1841,
+      "newRating": 1776
+    },
+    {
+      "contestId": 1567,
+      "contestName": "Codeforces Round 742 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 813,
+      "ratingUpdateTimeSeconds": 1630859700,
+      "oldRating": 1776,
+      "newRating": 1799
+    },
+    {
+      "contestId": 1569,
+      "contestName": "Educational Codeforces Round 113 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 1416,
+      "ratingUpdateTimeSeconds": 1631118900,
+      "oldRating": 1799,
+      "newRating": 1775
+    },
+    {
+      "contestId": 1566,
+      "contestName": "Codeforces Global Round 16",
+      "handle": "codelegend",
+      "rank": 468,
+      "ratingUpdateTimeSeconds": 1631466300,
+      "oldRating": 1775,
+      "newRating": 1911
+    },
+    {
+      "contestId": 1574,
+      "contestName": "Educational Codeforces Round 114 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 3082,
+      "ratingUpdateTimeSeconds": 1632155700,
+      "oldRating": 1911,
+      "newRating": 1803
+    },
+    {
+      "contestId": 1581,
+      "contestName": "Codeforces Round 745 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 69,
+      "ratingUpdateTimeSeconds": 1633004100,
+      "oldRating": 1803,
+      "newRating": 1921
+    },
+    {
+      "contestId": 1586,
+      "contestName": "Codeforces Round 749 (Div. 1 + Div. 2, based on Technocup 2022 Elimination Round 1)",
+      "handle": "codelegend",
+      "rank": 1320,
+      "ratingUpdateTimeSeconds": 1634476800,
+      "oldRating": 1921,
+      "newRating": 1895
+    },
+    {
+      "contestId": 1582,
+      "contestName": "Codeforces Round 750 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 362,
+      "ratingUpdateTimeSeconds": 1635078900,
+      "oldRating": 1895,
+      "newRating": 1921
+    },
+    {
+      "contestId": 1601,
+      "contestName": "Codeforces Round 751 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 180,
+      "ratingUpdateTimeSeconds": 1635150900,
+      "oldRating": 1921,
+      "newRating": 2060
+    },
+    {
+      "contestId": 1606,
+      "contestName": "Educational Codeforces Round 116 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 71,
+      "ratingUpdateTimeSeconds": 1635525300,
+      "oldRating": 2060,
+      "newRating": 2143
+    },
+    {
+      "contestId": 1603,
+      "contestName": "Codeforces Round 752 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 56,
+      "ratingUpdateTimeSeconds": 1635611700,
+      "oldRating": 2143,
+      "newRating": 2354
+    },
+    {
+      "contestId": 1588,
+      "contestName": "Codeforces Round 755 (Div. 1, based on Technocup 2022 Elimination Round 2)",
+      "handle": "codelegend",
+      "rank": 267,
+      "ratingUpdateTimeSeconds": 1636878000,
+      "oldRating": 2354,
+      "newRating": 2323
+    },
+    {
+      "contestId": 1610,
+      "contestName": "Codeforces Global Round 17",
+      "handle": "codelegend",
+      "rank": 218,
+      "ratingUpdateTimeSeconds": 1637688900,
+      "oldRating": 2323,
+      "newRating": 2360
+    },
+    {
+      "contestId": 1609,
+      "contestName": "Deltix Round, Autumn 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 560,
+      "ratingUpdateTimeSeconds": 1638119100,
+      "oldRating": 2360,
+      "newRating": 2312
+    },
+    {
+      "contestId": 1615,
+      "contestName": "Codeforces Global Round 18",
+      "handle": "codelegend",
+      "rank": 139,
+      "ratingUpdateTimeSeconds": 1640365500,
+      "oldRating": 2312,
+      "newRating": 2395
+    },
+    {
+      "contestId": 1616,
+      "contestName": "Good Bye 2021: 2022 is NEAR",
+      "handle": "codelegend",
+      "rank": 353,
+      "ratingUpdateTimeSeconds": 1640799300,
+      "oldRating": 2395,
+      "newRating": 2397
+    },
+    {
+      "contestId": 1621,
+      "contestName": "Hello 2022",
+      "handle": "codelegend",
+      "rank": 480,
+      "ratingUpdateTimeSeconds": 1641228600,
+      "oldRating": 2397,
+      "newRating": 2370
+    },
+    {
+      "contestId": 1628,
+      "contestName": "Codeforces Round 767 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 125,
+      "ratingUpdateTimeSeconds": 1642869300,
+      "oldRating": 2370,
+      "newRating": 2440
+    },
+    {
+      "contestId": 1630,
+      "contestName": "Codeforces Round 768 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 511,
+      "ratingUpdateTimeSeconds": 1643301300,
+      "oldRating": 2440,
+      "newRating": 2354
+    },
+    {
+      "contestId": 1637,
+      "contestName": "Codeforces Global Round 19",
+      "handle": "codelegend",
+      "rank": 283,
+      "ratingUpdateTimeSeconds": 1644685500,
+      "oldRating": 2354,
+      "newRating": 2374
+    },
+    {
+      "contestId": 1641,
+      "contestName": "Codeforces Round 773 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 327,
+      "ratingUpdateTimeSeconds": 1645618200,
+      "oldRating": 2374,
+      "newRating": 2352
+    },
+    {
+      "contestId": 1648,
+      "contestName": "Codeforces Round 775 (Div. 1, based on Moscow Open Olympiad in Informatics)",
+      "handle": "codelegend",
+      "rank": 123,
+      "ratingUpdateTimeSeconds": 1646568600,
+      "oldRating": 2352,
+      "newRating": 2413
+    },
+    {
+      "contestId": 1654,
+      "contestName": "Codeforces Round 778 (Div. 1 + Div. 2, based on Technocup 2022 Final Round)",
+      "handle": "codelegend",
+      "rank": 127,
+      "ratingUpdateTimeSeconds": 1647784200,
+      "oldRating": 2413,
+      "newRating": 2470
+    },
+    {
+      "contestId": 1667,
+      "contestName": "Codeforces Round 783 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 390,
+      "ratingUpdateTimeSeconds": 1650386100,
+      "oldRating": 2470,
+      "newRating": 2404
+    },
+    {
+      "contestId": 1672,
+      "contestName": "Codeforces Global Round 20",
+      "handle": "codelegend",
+      "rank": 494,
+      "ratingUpdateTimeSeconds": 1650733500,
+      "oldRating": 2404,
+      "newRating": 2364
+    },
+    {
+      "contestId": 1687,
+      "contestName": "Codeforces Round 796 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 240,
+      "ratingUpdateTimeSeconds": 1654274100,
+      "oldRating": 2364,
+      "newRating": 2357
+    },
+    {
+      "contestId": 1693,
+      "contestName": "Codeforces Round 800 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 226,
+      "ratingUpdateTimeSeconds": 1655397300,
+      "oldRating": 2357,
+      "newRating": 2367
+    },
+    {
+      "contestId": 1696,
+      "contestName": "Codeforces Global Round 21",
+      "handle": "codelegend",
+      "rank": 923,
+      "ratingUpdateTimeSeconds": 1656175800,
+      "oldRating": 2367,
+      "newRating": 2286
+    },
+    {
+      "contestId": 1707,
+      "contestName": "Codeforces Round 808 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 264,
+      "ratingUpdateTimeSeconds": 1657989300,
+      "oldRating": 2286,
+      "newRating": 2300
+    },
+    {
+      "contestId": 1737,
+      "contestName": "Dytechlab Cup 2022",
+      "handle": "codelegend",
+      "rank": 364,
+      "ratingUpdateTimeSeconds": 1665162300,
+      "oldRating": 2300,
+      "newRating": 2300
+    },
+    {
+      "contestId": 1746,
+      "contestName": "Codeforces Global Round 23",
+      "handle": "codelegend",
+      "rank": 499,
+      "ratingUpdateTimeSeconds": 1665852600,
+      "oldRating": 2300,
+      "newRating": 2293
+    },
+    {
+      "contestId": 1753,
+      "contestName": "Codeforces Round 829 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 722,
+      "ratingUpdateTimeSeconds": 1666518600,
+      "oldRating": 2293,
+      "newRating": 2208
+    },
+    {
+      "contestId": 1740,
+      "contestName": "Codeforces Round 831 (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 37,
+      "ratingUpdateTimeSeconds": 1667044500,
+      "oldRating": 2208,
+      "newRating": 2377
+    },
+    {
+      "contestId": 1750,
+      "contestName": "CodeTON Round 3 (Div. 1 + Div. 2, Rated, Prizes!)",
+      "handle": "codelegend",
+      "rank": 172,
+      "ratingUpdateTimeSeconds": 1667754300,
+      "oldRating": 2377,
+      "newRating": 2415
+    },
+    {
+      "contestId": 1761,
+      "contestName": "Pinely Round 1 (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 369,
+      "ratingUpdateTimeSeconds": 1668963900,
+      "oldRating": 2415,
+      "newRating": 2380
+    },
+    {
+      "contestId": 1764,
+      "contestName": "Codeforces Global Round 24",
+      "handle": "codelegend",
+      "rank": 919,
+      "ratingUpdateTimeSeconds": 1669480500,
+      "oldRating": 2380,
+      "newRating": 2268
+    },
+    {
+      "contestId": 1770,
+      "contestName": "Good Bye 2022: 2023 is NEAR",
+      "handle": "codelegend",
+      "rank": 4017,
+      "ratingUpdateTimeSeconds": 1672419900,
+      "oldRating": 2268,
+      "newRating": 2097
+    },
+    {
+      "contestId": 1768,
+      "contestName": "Codeforces Round 842 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 289,
+      "ratingUpdateTimeSeconds": 1672936500,
+      "oldRating": 2097,
+      "newRating": 2095
+    },
+    {
+      "contestId": 1782,
+      "contestName": "Codeforces Round 844 (Div. 1 + Div. 2, based on VK Cup 2022 - Elimination Round)",
+      "handle": "codelegend",
+      "rank": 535,
+      "ratingUpdateTimeSeconds": 1673795100,
+      "oldRating": 2095,
+      "newRating": 2116
+    },
+    {
+      "contestId": 1799,
+      "contestName": "Codeforces Round 854 by cybercats (Div. 1 + Div. 2)",
+      "handle": "codelegend",
+      "rank": 963,
+      "ratingUpdateTimeSeconds": 1677519300,
+      "oldRating": 2116,
+      "newRating": 2062
+    },
+    {
+      "contestId": 1810,
+      "contestName": "CodeTON Round 4 (Div. 1 + Div. 2, Rated, Prizes!)",
+      "handle": "codelegend",
+      "rank": 807,
+      "ratingUpdateTimeSeconds": 1680280500,
+      "oldRating": 2062,
+      "newRating": 2051
+    },
+    {
+      "contestId": 1819,
+      "contestName": "Codeforces Round 866 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 297,
+      "ratingUpdateTimeSeconds": 1681556700,
+      "oldRating": 2051,
+      "newRating": 2099
+    },
+    {
+      "contestId": 1826,
+      "contestName": "Codeforces Round 870 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 645,
+      "ratingUpdateTimeSeconds": 1683304500,
+      "oldRating": 2099,
+      "newRating": 2053
+    },
+    {
+      "contestId": 1824,
+      "contestName": "Codeforces Round 872 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 680,
+      "ratingUpdateTimeSeconds": 1683554700,
+      "oldRating": 2053,
+      "newRating": 1993
+    },
+    {
+      "contestId": 1832,
+      "contestName": "Educational Codeforces Round 148 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 364,
+      "ratingUpdateTimeSeconds": 1683909300,
+      "oldRating": 1993,
+      "newRating": 1994
+    },
+    {
+      "contestId": 1827,
+      "contestName": "Codeforces Round 873 (Div. 1)",
+      "handle": "codelegend",
+      "rank": 635,
+      "ratingUpdateTimeSeconds": 1684082100,
+      "oldRating": 1994,
+      "newRating": 1946
+    },
+    {
+      "contestId": 1837,
+      "contestName": "Educational Codeforces Round 149 (Rated for Div. 2)",
+      "handle": "codelegend",
+      "rank": 3024,
+      "ratingUpdateTimeSeconds": 1685032500,
+      "oldRating": 1946,
+      "newRating": 1834
+    },
+    {
+      "contestId": 1831,
+      "contestName": "Codeforces Round 875 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 156,
+      "ratingUpdateTimeSeconds": 1685293500,
+      "oldRating": 1834,
+      "newRating": 1907
+    },
+    {
+      "contestId": 1839,
+      "contestName": "Codeforces Round 876 (Div. 2)",
+      "handle": "codelegend",
+      "rank": 166,
+      "ratingUpdateTimeSeconds": 1685810100,
+      "oldRating": 1907,
+      "newRating": 1974
+    }
+  ]
+}

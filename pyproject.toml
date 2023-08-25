@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfutils"
+authors = [
+    { name = "Anurudh Peduri" },
+]
+description = "Extract Codeforces contest standings and generate feeds for ICPC tools"
+readme = "Readme.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click~=8.1",
+    "sh~=2.0",
+    "python-dotenv~=1.0",
+    "dataclass-wizard~=0.22"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest~=7.4",
+    "mypy~=1.2",
+    "ruff~=0.0",
+    "datamodel-code-generator~=0.21"
+]
+
+[tool.setuptools.dynamic]
+version = { attr = "cfutils.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["cfutils"]
+
+[tool.pytest.ini_options]
+markers = []
+
+[tool.ruff]
+line-length = 10000
+ignore = ["F403"]
+target-version = "py311"
+
+[tool.mypy]
+plugins = ["numpy.typing.mypy_plugin"]
+
+[tool.pyright]
+include = ["cfutils"]
+reportMissingImports = true
+reportMissingTypeStubs = true
+pythonVersion = "3.11"

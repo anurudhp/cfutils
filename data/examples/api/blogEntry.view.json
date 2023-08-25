@@ -1,0 +1,19 @@
+{
+  "status": "OK",
+  "result": {
+    "originalLocale": "ru",
+    "allowViewHistory": false,
+    "creationTimeSeconds": 1266399138,
+    "rating": 0,
+    "authorHandle": "MikeMirzayanov",
+    "modificationTimeSeconds": 1421506313,
+    "id": 79,
+    "title": "<p>About the programming languages</p>",
+    "locale": "en",
+    "tags": [
+      "codeforces",
+      "compilers",
+      "rules"
+    ]
+  }
+}
