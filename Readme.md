@@ -1,4 +1,4 @@
-Codeforces API Utilities
+Codeforces API Utilities [![CI](https://github.com/anurudhp/cfutils/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/anurudhp/cfutils/actions/workflows/ci.yaml)
 ========================
 
 Python wrappers for the [Codeforces API](https://codeforces.com/apiHelp), and support for generating an [ICPC Tools](https://tools.icpc.global/) event feed.  
