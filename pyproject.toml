@@ -48,12 +48,3 @@ markers = []
 line-length = 10000
 ignore = ["F403"]
 target-version = "py311"
-
-[tool.mypy]
-plugins = ["numpy.typing.mypy_plugin"]
-
-[tool.pyright]
-include = ["cfutils"]
-reportMissingImports = true
-reportMissingTypeStubs = true
-pythonVersion = "3.11"
