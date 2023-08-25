@@ -3,10 +3,14 @@ Codeforces API Utilities
 
 Python wrappers for the [Codeforces API](https://codeforces.com/apiHelp), and support for generating an [ICPC Tools](https://tools.icpc.global/) event feed.  
 
-Requirements
+Installation
 ------------
 
-Install the package using `pip install .`.
+To install the package, first clone it and then install using `pip`:
+```sh
+pip install .
+```
+It is recommended to use a [Virtual environment](https://docs.python.org/3/library/venv.html).
 
 Optional: If you wish to run authorized API calls, copy `example.env` to `.env` and set the API parameters in it.
 [Check CF API docs to see how to generate an API key](https://codeforces.com/apiHelp).
