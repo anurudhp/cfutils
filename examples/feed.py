@@ -21,9 +21,12 @@ from cfutils.icpctools.FeedGenerator import CFContestConfig, EventFeedFromCFCont
 )
 @click.option("--verbose", is_flag=True, default=False, help="display debug messages")
 def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, verbose):
-    """Tool to download contest standings and generate feed for ICPC resolver
+    """Tool to download contest standings and generate feed for ICPC resolver.
+    All files above are JSON.
 
-    All files above are JSON
+    Example usage:
+
+    `python feed.py ../data/examples/resolverfeed/standings_104491.json ../data/examples/resolverfeed/status_104491.json feed.json`
     """
 
     logging.basicConfig(
