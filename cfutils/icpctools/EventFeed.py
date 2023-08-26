@@ -5,11 +5,11 @@
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from enum import StrEnum
+from enum import Enum
 from typing import Optional, TypeAlias
 
 
-class EventType(StrEnum):
+class EventType(Enum):
     contest = "contests"
     judgement_types = "judgement-types"
     languages = "languages"
@@ -39,7 +39,7 @@ class EventData(ABC):
 Identifier: TypeAlias = str
 
 
-class ScoreboardType(StrEnum):
+class ScoreboardType(Enum):
     pass_fail = "pass-fail"
     score = "score"
 
@@ -50,7 +50,7 @@ Abstime: TypeAlias = str
 Posreltime: TypeAlias = str
 
 
-class Mime(StrEnum):
+class Mime(Enum):
     image_png = "image/png"
     image_jpeg = "image/jpeg"
     image_svg_xml = "image/svg+xml"
@@ -72,7 +72,7 @@ class Location:
     longitude: float
 
 
-class JudgementTypeId(StrEnum):
+class JudgementTypeId(Enum):
     AC = "AC"
     RE = "RE"
     WA = "WA"
@@ -123,19 +123,19 @@ class Location1:
     rotation: float
 
 
-class SexEnum(StrEnum):
+class SexEnum(Enum):
     male = "male"
     female = "female"
 
 
-class Role(StrEnum):
+class Role(Enum):
     contestant = "contestant"
     coach = "coach"
     staff = "staff"
     other = "other"
 
 
-class AccountTypeEnum(StrEnum):
+class AccountTypeEnum(Enum):
     team = "team"
     judge = "judge"
     admin = "admin"
