@@ -434,4 +434,4 @@ class EventFeedFromCFContest:
         return feed_json
 
 
-__all__ = ["CFContestConfig", "EventFeedFromCFContest"]
+__all__ = ["EventFeedError", "CFContestConfig", "EventFeedFromCFContest"]

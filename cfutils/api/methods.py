@@ -483,6 +483,7 @@ class User_Status(APIMethod):
 
 __all__ = [
     "APIMethod",
+    "CFAPIError",
     "BlogEntry_Comments",
     "BlogEntry_View",
     "Contest_Hacks",
