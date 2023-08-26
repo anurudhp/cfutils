@@ -1,0 +1,20 @@
+{"type": "contests", "data": {"id": "cf_contest_104491", "name": "43rd Petrozavodsk Programming Camp (2022 Summer) Day 7. HSE Koresha Contest", "duration": "05:00:00.000", "scoreboard_type": "pass-fail", "formal_name": "43rd Petrozavodsk Programming Camp (2022 Summer) Day 7. HSE Koresha Contest", "start_time": "1970-01-01T05:30:00.000+00", "scoreboard_freeze_duration": "01:00:00.000", "penalty_time": 20}, "id": null}
+{"type": "languages", "data": {"id": "0", "name": "lang", "entry_point_required": false, "extensions": []}, "id": null}
+{"type": "groups", "data": {"id": "0", "name": "All", "icpc_id": "0"}, "id": null}
+{"type": "judgement-types", "data": {"id": "AC", "name": "AC", "solved": true, "penalty": false}, "id": null}
+{"type": "judgement-types", "data": {"id": "WA", "name": "WA", "solved": false, "penalty": true}, "id": null}
+{"type": "judgement-types", "data": {"id": "CE", "name": "CE", "solved": false, "penalty": false}, "id": null}
+{"type": "problems", "data": {"id": "A", "label": "A", "name": "Easy Problem", "ordinal": 0, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "B", "label": "B", "name": "Standard Problem", "ordinal": 1, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "C", "label": "C", "name": "Network Transfer", "ordinal": 2, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "D", "label": "D", "name": "Hard Problem", "ordinal": 3, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "E", "label": "E", "name": "String Strange Sum", "ordinal": 4, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "F", "label": "F", "name": "Bayan Testing", "ordinal": 5, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "G", "label": "G", "name": "Battleship: New Rules", "ordinal": 6, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "H", "label": "H", "name": "Triangular Cactus Paths", "ordinal": 7, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "I", "label": "I", "name": "Best Sun", "ordinal": 8, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "J", "label": "J", "name": "Fast Bridges", "ordinal": 9, "test_data_count": 1}, "id": null}
+{"type": "problems", "data": {"id": "K", "label": "K", "name": "Decoding The Message", "ordinal": 10, "test_data_count": 1}, "id": null}
+{"type": "organizations", "data": {"id": "org_default", "name": "DefaultOrg", "icpc_id": null}, "id": null}
+{"type": "state", "data": {"started": "1970-01-01T05:30:00.000+00", "frozen": "1970-01-01T09:30:00.000+00", "thawed": "1970-01-01T10:35:00.000+00"}, "id": null}
+{"type": "state", "data": {"started": "1970-01-01T05:30:00.000+00", "ended": "1970-01-01T10:30:00.000+00", "finalized": "1970-01-01T10:40:00.000+00", "end_of_updates": "1970-01-01T10:45:00.000+00", "frozen": "1970-01-01T09:30:00.000+00", "thawed": "1970-01-01T10:35:00.000+00"}, "id": null}

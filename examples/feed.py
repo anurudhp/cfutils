@@ -1,3 +1,4 @@
+import os
 import logging
 import click
 from dotenv import load_dotenv
@@ -35,10 +36,13 @@ def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, ve
         level=logging.DEBUG if verbose else logging.INFO,
     )
 
-    # get contest data from codeforces
+    # load API keys if neccessary
     if auth:
-        load_dotenv("../.env")
+        assert load_dotenv()
+        assert os.getenv("CODEFORCES_API_KEY") is not None
+        assert os.getenv("CODEFORCES_API_SECRET") is not None
 
+    # get contest data from codeforces
     submissions: list[cf.Submission] = cf.Contest_Status(
         contestId=contest_id, From=1, count=25000
     ).get(auth=auth, output_file=status_file, load_from_file=status_file)

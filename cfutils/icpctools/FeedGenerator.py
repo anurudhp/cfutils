@@ -40,34 +40,34 @@ class CFContestConfig:
 
 
 class EventFeedFromCFContest:
-    config: CFContestConfig
-    __contest_events: list[Event]
+    _config: CFContestConfig
+    _contest_events: list[Event]
 
-    __ghost_teams: dict[str, int]
-    __individual_teams: dict[str, int]
+    _ghost_teams: dict[str, int]
+    _individual_teams: dict[str, int]
 
     def __init__(self, *, config: CFContestConfig):
-        self.config = config
-        self.__contest_events = []
+        self._config = config
+        self._contest_events = []
 
-        self.__ghost_teams = {}
-        self.__individual_teams = {}
+        self._ghost_teams = {}
+        self._individual_teams = {}
 
     @staticmethod
-    def __epochToISO(s: int) -> str:
+    def _epochToISO(s: int) -> str:
         return (
             datetime.datetime.fromtimestamp(s).isoformat(timespec="milliseconds")
             + "+00"
         )
 
     @staticmethod
-    def __secondsToHHMMSS(s: int) -> str:
+    def _secondsToHHMMSS(s: int) -> str:
         res = str(datetime.timedelta(seconds=s)) + ".000"
         if res[1] == ":":
             res = "0" + res
         return res
 
-    def __populate_teams(self, ranklist: list[cf.RanklistRow]):
+    def _populate_teams(self, ranklist: list[cf.RanklistRow]):
         for row in ranklist:
             party = row.party
 
@@ -76,21 +76,21 @@ class EventFeedFromCFContest:
 
             if party.ghost:
                 assert party.teamName is not None, "ghosts must have a teamName"
-                ix = len(self.__ghost_teams)
-                self.__ghost_teams[party.teamName] = ix
+                ix = len(self._ghost_teams)
+                self._ghost_teams[party.teamName] = ix
                 continue
 
             if len(party.members) == 1:
                 user = party.members[0].handle
-                ix = len(self.__individual_teams)
-                self.__individual_teams[user] = ix
+                ix = len(self._individual_teams)
+                self._individual_teams[user] = ix
                 continue
 
             raise EventFeedError(
                 f"Invalid participant in ranklist (not a CF team, ghost, or individual): {party}"
             )
 
-    def __get_team_info(self, team: cf.Party) -> ContestTeam:
+    def _get_team_info(self, team: cf.Party) -> ContestTeam:
         """Extract team info from a Party.
         For ghosts and individuals, use the generated IDs.
 
@@ -120,15 +120,17 @@ class EventFeedFromCFContest:
             name = team.teamName
 
             assert name is not None, "ghosts must have a team name"
-            assert team.members == []  # TODO fix
+            assert (
+                team.members == []
+            ), "ghosts cannot have team members. If this is a mistake, please report this."
 
-            if name not in self.__ghost_teams:
+            if name not in self._ghost_teams:
                 raise EventFeedError(
                     f"Invalid submission, ghost `{name}` not found in the ranklist!"
                 )
 
             return ContestTeam(
-                Id=f"ghost_{self.__ghost_teams[name]}",
+                Id=f"ghost_{self._ghost_teams[name]}",
                 name=name,
                 fullName=name,
                 members=[],
@@ -138,13 +140,13 @@ class EventFeedFromCFContest:
         if len(team.members) == 1:
             name = team.members[0].handle
 
-            if name not in self.__individual_teams:
+            if name not in self._individual_teams:
                 raise EventFeedError(
                     f"Invalid submission, user `{name}` not found in the ranklist!"
                 )
 
             return ContestTeam(
-                Id=f"user_{self.__individual_teams[name]}",
+                Id=f"user_{self._individual_teams[name]}",
                 name=name,
                 fullName=name,
                 members=[name],
@@ -154,21 +156,21 @@ class EventFeedFromCFContest:
             "Unable to process participant: not a CF team, ghost, or individual!"
         )
 
-    def __add_event_at(self, ix: str, eventData: EventData):
+    def _add_event_at(self, ix: str, eventData: EventData):
         """Create/update a sub-object at index `ix`"""
         event = Event(type=eventData.eventType(), id=ix, data=eventData)
-        self.__contest_events.append(event)
+        self._contest_events.append(event)
 
-    def __add_event(self, eventData: EventData):
+    def _add_event(self, eventData: EventData):
         """Create/update the entire object with a single event"""
         event = Event(type=eventData.eventType(), id=None, data=eventData)
-        self.__contest_events.append(event)
+        self._contest_events.append(event)
 
-    def __add_events(self, eventsData: list[EventData]):
+    def _add_events(self, eventsData: list[EventData]):
         """Create/update the entire object with a list of events"""
 
         for eventData in eventsData:
-            self.__add_event(eventData)
+            self._add_event(eventData)
 
         # TODO figure out why data=array-of-events is not working
         # if not eventsData:
@@ -176,35 +178,37 @@ class EventFeedFromCFContest:
         # event = Event(type=eventsData[0].eventType(), id=None, data=eventsData)
         # self.contest_events.append(event)
 
-    def __show_contest_state(self, *, contest: cf.Contest, done=False):
+    def _show_contest_state(self, *, contest: cf.Contest, done=False):
         """Event displayed at the start and end, and optionally at standings freeze"""
 
         tstart = 0
         tfin = contest.durationSeconds
-        tfrozen = tfin - self.config.freezeDurationSeconds
-        tthaw = tfin + 300  # TODO(magic) why 300?
-        tdone = tthaw + 300  # TODO(magic) why 300?
+        tfrozen = tfin - self._config.freezeDurationSeconds
 
-        self.__add_event(
+        # (magic) 300s: buffer time between closing events.
+        tthaw = tfin + 300
+        tdone = tthaw + 300
+        tend = tdone + 300
+
+        self._add_event(
             Feed.State(
-                started=self.__epochToISO(tstart),
-                frozen=self.__epochToISO(tfrozen),
-                ended=self.__epochToISO(tfin) if done else None,
-                thawed=self.__epochToISO(tthaw),
-                finalized=self.__epochToISO(tdone) if done else None,
-                # TODO(magic) why 300?
-                end_of_updates=self.__epochToISO(tdone + 300) if done else None,
+                started=self._epochToISO(tstart),
+                frozen=self._epochToISO(tfrozen),
+                ended=self._epochToISO(tfin) if done else None,
+                thawed=self._epochToISO(tthaw),
+                finalized=self._epochToISO(tdone) if done else None,
+                end_of_updates=self._epochToISO(tend) if done else None,
             )
         )
 
-    def __participantAllowed(self, ptype: cf.ParticipantType) -> bool:
+    def _participantAllowed(self, ptype: cf.ParticipantType) -> bool:
         if ptype == cf.ParticipantType.CONTESTANT:
             return True
-        if ptype == cf.ParticipantType.VIRTUAL and self.config.include_virtual:
+        if ptype == cf.ParticipantType.VIRTUAL and self._config.include_virtual:
             return True
         if (
             ptype == cf.ParticipantType.OUT_OF_COMPETITION
-            and self.config.include_out_of_comp
+            and self._config.include_out_of_comp
         ):
             return True
         return False
@@ -240,35 +244,35 @@ class EventFeedFromCFContest:
         submissions = [
             sub
             for sub in submissions
-            if self.__participantAllowed(sub.author.participantType)
+            if self._participantAllowed(sub.author.participantType)
         ]
         ranklist = [
             row
             for row in ranklist
-            if self.__participantAllowed(row.party.participantType)
+            if self._participantAllowed(row.party.participantType)
         ]
 
         ## generates unique teamIds for ghosts and individuals.
-        self.__populate_teams(ranklist)
+        self._populate_teams(ranklist)
 
         ## contest info
-        self.__add_event(
+        self._add_event(
             Feed.Contest(
                 id=f"cf_contest_{contest.id}",
                 name=contest.name,
                 formal_name=contest.name,
-                duration=self.__secondsToHHMMSS(contest.durationSeconds),
+                duration=self._secondsToHHMMSS(contest.durationSeconds),
                 scoreboard_type=Feed.ScoreboardType.pass_fail,
-                scoreboard_freeze_duration=self.__secondsToHHMMSS(
-                    self.config.freezeDurationSeconds
+                scoreboard_freeze_duration=self._secondsToHHMMSS(
+                    self._config.freezeDurationSeconds
                 ),
-                start_time=self.__epochToISO(0),
+                start_time=self._epochToISO(0),
                 penalty_time=20,
             )
         )
 
         ## Add only one language, and extract everything to that
-        self.__add_events(
+        self._add_events(
             [
                 Feed.Language(
                     id="0", name="lang", entry_point_required=False, extensions=[]
@@ -277,15 +281,15 @@ class EventFeedFromCFContest:
         )
 
         ## Contest regions
-        self.__add_events(
+        self._add_events(
             [
                 Feed.Group(id=str(ix), name=name, icpc_id=str(ix))
-                for ix, name in enumerate(self.config.regions)
+                for ix, name in enumerate(self._config.regions)
             ]
         )
 
         ## Possible verdicts: OK, WA, CE (subsume everything else into WA/CE depending on penalty)
-        self.__add_events(
+        self._add_events(
             [
                 Feed.JudgementType(
                     id=Feed.JudgementTypeId.AC, name="AC", solved=True, penalty=False
@@ -301,7 +305,7 @@ class EventFeedFromCFContest:
 
         ## contest problems
         problem_ids = [problem.index for problem in problems]
-        self.__add_events(
+        self._add_events(
             [
                 Feed.Problem(
                     id=problem.index,
@@ -317,15 +321,15 @@ class EventFeedFromCFContest:
 
         ## organizations
         # TODO: add support for multiple orgs
-        self.__add_events([Feed.Organization(id="org_default", name="DefaultOrg")])
+        self._add_events([Feed.Organization(id="org_default", name="DefaultOrg")])
 
         for row in ranklist:
-            team = self.__get_team_info(row.party)
+            team = self._get_team_info(row.party)
 
-            region = self.config.getRegion(team)
-            region = str(self.config.regions.index(region))
+            region = self._config.getRegion(team)
+            region = str(self._config.regions.index(region))
 
-            self.__add_event(
+            self._add_event(
                 Feed.Team(
                     id=team.Id,
                     name=team.fullName,
@@ -336,7 +340,7 @@ class EventFeedFromCFContest:
         logging.info("#teams: %d", len(ranklist))
 
         ## start the contest
-        self.__show_contest_state(contest=contest)
+        self._show_contest_state(contest=contest)
 
         ## submission data
         ignored_submissions_count = 0
@@ -349,15 +353,15 @@ class EventFeedFromCFContest:
                 continue
 
             sub_id = str(sub.id)
-            timestamp = self.__epochToISO(sub.relativeTimeSeconds)
-            reltime = self.__secondsToHHMMSS(sub.relativeTimeSeconds)
+            timestamp = self._epochToISO(sub.relativeTimeSeconds)
+            reltime = self._secondsToHHMMSS(sub.relativeTimeSeconds)
 
-            self.__add_event(
+            self._add_event(
                 Feed.Submission(
                     id=sub_id,
                     language_id="0",
                     problem_id=sub.problem.index,
-                    team_id=self.__get_team_info(sub.author).Id,
+                    team_id=self._get_team_info(sub.author).Id,
                     time=timestamp,
                     contest_time=reltime,
                     files=[],
@@ -390,7 +394,7 @@ class EventFeedFromCFContest:
             else:
                 assert False, f"all verdicts not covered: {sub.verdict}"
 
-            self.__add_event(
+            self._add_event(
                 Feed.Judgement(
                     id=sub_id,
                     submission_id=sub_id,
@@ -409,9 +413,9 @@ class EventFeedFromCFContest:
         )
 
         ## end the contest
-        self.__show_contest_state(contest=contest, done=True)
+        self._show_contest_state(contest=contest, done=True)
 
-        logging.info("#events: %d", len(self.__contest_events))
+        logging.info("#events: %d", len(self._contest_events))
 
         ## IMPORTANT: DO NOT INDENT THE JSON, one event entry per line
         feed_json = [
@@ -423,7 +427,7 @@ class EventFeedFromCFContest:
                     },
                 ),
             )
-            for event in self.__contest_events
+            for event in self._contest_events
         ]
         return feed_json
 

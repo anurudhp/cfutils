@@ -1,0 +1,4354 @@
+{
+  "status": "OK",
+  "result": {
+    "contest": {
+      "id": 104491,
+      "name": "43rd Petrozavodsk Programming Camp (2022 Summer) Day 7. HSE Koresha Contest",
+      "type": "ICPC",
+      "phase": "FINISHED",
+      "frozen": false,
+      "durationSeconds": 18000,
+      "preparedBy": "isaf27",
+      "description": "43rd Petrozavodsk Programming Camp (2022 Summer) Day 7. HSE Koresha Contest",
+      "difficulty": 5,
+      "kind": "Training Camp Contest",
+      "country": "Russia",
+      "city": "Petrozavodsk",
+      "season": "2022-2023"
+    },
+    "problems": [
+      {
+        "contestId": 104491,
+        "index": "A",
+        "name": "Easy Problem",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "B",
+        "name": "Standard Problem",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "C",
+        "name": "Network Transfer",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "D",
+        "name": "Hard Problem",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "E",
+        "name": "String Strange Sum",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "F",
+        "name": "Bayan Testing",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "G",
+        "name": "Battleship: New Rules",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "H",
+        "name": "Triangular Cactus Paths",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "I",
+        "name": "Best Sun",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "J",
+        "name": "Fast Bridges",
+        "type": "PROGRAMMING",
+        "tags": []
+      },
+      {
+        "contestId": 104491,
+        "index": "K",
+        "name": "Decoding The Message",
+        "type": "PROGRAMMING",
+        "tags": []
+      }
+    ],
+    "rows": [
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "* Almost Past Glory: Danilyuk, Korotkevich, Minaiev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 1,
+        "points": 7.0,
+        "penalty": 855,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2880
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3000
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1740
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 780
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 17820
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7620
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10260
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "Radewoosh"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "ghost": false,
+          "startTimeSeconds": 1691266320
+        },
+        "rank": 2,
+        "points": 7.0,
+        "penalty": 970,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3176
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4630
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6783
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2174
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1403
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11497
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 7,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 17893
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "Ormlis"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "teamId": 86174,
+          "teamName": "1000-7",
+          "ghost": false,
+          "startTimeSeconds": 1690070220
+        },
+        "rank": 3,
+        "points": 5.0,
+        "penalty": 419,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 862
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4657
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1368
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3398
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12602
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 7,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "Egor.Lifar"
+            },
+            {
+              "handle": "cookiedoth"
+            },
+            {
+              "handle": "rqi"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "teamId": 91359,
+          "teamName": "MIT: Mex Foundation",
+          "ghost": false,
+          "startTimeSeconds": 1690751460
+        },
+        "rank": 4,
+        "points": 5.0,
+        "penalty": 468,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5430
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3673
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2621
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2231
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 13074
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Zhejiang U: Solitary Dream: Chen, Chu, Peng",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 5,
+        "points": 5.0,
+        "penalty": 575,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6180
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4380
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2820
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2580
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 14940
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Harbour.Space University: Backspace: Dubovik, Sardarbekov, Zolotarev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 6,
+        "points": 5.0,
+        "penalty": 815,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6300
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5700
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3420
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 11,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4140
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 10,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 17340
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "SPb SU: Block of cats: Danilevich, Turevskii, Ushakov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 7,
+        "points": 5.0,
+        "penalty": 816,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3660
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9480
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3420
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 9,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9000
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 6,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7800
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Moscow IPT: Skyfall: Belyi, Peregudov, Surkov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 8,
+        "points": 4.0,
+        "penalty": 355,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3120
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6120
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4560
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6300
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Zhejiang U: Phantom Threshold: Li, Li, Tang",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 9,
+        "points": 4.0,
+        "penalty": 367,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2040
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6420
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5700
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4260
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Saratov SU 1: Meshcheryakov, Petrov, Piklyaev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 10,
+        "points": 4.0,
+        "penalty": 441,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5820
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9360
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6600
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4680
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "HSE: CANCELLED TP: Evteev, Markelov, Pustovalov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 11,
+        "points": 4.0,
+        "penalty": 468,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9960
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5460
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8820
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2640
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 9,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "SJTU: willow: Jiang, Wang, Ye",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 12,
+        "points": 4.0,
+        "penalty": 475,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5160
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12120
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1740
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7080
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "SPb HSE: Lemon Tree: Alferov, Makhnev, Surkov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 13,
+        "points": 4.0,
+        "penalty": 479,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 6,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5820
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2880
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5760
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11880
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 22,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "HSE: Dirizhabl': Akulov, Arzhantsev, Pogodin",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 14,
+        "points": 4.0,
+        "penalty": 496,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11160
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4560
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3780
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7860
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Zhejiang U: jiangly_fan: Hu, Lin, Ling",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 15,
+        "points": 4.0,
+        "penalty": 510,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3540
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8100
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8640
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4320
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Saratov SU 2: Brovko, Lankin, Shnirelman",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 16,
+        "points": 4.0,
+        "penalty": 517,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6840
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10020
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 780
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8580
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "trabbbart"
+            },
+            {
+              "handle": "Piurko"
+            },
+            {
+              "handle": "teapotd"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "teamId": 42408,
+          "teamName": "PPP",
+          "ghost": false,
+          "startTimeSeconds": 1692177000
+        },
+        "rank": 17,
+        "points": 4.0,
+        "penalty": 621,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12580
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5882
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4793
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9332
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "RasendeRoland"
+            },
+            {
+              "handle": "Eae02"
+            },
+            {
+              "handle": "dukati8"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "teamId": 129938,
+          "teamName": "Ezcp",
+          "ghost": false,
+          "startTimeSeconds": 1690384980
+        },
+        "rank": 18,
+        "points": 4.0,
+        "penalty": 755,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 14626
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10499
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3229
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8751
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "KhNURE: KB: Denysov, Grinenko",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 19,
+        "points": 4.0,
+        "penalty": 769,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12540
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11520
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10200
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7080
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "ITMO University: Insert your name: Budin, Korobkov, Naumov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 20,
+        "points": 4.0,
+        "penalty": 783,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5280
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8280
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11700
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 15720
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "ITMO University: Unexpected value: Erov, Kuzin, Stepanov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 21,
+        "points": 4.0,
+        "penalty": 823,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11580
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12960
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4860
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5580
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "NNSU: Lera Almost Retired: Emelin, Khlyustov, Ryabchikova",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 22,
+        "points": 4.0,
+        "penalty": 855,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 17580
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9660
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9180
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6480
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "ITMO University: pengzoo: Golikov, Iakovlev, Perveev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 23,
+        "points": 3.0,
+        "penalty": 404,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3960
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10440
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5040
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 8,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Kazakh-British TU 1: Altybay, Kanatuly, Tursynbay",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 24,
+        "points": 3.0,
+        "penalty": 453,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12780
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 10,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2820
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6780
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Belarusian SU 1: Dzenhaliou, Klimasheuski, Paliukhovich",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 25,
+        "points": 3.0,
+        "penalty": 497,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 14880
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 1620
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 9720
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "IITU 1: Botakanov, Kapitov, Shormankhan",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 26,
+        "points": 3.0,
+        "penalty": 653,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 15660
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10920
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 6600
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Harbor Space U 2: Dur\u00e1n Medina, Velasco Sotomayor, Yusta G\u00f3mez",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 27,
+        "points": 3.0,
+        "penalty": 787,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 15900
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3960
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 9,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10560
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "* Moscow IPT/HSE/SU: Smirnov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 28,
+        "points": 2.0,
+        "penalty": 191,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7080
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3180
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Moscow IPT: Lonely Coala: Tretyakov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 29,
+        "points": 2.0,
+        "penalty": 221,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5940
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3720
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Ural FU: CheezeKEK: Chizhov, Reshke",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 30,
+        "points": 2.0,
+        "penalty": 249,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 10,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3480
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 10260
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Petrozavodsk SU 1: Koshkarev, Krishtal, Masaeva",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 31,
+        "points": 2.0,
+        "penalty": 358,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3720
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 15360
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "MAI #1: Plyushkin",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 32,
+        "points": 2.0,
+        "penalty": 362,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 5220
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 14100
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "MAI #2: Belousov, Inyutin, Smirnov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 33,
+        "points": 2.0,
+        "penalty": 411,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 14460
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7800
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "_SS"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "ghost": false,
+          "startTimeSeconds": 1692657600
+        },
+        "rank": 34,
+        "points": 1.0,
+        "penalty": 54,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 3243
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Voronezh SU: Tatakae: Berezhnov, Novotochinov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 35,
+        "points": 1.0,
+        "penalty": 117,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 4620
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Baltic FU: Num4:: Alekseev, Chernozhukov",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 36,
+        "points": 1.0,
+        "penalty": 147,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7620
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Chelyabinsk PhML 31: Gerasikov, Kostylev, Zibnickij",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 37,
+        "points": 1.0,
+        "penalty": 222,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 12120
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Dhaka University: NotStrongEnough: Rahman",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 38,
+        "points": 1.0,
+        "penalty": 232,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 11520
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "HSE: KresloStul: Arzhantsev, Daniel, Savinsky",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 39,
+        "points": 1.0,
+        "penalty": 241,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 8460
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 10,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "MISiS: Eva fan club: Bikmetov, Panin, Shabaev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 40,
+        "points": 1.0,
+        "penalty": 350,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 11,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 7800
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "NNSU: Presskachat: Burdukov, Kulandin, Suharev",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 41,
+        "points": 1.0,
+        "penalty": 414,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 8,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 15240
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "SUST: BerlekampMassey: Hosen, Shohag, Tajwar Saikat",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 42,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "Arkanec"
+            },
+            {
+              "handle": "cataccatac"
+            },
+            {
+              "handle": "RuEn"
+            }
+          ],
+          "participantType": "VIRTUAL",
+          "teamId": 77692,
+          "teamName": "CatForces",
+          "ghost": false,
+          "startTimeSeconds": 1692688200
+        },
+        "rank": 42,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "Belarusian SU 3: Kharasau, Kostianoy",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 42,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 3,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [],
+          "participantType": "VIRTUAL",
+          "teamName": "ADA U: HE: Hajiyev, Inochkin",
+          "ghost": true,
+          "startTimeSeconds": 1689916247
+        },
+        "rank": 42,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 22,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "chen_zexing"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 4.0,
+        "penalty": 143165956,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 11,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 4,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "_Avocado_"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791414,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "aibark"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791414,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "Yae_Sakura"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791414,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "teapotd"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791434,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "pva701"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791494,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 5,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "wjh666"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 1.0,
+        "penalty": 35791534,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 2,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 1.0,
+            "rejectedAttemptCount": 7,
+            "type": "FINAL",
+            "bestSubmissionTimeSeconds": 2147483647
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "AlwaysAcing"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 10,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "RuEn"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "slava_bogu"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      },
+      {
+        "party": {
+          "contestId": 104491,
+          "members": [
+            {
+              "handle": "long_king"
+            }
+          ],
+          "participantType": "PRACTICE",
+          "ghost": false
+        },
+        "rank": 0,
+        "points": 0.0,
+        "penalty": 0,
+        "successfulHackCount": 0,
+        "unsuccessfulHackCount": 0,
+        "problemResults": [
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 1,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          },
+          {
+            "points": 0.0,
+            "rejectedAttemptCount": 0,
+            "type": "FINAL"
+          }
+        ]
+      }
+    ]
+  }
+}
