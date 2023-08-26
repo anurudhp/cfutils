@@ -19,7 +19,8 @@ class ContestTeam:
     name: str
     fullName: str
     """Example format: `TeamName (Member1Name, Member2Name, Member3Name)`"""
-    members: list[str]
+    # members: list[str]
+    party: cf.Party
 
 
 @dataclass
@@ -33,10 +34,6 @@ class CFContestConfig:
 
     def getRegion(self, team: ContestTeam) -> str:
         return self.regions[0]
-
-    # TODO use this to generate awards
-    def medalCounts(self, num_teams: int) -> tuple[int, int, int]:
-        return 4, 4, 4
 
 
 class EventFeedFromCFContest:
@@ -112,7 +109,7 @@ class EventFeedFromCFContest:
                 Id=f"team_{team.teamId}",
                 name=team.teamName,
                 fullName=fullName,
-                members=members,
+                party=team,
             )
 
         ## ghost
@@ -133,7 +130,7 @@ class EventFeedFromCFContest:
                 Id=f"ghost_{self._ghost_teams[name]}",
                 name=name,
                 fullName=name,
-                members=[],
+                party=team,
             )
 
         ## individual
@@ -149,7 +146,7 @@ class EventFeedFromCFContest:
                 Id=f"user_{self._individual_teams[name]}",
                 name=name,
                 fullName=name,
-                members=[name],
+                party=team,
             )
 
         raise EventFeedError(
@@ -240,6 +237,7 @@ class EventFeedFromCFContest:
             EventFeedError: team is neither a CF team, nor a ghost, nor a CF user.
         """
 
+        ### Preprocessing
         ## ignore invalid submissions and participants
         submissions = [
             sub
@@ -255,6 +253,7 @@ class EventFeedFromCFContest:
         ## generates unique teamIds for ghosts and individuals.
         self._populate_teams(ranklist)
 
+        ### Contest Feed
         ## contest info
         self._add_event(
             feed.Contest(
@@ -277,14 +276,6 @@ class EventFeedFromCFContest:
                 feed.Language(
                     id="0", name="lang", entry_point_required=False, extensions=[]
                 )
-            ]
-        )
-
-        ## Contest regions
-        self._add_events(
-            [
-                feed.Group(id=str(ix), name=name, icpc_id=str(ix))
-                for ix, name in enumerate(self._config.regions)
             ]
         )
 
@@ -319,10 +310,19 @@ class EventFeedFromCFContest:
         )
         logging.info("#problems: %d", len(problems))
 
+        ## contest regions
+        self._add_events(
+            [
+                feed.Group(id=str(ix), name=name, icpc_id=str(ix))
+                for ix, name in enumerate(self._config.regions)
+            ]
+        )
+
         ## organizations
         # TODO: add support for multiple orgs
         self._add_events([feed.Organization(id="org_default", name="DefaultOrg")])
 
+        ## teams
         for row in ranklist:
             team = self._get_team_info(row.party)
 
@@ -415,6 +415,7 @@ class EventFeedFromCFContest:
         ## end the contest
         self._show_contest_state(contest=contest, done=True)
 
+        ### feed generation complete
         logging.info("#events: %d", len(self._contest_events))
 
         ## IMPORTANT: DO NOT INDENT THE JSON, one event entry per line

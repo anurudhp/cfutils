@@ -30,7 +30,7 @@ This tool can be used to generate a JSON event feed for the ICPC resolver tool.
 1. Run `python examples/feed.py <status_output_file.json> <standings_output_file.json> <feed.json>`.
 1. `cd` to the resolver tool, and run `./resolver.sh /path/to/feed.json`
 1. (optional) To validate, run `/path/to/eventFeed.sh --validate feed.json`.
-1. (optional) To edit the awards manually, run `/path/to/awards.sh`. Select "Disk" and load the generated `feed.json` file.
+1. (optional) To edit the awards manually, `cd` to the resolver folder and run `awards.sh`. Select "Disk" and load the generated `feed.json` file.
 
 Contributing
 ------------
