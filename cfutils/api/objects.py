@@ -4,7 +4,7 @@ See https://codeforces.com/apiHelp/objects for a full list and information on ea
 """
 
 from dataclasses import dataclass
-from enum import StrEnum
+from enum import Enum
 from typing import Optional
 from dataclass_wizard import JSONWizard  # type: ignore
 
@@ -92,13 +92,13 @@ class RatingChange(CFObject):
     newRating: int
 
 
-class ContestType(StrEnum):
+class ContestType(Enum):
     CF = "CF"
     IOI = "IOI"
     ICPC = "ICPC"
 
 
-class ContestPhase(StrEnum):
+class ContestPhase(Enum):
     BEFORE = "BEFORE"
     CODING = "CODING"
     PENDING_SYSTEM_TEST = "PENDING_SYSTEM_TEST"
@@ -133,7 +133,7 @@ class Member(CFObject):
     name: Optional[str] = None
 
 
-class ParticipantType(StrEnum):
+class ParticipantType(Enum):
     CONTESTANT = "CONTESTANT"
     PRACTICE = "PRACTICE"
     VIRTUAL = "VIRTUAL"
@@ -153,7 +153,7 @@ class Party(CFObject):
     startTimeSeconds: Optional[int] = None
 
 
-class ProblemType(StrEnum):
+class ProblemType(Enum):
     PROGRAMMING = "PROGRAMMING"
     QUESTION = "QUESTION"
 
@@ -177,7 +177,7 @@ class ProblemStatistics(CFObject):
     contestId: Optional[int] = None
 
 
-class Verdict(StrEnum):
+class Verdict(Enum):
     FAILED = "FAILED"
     OK = "OK"
     PARTIAL = "PARTIAL"
@@ -197,7 +197,7 @@ class Verdict(StrEnum):
     REJECTED = "REJECTED"
 
 
-class Testset(StrEnum):
+class Testset(Enum):
     SAMPLES = "SAMPLES"
     PRETESTS = "PRETESTS"
     TESTS = "TESTS"
@@ -231,7 +231,7 @@ class Submission(CFObject):
     points: Optional[float] = None
 
 
-class HackVerdict(StrEnum):
+class HackVerdict(Enum):
     HACK_SUCCESSFUL = "HACK_SUCCESSFUL"
     HACK_UNSUCCESSFUL = "HACK_UNSUCCESSFUL"
     INVALID_INPUT = "INVALID_INPUT"
@@ -261,7 +261,7 @@ class Hack(CFObject):
     judgeProtocol: Optional[JudgeProtocol] = None
 
 
-class ProblemResultType(StrEnum):
+class ProblemResultType(Enum):
     FINAL = "FINAL"
     PRELIMINARY = "PRELIMINARY"
 
