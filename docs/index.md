@@ -5,15 +5,10 @@ Documentation
 -------------
 ```{eval-rst}
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
-   modules
-```
-
-
-### Index
-```{eval-rst}
+   cfutils
+   
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
 ```
