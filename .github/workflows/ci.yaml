@@ -67,7 +67,7 @@ jobs:
 
   docs:
     runs-on: ubuntu-latest
-    needs: pytest # build documentation only when all tests pass
+    needs: test # build documentation only when all tests pass
 
     permissions:
       contents: write
