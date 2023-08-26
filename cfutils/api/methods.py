@@ -1,3 +1,6 @@
+"""
+Helpers for `Codeforces API Methods <https://codeforces.com/apiHelp/methods>`_.
+"""
 import secrets
 import time
 import hashlib
@@ -34,11 +37,13 @@ class CFAPIError(Exception):
 
 class APIMethod(ABC):
     """Base class for codeforces API methods.
-    See https://codeforces.com/apiHelp/methods for the full list.
+    See https://codeforces.com/apiHelp/methods for the full list and information on each parameter.
 
     Each class that inherits from this must also be marked as a `dataclass`.
     Use the dataclass parameters to define the API arguments.
     Allowed argument types:
+
+    .. code::
 
         T ::= int | str | bool | list[T] | Optional[T]
 
@@ -49,22 +54,19 @@ class APIMethod(ABC):
     @staticmethod
     @abstractmethod
     def name() -> str:
-        """method name"""
+        """API method name"""
 
     @staticmethod
     @abstractmethod
     def resultType() -> type:
-        """Type of the result.
-
-        Must be a one of:
-            - dataclass
-            - list of dataclass.
+        """
+        Must be `dataclass | list[dataclass] | list[str] | list[int]`
         """
 
     def auth_required(self) -> bool:
         """
         Returns:
-            True if the method requires authorization
+            True if the method call requires authorization
         """
         return False
 
@@ -103,6 +105,9 @@ class APIMethod(ABC):
 
         Args:
             auth: authorized API call, signed using your API key.
+
+        Raises:
+            CFAPIError: when `auth=True` but API key/secret is not provided.
 
         Returns:
             URL string
@@ -165,6 +170,7 @@ class APIMethod(ABC):
 
         Raises:
             CFAPIError: when API call fails.
+            CFAPIError: when `auth=True` but API key/secret is not provided.
 
         Returns:
             "result" component of the API data returned, parsed appropriately into an object of type `self.resultType()`.

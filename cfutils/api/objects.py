@@ -1,3 +1,8 @@
+"""
+Codeforces API return objects.
+See https://codeforces.com/apiHelp/objects for a full list and information on each parameter.
+"""
+
 from dataclasses import dataclass
 from enum import StrEnum
 from typing import Optional
