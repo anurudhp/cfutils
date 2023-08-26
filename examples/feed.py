@@ -4,7 +4,7 @@ import click
 from dotenv import load_dotenv
 
 import cfutils.api as cf
-from cfutils.icpctools.FeedGenerator import CFContestConfig, EventFeedFromCFContest
+from cfutils.icpctools.feed_generator import CFContestConfig, EventFeedFromCFContest
 
 
 @click.command()  # type: ignore

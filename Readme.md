@@ -61,7 +61,7 @@ Now run `datamodel-codegen` to generate dataclasses from the JSONSchema:
 datamodel-codegen \
     --input "ccs-specs/json-schema/event-feed-array.json" \
     --input-file-type jsonschema \
-    --output cfutils/icpctools/EventFeed.py \
+    --output cfutils/icpctools/event_feed.py \
     --output-model-type dataclasses.dataclass \
     --target-python-version 3.11 \
     --use-standard-collections \

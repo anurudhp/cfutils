@@ -5,8 +5,8 @@ from dataclasses import dataclass
 import logging
 
 import cfutils.api as cf
-import cfutils.icpctools.EventFeed as Feed
-from cfutils.icpctools.EventFeed import Event, EventData
+import cfutils.icpctools.event_feed as feed
+from cfutils.icpctools.event_feed import Event, EventData
 
 
 class EventFeedError(Exception):
@@ -191,7 +191,7 @@ class EventFeedFromCFContest:
         tend = tdone + 300
 
         self._add_event(
-            Feed.State(
+            feed.State(
                 started=self._epochToISO(tstart),
                 frozen=self._epochToISO(tfrozen),
                 ended=self._epochToISO(tfin) if done else None,
@@ -257,12 +257,12 @@ class EventFeedFromCFContest:
 
         ## contest info
         self._add_event(
-            Feed.Contest(
+            feed.Contest(
                 id=f"cf_contest_{contest.id}",
                 name=contest.name,
                 formal_name=contest.name,
                 duration=self._secondsToHHMMSS(contest.durationSeconds),
-                scoreboard_type=Feed.ScoreboardType.pass_fail,
+                scoreboard_type=feed.ScoreboardType.pass_fail,
                 scoreboard_freeze_duration=self._secondsToHHMMSS(
                     self._config.freezeDurationSeconds
                 ),
@@ -274,7 +274,7 @@ class EventFeedFromCFContest:
         ## Add only one language, and extract everything to that
         self._add_events(
             [
-                Feed.Language(
+                feed.Language(
                     id="0", name="lang", entry_point_required=False, extensions=[]
                 )
             ]
@@ -283,7 +283,7 @@ class EventFeedFromCFContest:
         ## Contest regions
         self._add_events(
             [
-                Feed.Group(id=str(ix), name=name, icpc_id=str(ix))
+                feed.Group(id=str(ix), name=name, icpc_id=str(ix))
                 for ix, name in enumerate(self._config.regions)
             ]
         )
@@ -291,14 +291,14 @@ class EventFeedFromCFContest:
         ## Possible verdicts: OK, WA, CE (subsume everything else into WA/CE depending on penalty)
         self._add_events(
             [
-                Feed.JudgementType(
-                    id=Feed.JudgementTypeId.AC, name="AC", solved=True, penalty=False
+                feed.JudgementType(
+                    id=feed.JudgementTypeId.AC, name="AC", solved=True, penalty=False
                 ),
-                Feed.JudgementType(
-                    id=Feed.JudgementTypeId.WA, name="WA", solved=False, penalty=True
+                feed.JudgementType(
+                    id=feed.JudgementTypeId.WA, name="WA", solved=False, penalty=True
                 ),
-                Feed.JudgementType(
-                    id=Feed.JudgementTypeId.CE, name="CE", solved=False, penalty=False
+                feed.JudgementType(
+                    id=feed.JudgementTypeId.CE, name="CE", solved=False, penalty=False
                 ),
             ]
         )
@@ -307,7 +307,7 @@ class EventFeedFromCFContest:
         problem_ids = [problem.index for problem in problems]
         self._add_events(
             [
-                Feed.Problem(
+                feed.Problem(
                     id=problem.index,
                     label=problem.index,
                     name=problem.name,
@@ -321,7 +321,7 @@ class EventFeedFromCFContest:
 
         ## organizations
         # TODO: add support for multiple orgs
-        self._add_events([Feed.Organization(id="org_default", name="DefaultOrg")])
+        self._add_events([feed.Organization(id="org_default", name="DefaultOrg")])
 
         for row in ranklist:
             team = self._get_team_info(row.party)
@@ -330,7 +330,7 @@ class EventFeedFromCFContest:
             region = str(self._config.regions.index(region))
 
             self._add_event(
-                Feed.Team(
+                feed.Team(
                     id=team.Id,
                     name=team.fullName,
                     group_ids=[region],
@@ -357,7 +357,7 @@ class EventFeedFromCFContest:
             reltime = self._secondsToHHMMSS(sub.relativeTimeSeconds)
 
             self._add_event(
-                Feed.Submission(
+                feed.Submission(
                     id=sub_id,
                     language_id="0",
                     problem_id=sub.problem.index,
@@ -368,9 +368,9 @@ class EventFeedFromCFContest:
                 )
             )
 
-            verdict: Feed.JudgementTypeId
+            verdict: feed.JudgementTypeId
             if sub.verdict == cf.Verdict.OK:
-                verdict = Feed.JudgementTypeId.AC
+                verdict = feed.JudgementTypeId.AC
             elif sub.verdict in [
                 cf.Verdict.FAILED,
                 cf.Verdict.TIME_LIMIT_EXCEEDED,
@@ -384,18 +384,18 @@ class EventFeedFromCFContest:
                 cf.Verdict.PRESENTATION_ERROR,
                 cf.Verdict.PARTIAL,
             ]:
-                verdict = Feed.JudgementTypeId.WA
+                verdict = feed.JudgementTypeId.WA
             elif sub.verdict in [
                 cf.Verdict.COMPILATION_ERROR,
                 cf.Verdict.INPUT_PREPARATION_CRASHED,
                 cf.Verdict.SKIPPED,
             ]:
-                verdict = Feed.JudgementTypeId.CE
+                verdict = feed.JudgementTypeId.CE
             else:
                 assert False, f"all verdicts not covered: {sub.verdict}"
 
             self._add_event(
-                Feed.Judgement(
+                feed.Judgement(
                     id=sub_id,
                     submission_id=sub_id,
                     start_time=timestamp,
@@ -426,6 +426,7 @@ class EventFeedFromCFContest:
                         k: v for (k, v) in x if k in ["id", "icpc_id"] or v is not None
                     },
                 ),
+                default=lambda x: x.value,  # TODO this is a hack for serializing Enums. SHOULD instead use StrEnum (>= 3.11), and remove this.
             )
             for event in self._contest_events
         ]
