@@ -182,7 +182,7 @@ class APIMethod(ABC):
                 data = json.load(inf)
         else:
             if self.auth_required() and not auth:
-                raise CFAPIError("This API call requires authorization")
+                raise CFAPIError("API call requires authorization")
 
             # run API call
             time.sleep(delay)
@@ -194,8 +194,7 @@ class APIMethod(ABC):
             data = json.loads(buf.getvalue())
 
         if data["status"] != "OK":
-            comment = data["comment"]
-            raise CFAPIError(f"API call failed with message `{comment}`")
+            raise CFAPIError(data["comment"])
 
         if output_file is not None and (
             output_file != load_from_file or not os.path.isfile(output_file)
