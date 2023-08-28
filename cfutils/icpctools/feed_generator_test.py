@@ -15,9 +15,9 @@ def test_feed_generator():
     feed_gen.EventFeedFromCFContest(
         config=feed_gen.CFContestConfig(
             freezeDurationSeconds=60 * 60,
-            regions=["All"],
             include_virtual=True,
             include_out_of_comp=True,
+            strict_mode=True,
         )
     ).generate(
         contest=standings.contest,

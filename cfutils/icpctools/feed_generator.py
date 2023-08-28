@@ -3,6 +3,7 @@ import datetime
 import json
 from dataclasses import dataclass
 import logging
+from typing import Optional
 
 import cfutils.api as cf
 import cfutils.icpctools.event_feed as feed
@@ -19,7 +20,7 @@ class ContestTeam:
     name: str
     fullName: str
     """Example format: `TeamName (Member1Name, Member2Name, Member3Name)`"""
-    # members: list[str]
+
     party: cf.Party
 
 
@@ -27,13 +28,32 @@ class ContestTeam:
 class CFContestConfig:
     freezeDurationSeconds: int
 
-    regions: list[str]
-
     include_virtual: bool = False
-    include_out_of_comp: bool = False
+    """Include virtual participants"""
 
-    def getRegion(self, team: ContestTeam) -> str:
-        return self.regions[0]
+    include_out_of_comp: bool = False
+    """Include 'out of competition' participants"""
+
+    strict_mode: bool = False
+    """Raise an exception on invalid submissions"""
+
+    @property
+    def groups(self) -> list[str]:
+        """List of team groups.
+        A team can be part of multiple groups.
+        For example, groups could contain a list of institutes, and a list of batches of the participants.
+
+        .. code::
+
+            return ["IIIT-H", "IIIT-D", "UG-1", "UG-2"]
+        """
+        return ["default"]
+
+    def getGroups(self, team: ContestTeam) -> list[str]:
+        """List of groups that a particular team is part of.
+        Must be a subset of `self.groups`.
+        """
+        return [self.groups[0]]
 
 
 class EventFeedFromCFContest:
@@ -87,7 +107,7 @@ class EventFeedFromCFContest:
                 f"Invalid participant in ranklist (not a CF team, ghost, or individual): {party}"
             )
 
-    def _get_team_info(self, team: cf.Party) -> ContestTeam:
+    def _get_team_info(self, team: cf.Party) -> Optional[ContestTeam]:
         """Extract team info from a Party.
         For ghosts and individuals, use the generated IDs.
 
@@ -122,9 +142,11 @@ class EventFeedFromCFContest:
             ), "ghosts cannot have team members. If this is a mistake, please report this."
 
             if name not in self._ghost_teams:
-                raise EventFeedError(
-                    f"Invalid submission, ghost `{name}` not found in the ranklist!"
-                )
+                if self._config.strict_mode:
+                    raise EventFeedError(
+                        f"Invalid submission: ghost `{name}` not found in the ranklist!"
+                    )
+                return None
 
             return ContestTeam(
                 Id=f"ghost_{self._ghost_teams[name]}",
@@ -138,9 +160,11 @@ class EventFeedFromCFContest:
             name = team.members[0].handle
 
             if name not in self._individual_teams:
-                raise EventFeedError(
-                    f"Invalid submission, user `{name}` not found in the ranklist!"
-                )
+                if self._config.strict_mode:
+                    raise EventFeedError(
+                        f"Invalid submission, user `{name}` not found in the ranklist!"
+                    )
+                return None
 
             return ContestTeam(
                 Id=f"user_{self._individual_teams[name]}",
@@ -149,9 +173,11 @@ class EventFeedFromCFContest:
                 party=team,
             )
 
-        raise EventFeedError(
-            "Unable to process participant: not a CF team, ghost, or individual!"
-        )
+        if self._config.strict_mode:
+            raise EventFeedError(
+                "Unable to process participant: not a CF team, ghost, or individual!"
+            )
+        return None
 
     def _add_event_at(self, ix: str, eventData: EventData):
         """Create/update a sub-object at index `ix`"""
@@ -314,7 +340,7 @@ class EventFeedFromCFContest:
         self._add_events(
             [
                 feed.Group(id=str(ix), name=name, icpc_id=str(ix))
-                for ix, name in enumerate(self._config.regions)
+                for ix, name in enumerate(self._config.groups)
             ]
         )
 
@@ -326,14 +352,18 @@ class EventFeedFromCFContest:
         for row in ranklist:
             team = self._get_team_info(row.party)
 
-            region = self._config.getRegion(team)
-            region = str(self._config.regions.index(region))
+            if team is None:
+                logging.warning("ignoring invalid team: ", row.party)
+                continue
+
+            groups = self._config.getGroups(team)
+            groups_ids = [str(self._config.groups.index(group)) for group in groups]
 
             self._add_event(
                 feed.Team(
                     id=team.Id,
                     name=team.fullName,
-                    group_ids=[region],
+                    group_ids=groups_ids,
                     organization_id="org_default",
                 )
             )
@@ -352,6 +382,13 @@ class EventFeedFromCFContest:
                 ignored_submissions_count += 1
                 continue
 
+            team = self._get_team_info(sub.author)
+
+            if team is None:
+                logging.warning("ignoring invalid submission: %d", sub.id)
+                ignored_submissions_count += 1
+                continue
+
             sub_id = str(sub.id)
             timestamp = self._epochToISO(sub.relativeTimeSeconds)
             reltime = self._secondsToHHMMSS(sub.relativeTimeSeconds)
@@ -361,7 +398,7 @@ class EventFeedFromCFContest:
                     id=sub_id,
                     language_id="0",
                     problem_id=sub.problem.index,
-                    team_id=self._get_team_info(sub.author).Id,
+                    team_id=team.Id,
                     time=timestamp,
                     contest_time=reltime,
                     files=[],
@@ -392,7 +429,9 @@ class EventFeedFromCFContest:
             ]:
                 verdict = feed.JudgementTypeId.CE
             else:
-                assert False, f"all verdicts not covered: {sub.verdict}"
+                assert (
+                    False
+                ), f"All verdicts not covered: {sub.verdict}. Please report this bug."
 
             self._add_event(
                 feed.Judgement(

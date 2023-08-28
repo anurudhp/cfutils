@@ -55,9 +55,9 @@ def cli(contest_id, status_file, standings_file, feed_file, unofficial, auth, ve
     feedGen = EventFeedFromCFContest(
         config=CFContestConfig(
             freezeDurationSeconds=60 * 60,
-            regions=["All"],
             include_virtual=unofficial,
             include_out_of_comp=unofficial,
+            strict_mode=True,
         )
     )
     feed = feedGen.generate(
