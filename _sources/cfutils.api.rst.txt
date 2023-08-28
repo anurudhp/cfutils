@@ -1,0 +1,26 @@
+cfutils.api package
+===================
+
+.. automodule:: cfutils.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+cfutils.api.methods module
+--------------------------
+
+.. automodule:: cfutils.api.methods
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cfutils.api.objects module
+--------------------------
+
+.. automodule:: cfutils.api.objects
+   :members:
+   :undoc-members:
+   :show-inheritance:

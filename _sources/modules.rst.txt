@@ -1,0 +1,7 @@
+cfutils
+=======
+
+.. toctree::
+   :maxdepth: 4
+
+   cfutils

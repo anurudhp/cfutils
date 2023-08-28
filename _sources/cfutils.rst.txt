@@ -1,0 +1,16 @@
+cfutils package
+===============
+
+.. automodule:: cfutils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cfutils.api
+   cfutils.icpctools

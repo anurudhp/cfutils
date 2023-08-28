@@ -1,0 +1,26 @@
+cfutils.icpctools package
+=========================
+
+.. automodule:: cfutils.icpctools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+cfutils.icpctools.event\_feed module
+------------------------------------
+
+.. automodule:: cfutils.icpctools.event_feed
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cfutils.icpctools.feed\_generator module
+----------------------------------------
+
+.. automodule:: cfutils.icpctools.feed_generator
+   :members:
+   :undoc-members:
+   :show-inheritance:
